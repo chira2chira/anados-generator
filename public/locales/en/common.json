@@ -1,0 +1,52 @@
+{
+  "title": "Anados Text Generator",
+  "description": "You can create images in the style of AnotherEidos by simply selecting an image and text.",
+  "ui": {
+    "button": {
+      "cancel": "Cancel",
+      "browse": "Browse",
+      "addRubyText": "Insert Ruby Annotation Text",
+      "addAdditionalImage": "Add Additional Image",
+      "resetTransform": "Reset Position",
+      "downloadImage": "Download Image"
+    },
+    "text": {
+      "bgImage": "Background Image",
+      "talkType": "Text Type",
+      "charName": "Character Name",
+      "telkText": "Text Message",
+      "bigText": "XXXL",
+      "baseText": "Base Text",
+      "rubyText": "Ruby Text",
+      "rubyHelp": "※Inserts at the previous cursor position. This is a feature to express furigana.",
+      "areaName": "Area Name",
+      "additionalImage": "Additional Image",
+      "dimSwitch": "Dim the Image",
+      "author": "Author",
+      "hashtag": "Hashtag"
+    },
+    "inputValue": {
+      "chooseBgImage": "Choose Background File",
+      "chooseAddImage": "Choose Additional File",
+      "charName": "Leonhart",
+      "talkText": "Sample text message",
+      "areaName": "Topdom Island"
+    },
+    "radio": {
+      "talk": {
+        "normal": "Story",
+        "still": "Still"
+      },
+      "area": {
+        "show": "Show",
+        "hide": "Hide",
+        "ui": "Show Control UI"
+      }
+    },
+    "link": {
+      "checker": "Collection Tracker",
+      "gachasimu": "Gacha Simulator",
+      "generator": "Text Generator"
+    }
+  }
+}

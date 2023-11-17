@@ -1,0 +1,52 @@
+{
+  "title": "アナドス会話ジェネレーター",
+  "description": "画像とテキストを選ぶだけでアナドス風の画像を作ることが出来ます。",
+  "ui": {
+    "button": {
+      "cancel": "キャンセル",
+      "browse": "選択",
+      "addRubyText": "ルビ付き文字を挿入",
+      "addAdditionalImage": "画像を追加",
+      "resetTransform": "位置リセット",
+      "downloadImage": "画像をダウンロード"
+    },
+    "text": {
+      "bgImage": "背景画像",
+      "talkType": "会話タイプ",
+      "charName": "キャラ名",
+      "telkText": "会話テキスト",
+      "bigText": "Hyper-Big",
+      "baseText": "文字",
+      "rubyText": "ルビ",
+      "rubyHelp": "※直前のカーソル位置に挿入されます。",
+      "areaName": "エリア名",
+      "additionalImage": "追加画像",
+      "dimSwitch": "暗くする",
+      "author": "作った人",
+      "hashtag": "ハッシュタグ"
+    },
+    "inputValue": {
+      "chooseBgImage": "横長の画像を推奨",
+      "chooseAddImage": "透過済みの画像を推奨",
+      "charName": "レオンハート",
+      "talkText": "サンプルテキスト",
+      "areaName": "バリタチ島"
+    },
+    "radio": {
+      "talk": {
+        "normal": "通常",
+        "still": "スチル"
+      },
+      "area": {
+        "show": "表示",
+        "hide": "非表示",
+        "ui": "操作UI表示"
+      }
+    },
+    "link": {
+      "checker": "所持率チェッカー",
+      "gachasimu": "ガチャシミュレータ",
+      "generator": "会話ジェネレータ"
+    }
+  }
+}

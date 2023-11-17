@@ -81,7 +81,8 @@ export default function Home() {
           <div>
             {t("ui.text.author")}: チラツキ{" "}
             <a href="https://twitter.com/chira2chira">Twitter</a>{" "}
-            <a href="https://www.youtube.com/@chira2chira">YouTube</a>
+            <a href="https://www.youtube.com/@chira2chira">YouTube</a>{" "}
+            <a href="https://github.com/chira2chira/anados-generator">GitHub</a>
           </div>
         </footer>
 

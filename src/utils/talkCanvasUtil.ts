@@ -45,7 +45,7 @@ export function addTalkWindow(
       const charName = new Konva.Text({
         text: char,
         x: scale(100),
-        y: baseHeight + scale(22),
+        y: baseHeight + scale(24),
         width: scale(355),
         fontSize: scale(30),
         fontStyle: "500",
@@ -130,7 +130,7 @@ export function addTalkWindow(
           y:
             baseHeight +
             scale(
-              110 +
+              106 +
                 fontSize -
                 arrowImg.height -
                 (bigText ? 10 : 3) +
@@ -342,7 +342,7 @@ export function addAreaName(
     img.src = "/static/image/ui/anados-area-name.png";
 
     img.onload = () => {
-      const baseHeight = scale(30);
+      const baseHeight = scale(22);
       // 背景
       const backgroundImage = new Konva.Image({
         image: img,
@@ -356,7 +356,7 @@ export function addAreaName(
       const areaText = new Konva.Text({
         text: areaName,
         x: scale(65),
-        y: baseHeight + scale(15),
+        y: baseHeight + scale(26),
         fontSize: scale(34),
         fontStyle: "700",
         fontFamily: "Noto Serif JP",

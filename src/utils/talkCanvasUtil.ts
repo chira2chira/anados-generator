@@ -426,7 +426,7 @@ function addWatermark(layer: Konva.Layer): Promise<void> {
         y: layer.height() - scale(100),
         width: scale(640),
         height: scale(100),
-        opacity: 0.1,
+        opacity: 0.2,
       });
       layer.add(creditImage);
       resolve();

@@ -40,15 +40,15 @@ export function addTalkWindow(
       });
       layer.add(windowImage);
       // 透かし
-      await addWatermark(layer, true);
+      await addWatermark(layer);
       // キャラ名
       const charName = new Konva.Text({
         text: char,
         x: scale(100),
-        y: baseHeight + scale(24),
+        y: baseHeight + scale(29),
         width: scale(355),
-        fontSize: scale(30),
-        fontStyle: "500",
+        fontSize: scale(28),
+        fontStyle: "400",
         fontFamily: "Noto Serif JP",
         align: "center",
         fill: "#FFFFFF",
@@ -215,7 +215,7 @@ export function addStillWindow(
       });
       layer.add(windowImage);
       // 透かし
-      await addWatermark(layer, false);
+      await addWatermark(layer);
       // キャラ名
       const charName = new Konva.Text({
         text: char,
@@ -413,7 +413,7 @@ export function addControlUi(
   });
 }
 
-function addWatermark(layer: Konva.Layer, deep?: boolean): Promise<void> {
+function addWatermark(layer: Konva.Layer): Promise<void> {
   const scale = applyScaleXFunc(layer);
   return new Promise((resolve) => {
     const img = new Image();
@@ -426,7 +426,7 @@ function addWatermark(layer: Konva.Layer, deep?: boolean): Promise<void> {
         y: layer.height() - scale(100),
         width: scale(640),
         height: scale(100),
-        opacity: deep ? 0.3 : 0.2,
+        opacity: 0.1,
       });
       layer.add(creditImage);
       resolve();

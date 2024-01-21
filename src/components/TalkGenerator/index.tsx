@@ -200,8 +200,11 @@ export default function TalkGenerator() {
     [additionalImage]
   );
 
-  const handleDownload = () => {
+  const handleDownload = async () => {
     if (stage === undefined) return;
+
+    // フォントや画像の半透明処理を確実に適用する
+    await updateUi();
 
     const currentScale = stage.scale();
     const transformers: Konva.Transformer[] = stage.find("Transformer");

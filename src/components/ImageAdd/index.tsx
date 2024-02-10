@@ -9,6 +9,7 @@ import {
 } from "@blueprintjs/core";
 import Konva from "konva";
 import { useFile } from "@/hooks/useFile";
+import useThrottle from "@/hooks/useThrottle";
 import { addAdditionalImage } from "@/utils/talkCanvasUtil";
 import { css } from "@emotion/react";
 
@@ -37,6 +38,8 @@ function ImageAdd(props: {
   const { t } = useTranslation("common");
   const { handleFiles, imageBase64, fileName } = useFile();
   const [darker, setDarker] = useState(false);
+  const [attr, setAttr] = useState({ x: 0, y: 0, rotation: 0, scale: 1 });
+  const throttledAttr = useThrottle(attr, 100);
   const layerRef = useRef<Konva.Layer>();
   const imageRef = useRef<Konva.Image>();
 
@@ -66,7 +69,8 @@ function ImageAdd(props: {
       const image = await addAdditionalImage(
         layer,
         imageBase64,
-        getAnchorColor(uniqueId)
+        getAnchorColor(uniqueId),
+        handleTransform
       );
       imageRef.current = image;
 
@@ -93,10 +97,24 @@ function ImageAdd(props: {
     setDarker(!darker);
   };
 
+  const handleTransform: Konva.KonvaEventListener<Transformer, any> = (evt) => {
+    const { attrs } = evt.target;
+    setAttr((current) => ({
+      x: Math.round(attrs.x),
+      y: Math.round(attrs.y),
+      rotation: Math.round(attrs.rotation * 10) / 10,
+      scale:
+        attrs.width !== undefined // ドラッグにはscale情報がない
+          ? Math.round(attrs.scaleX * 1000) / 1000
+          : current.scale,
+    }));
+  };
+
   const handleClickReset = () => {
     imageRef.current?.position({ x: 0, y: 0 });
     imageRef.current?.rotation(0);
     imageRef.current?.scale({ x: 1, y: 1 });
+    setAttr({ x: 0, y: 0, rotation: 0, scale: 1 });
   };
 
   const handleClose = () => {
@@ -122,10 +140,46 @@ function ImageAdd(props: {
       />
       <FormGroup
         label={
-          <>
-            <span style={{ color: getAnchorColor(uniqueId) }}>◆</span>
-            {t("ui.text.additionalImage")}
-          </>
+          <div
+            css={css`
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            `}
+          >
+            <div>
+              <span style={{ color: getAnchorColor(uniqueId) }}>◆</span>
+              {t("ui.text.additionalImage")}
+            </div>
+            <div
+              css={css`
+                display: flex;
+                gap: 5px;
+                line-height: 0.9em;
+                font-size: 0.7em;
+                color: #5f6b7c;
+              `}
+            >
+              <div
+                css={css`
+                  display: flex;
+                  flex-direction: column;
+                `}
+              >
+                <AttrInfo name="x" value={throttledAttr.x} />
+                <AttrInfo name="y" value={throttledAttr.y} />
+              </div>
+              <div
+                css={css`
+                  display: flex;
+                  flex-direction: column;
+                `}
+              >
+                <AttrInfo name="rotation" value={throttledAttr.rotation} />
+                <AttrInfo name="scale" value={throttledAttr.scale} />
+              </div>
+            </div>
+          </div>
         }
       >
         <FileInput
@@ -161,5 +215,25 @@ function ImageAdd(props: {
     </Card>
   );
 }
+
+type AttrInfoProps = {
+  name: string;
+  value: number;
+};
+
+const AttrInfo: React.FC<AttrInfoProps> = ({ name, value }) => {
+  return (
+    <div
+      css={css`
+        display: flex;
+        justify-content: space-between;
+        gap: 3px;
+      `}
+    >
+      <span>{name}:</span>
+      <span>{value}</span>
+    </div>
+  );
+};
 
 export default memo(ImageAdd);

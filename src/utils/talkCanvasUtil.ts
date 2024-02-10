@@ -149,7 +149,8 @@ export function addTalkWindow(
 export function addAdditionalImage(
   layer: Konva.Layer,
   charImage: string,
-  anchorColor: string
+  anchorColor: string,
+  handler: (evt: Konva.KonvaEventObject<Konva.Transformer>) => void
 ): Promise<Konva.Image> {
   const scaleX = applyScaleXFunc(layer);
   const scaleY = applyScaleYFunc(layer);
@@ -184,6 +185,8 @@ export function addAdditionalImage(
           "bottom-right",
         ],
       });
+      tr.on("transform", handler);
+      tr.on("dragmove", handler);
       tr.nodes([charImage]);
       layer.add(tr);
       resolve(charImage);

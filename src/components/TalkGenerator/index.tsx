@@ -49,15 +49,20 @@ export default function TalkGenerator() {
   const [rubyIndex, setRubyIndex] = useState(0);
   const [rubyModalOpen, setRubyModalOpen] = useState(false);
   const [additionalImage, setAdditionalImage] = useState<number[]>([]);
-  const [stage, setStage] = useState<Konva.Stage>();
-  const [bgLayer, setBgLayer] = useState<Konva.Layer>();
-  const [uiLayer, setUiLayer] = useState<Konva.Layer>();
+  const stageRef = useRef<Konva.Stage>();
+  const bgLayerRef = useRef<Konva.Layer>();
+  const uiLayerRef = useRef<Konva.Layer>();
   const textRef = useRef<HTMLTextAreaElement>(null);
 
-  const updateUi = useCallback(async () => {
+  const updateUi = async () => {
+    const uiLayer = uiLayerRef.current;
     uiLayer?.destroyChildren();
 
-    if (stage === undefined || uiLayer === undefined || imageBase64 === "")
+    if (
+      stageRef.current === undefined ||
+      uiLayer === undefined ||
+      imageBase64 === ""
+    )
       return;
 
     if (uiMode === "normal") {
@@ -83,15 +88,7 @@ export default function TalkGenerator() {
       uiMode === "normal" ? "normal" : "face",
       displayAreaRegion === "ui" ? "left" : "right"
     );
-  }, [
-    displayAreaRegion,
-    imageBase64,
-    inputValues,
-    bigText,
-    stage,
-    uiLayer,
-    uiMode,
-  ]);
+  };
 
   useEffect(() => {
     // DOMを待ってから初期化
@@ -100,13 +97,15 @@ export default function TalkGenerator() {
     const newLayer2 = new Konva.Layer({ listening: false });
     newStage.add(newLayer1);
     newStage.add(newLayer2);
-    setStage(newStage);
-    setBgLayer(newLayer1);
-    setUiLayer(newLayer2);
+    stageRef.current = newStage;
+    bgLayerRef.current = newLayer1;
+    uiLayerRef.current = newLayer2;
   }, []);
 
   // 背景描画
   useEffect(() => {
+    const stage = stageRef.current;
+    const bgLayer = bgLayerRef.current;
     bgLayer?.destroyChildren();
     stage?.width(1);
     stage?.height(1);
@@ -144,17 +143,17 @@ export default function TalkGenerator() {
       bgLayer.add(backgroundImage);
 
       // UI描画Kick
-      setInputValues({ ...inputValues });
+      setInputValues((current) => ({ ...current }));
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [stage, bgLayer, imageBase64]);
+  }, [imageBase64]);
 
   // UI描画
   useEffect(() => {
     (async () => {
       await updateUi();
     })();
-  }, [stage, uiLayer, inputValues, uiMode, displayAreaRegion, updateUi]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [inputValues, uiMode, displayAreaRegion, bigText]);
 
   const handleImageAdd = () => {
     if (additionalImage.length === 0) {
@@ -201,6 +200,7 @@ export default function TalkGenerator() {
   );
 
   const handleDownload = async () => {
+    const stage = stageRef.current;
     if (stage === undefined) return;
 
     // フォントや画像の半透明処理を確実に適用する
@@ -312,7 +312,7 @@ export default function TalkGenerator() {
           />
         </FormGroup>
 
-        {stage && (
+        {stageRef.current && (
           <div
             css={css`
               display: flex;
@@ -323,7 +323,7 @@ export default function TalkGenerator() {
             {additionalImage.map((x) => (
               <ImageAdd
                 key={x}
-                stage={stage}
+                stage={stageRef.current!}
                 uniqueId={x}
                 onRemove={handeImageRemove}
               />

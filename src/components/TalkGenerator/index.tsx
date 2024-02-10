@@ -75,6 +75,10 @@ export default function TalkGenerator() {
     stage?.width(1);
     stage?.height(1);
 
+    if (imageBase64 === "") {
+      setBgImage("");
+    }
+
     if (stage === undefined || bgLayer === undefined || imageBase64 === "")
       return;
 

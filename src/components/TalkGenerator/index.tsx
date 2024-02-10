@@ -35,6 +35,7 @@ type InputValues = {
 export default function TalkGenerator() {
   const { t } = useTranslation("common");
   const { handleFiles, imageBase64, fileName } = useFile();
+  const [bgImage, setBgImage] = useState("");
   const [uiMode, setUiMode] = useState("normal");
   const [text, setText] = useState(t("ui.inputValue.talkText"));
   const [bigText, setBigText] = useState(false);
@@ -53,42 +54,6 @@ export default function TalkGenerator() {
   const bgLayerRef = useRef<Konva.Layer>();
   const uiLayerRef = useRef<Konva.Layer>();
   const textRef = useRef<HTMLTextAreaElement>(null);
-
-  const updateUi = async () => {
-    const uiLayer = uiLayerRef.current;
-    uiLayer?.destroyChildren();
-
-    if (
-      stageRef.current === undefined ||
-      uiLayer === undefined ||
-      imageBase64 === ""
-    )
-      return;
-
-    if (uiMode === "normal") {
-      await addTalkWindow(
-        uiLayer,
-        inputValues.charName,
-        inputValues.text,
-        bigText
-      );
-    } else {
-      await addStillWindow(
-        uiLayer,
-        inputValues.charName,
-        inputValues.text,
-        bigText
-      );
-    }
-    if (displayAreaRegion === "show") {
-      await addAreaName(uiLayer, inputValues.areaName);
-    }
-    await addControlUi(
-      uiLayer,
-      uiMode === "normal" ? "normal" : "face",
-      displayAreaRegion === "ui" ? "left" : "right"
-    );
-  };
 
   useEffect(() => {
     // DOMを待ってから初期化
@@ -143,17 +108,48 @@ export default function TalkGenerator() {
       bgLayer.add(backgroundImage);
 
       // UI描画Kick
-      setInputValues((current) => ({ ...current }));
+      setBgImage(imageBase64);
     };
   }, [imageBase64]);
 
   // UI描画
   useEffect(() => {
     (async () => {
-      await updateUi();
+      const uiLayer = uiLayerRef.current;
+      uiLayer?.destroyChildren();
+
+      if (
+        stageRef.current === undefined ||
+        uiLayer === undefined ||
+        bgImage === ""
+      )
+        return;
+
+      if (uiMode === "normal") {
+        await addTalkWindow(
+          uiLayer,
+          inputValues.charName,
+          inputValues.text,
+          bigText
+        );
+      } else {
+        await addStillWindow(
+          uiLayer,
+          inputValues.charName,
+          inputValues.text,
+          bigText
+        );
+      }
+      if (displayAreaRegion === "show") {
+        await addAreaName(uiLayer, inputValues.areaName);
+      }
+      await addControlUi(
+        uiLayer,
+        uiMode === "normal" ? "normal" : "face",
+        displayAreaRegion === "ui" ? "left" : "right"
+      );
     })();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [inputValues, uiMode, displayAreaRegion, bigText]);
+  }, [inputValues, uiMode, displayAreaRegion, bigText, bgImage]);
 
   const handleImageAdd = () => {
     if (additionalImage.length === 0) {
@@ -202,9 +198,6 @@ export default function TalkGenerator() {
   const handleDownload = async () => {
     const stage = stageRef.current;
     if (stage === undefined) return;
-
-    // フォントや画像の半透明処理を確実に適用する
-    await updateUi();
 
     const currentScale = stage.scale();
     const transformers: Konva.Transformer[] = stage.find("Transformer");

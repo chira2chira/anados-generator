@@ -1,423 +1,564 @@
 - id: alec
+  sortIndex: a
   nameJa: アレク
   nameEn: Alec
 - id: amorey
+  sortIndex: a
   nameJa: アモレー
   nameEn: Amorey
 - id: anima
+  sortIndex: a
   nameJa: アニマ
   nameEn: Anima
 - id: arcana
+  sortIndex: a
   nameJa: アルカナ
   nameEn: Arcana
 - id: atmos
+  sortIndex: a
   nameJa: アトムス
   nameEn: Atmos
 - id: azmond
+  sortIndex: a
   nameJa: アズモンド
   nameEn: Azmond
 - id: baccarat
+  sortIndex: b
   nameJa: バカラ
   nameEn: Baccarat
 - id: baccarat_spybot
+  sortIndex: b
   nameJa: スパイボット
   nameEn: Spy Bot
 - id: balista
+  sortIndex: b
   nameJa: バリスタ野盗
   nameEn: Bandit Ballista
 - id: balt
+  sortIndex: b
   nameJa: バルト
   nameEn: Bart
 - id: bantu
+  sortIndex: b
   nameJa: バントゥ
   nameEn: Bantu
 - id: baran
+  sortIndex: b
   nameJa: バラン
   nameEn: Baran
 - id: barboros
+  sortIndex: b
   nameJa: バルボロス
   nameEn: Barboros
 - id: littlebarboros
+  sortIndex: b
   nameJa: バル
   nameEn: Bal
 - id: barboros_k
+  sortIndex: b
   nameJa: 新たなる形相 バルボロス
   nameEn: New Look Barboros
 - id: barlitz
+  sortIndex: b
   nameJa: バーリッツ
   nameEn: Barlitz
 - id: baron
+  sortIndex: b
   nameJa: バロン
   nameEn: Baron
 - id: bashkar
+  sortIndex: b
   nameJa: バシュカー
   nameEn: Bashkar
 - id: beelzebub
+  sortIndex: b
   nameJa: ベルゼブブ
   nameEn: Beelzebub
-- id: bigmummy
-  nameJa: ビッグマミー
-  nameEn: Large Mummy
 - id: billford
+  sortIndex: b
   nameJa: ビルフォード
   nameEn: Billford
 - id: billfordcrew_bonvoy
+  sortIndex: b
   nameJa: ボンヴォイ
   nameEn: Bonvoy
 - id: billfordcrew_marion
+  sortIndex: b
   nameJa: マリオン
   nameEn: Marion
 - id: blackknightaxe
+  sortIndex: o
   nameJa: オブシドニア帝国斧兵
   nameEn: Obsidonian Imperial Halberdier
 - id: blackknightcanon
+  sortIndex: o
   nameJa: オブシドニア帝国砲兵
   nameEn: Imperial Artillery Soldier
 - id: blackknightshooter
+  sortIndex: o
   nameJa: オプシドニア帝国弩兵
   nameEn: Obsidonian Imperial Archer
 - id: blackrider
+  sortIndex: o
   nameJa: オブシドニア帝国 騎兵
   nameEn: Obsidonian Imperial Cavalry
 - id: brut
+  sortIndex: b
   nameJa: ブルート
   nameEn: Brute
 - id: cazard
+  sortIndex: k
   nameJa: カザード
   nameEn: Kazard
 - id: chabo
+  sortIndex: c
   nameJa: チャボ
   nameEn: Chabeau
 - id: charlotte
+  sortIndex: c
   nameJa: シャルロッテ
   nameEn: Charlotte
 - id: civilian_casinosp
+  sortIndex: c
   nameJa: カジノSP
   nameEn: Casino Security
 - id: corca
+  sortIndex: c
   nameJa: コルカ
   nameEn: Corca
 - id: dakkar
+  sortIndex: d
   nameJa: ダカール
   nameEn: Dakkar
 - id: dion
+  sortIndex: d
   nameJa: ディオン
   nameEn: Dion
 - id: domino
+  sortIndex: d
   nameJa: ドミノ
   nameEn: Domino
 - id: dward
+  sortIndex: d
   nameJa: ドワード
   nameEn: Dward
 - id: dyne
+  sortIndex: d
   nameJa: ダイン
   nameEn: Dyne
 - id: edgar
+  sortIndex: e
   nameJa: エドガー
   nameEn: Edgar
 - id: elaine
+  sortIndex: e
   nameJa: エレーン
   nameEn: Elaine
 - id: equus
+  sortIndex: e
   nameJa: エクウス
   nameEn: Equus
 - id: flet
+  sortIndex: f
   nameJa: フレット
   nameEn: Flet
 - id: folker
+  sortIndex: f
   nameJa: フォーカー
   nameEn: Folker
 - id: forte
+  sortIndex: f
   nameJa: フォルテ
   nameEn: Forte
 - id: fu
+  sortIndex: f
   nameJa: フウ
   nameEn: Fu
 - id: fu_tetsubo
+  sortIndex: f
   nameJa: テツボウ
   nameEn: Tetsubo
 - id: gaia
+  sortIndex: g
   nameJa: ガイア
   nameEn: Gaia
 - id: gaiadragoon
+  sortIndex: g
   nameJa: 暁のドラグーン ガイア
   nameEn: Dragoon of the Dawn Gaia
 - id: normalgaia
+  sortIndex: g
   nameJa: ガイア（初期）
   nameEn: Normal Gaia
 - id: gambler
+  sortIndex: g
   nameJa: ギャンブラー
   nameEn: Gambler
 - id: gamura
+  sortIndex: g
   nameJa: ガムラ
   nameEn: Gamela
 - id: gaoh
+  sortIndex: g
   nameJa: ガオウ
   nameEn: Gaoh
 - id: goblincaster
+  sortIndex: g
   nameJa: メイジゴブリン
   nameEn: Mage Goblin
 - id: goblinfighter
+  sortIndex: g
   nameJa: ゴブリンファイター
   nameEn: Goblin Fighter
 - id: goblinfly
+  sortIndex: g
   nameJa: スカイゴブリン
   nameEn: Aerial Goblin
 - id: goblinrider
+  sortIndex: g
   nameJa: ゴブリンライダー
   nameEn: Goblin Rider
 - id: goblinshooter
+  sortIndex: g
   nameJa: ゴブリンアーチャー
   nameEn: Goblin Archer
 - id: gordov
+  sortIndex: g
   nameJa: ゴルドフ
   nameEn: Gordov
 - id: gymnos
+  sortIndex: g
   nameJa: ギムノス
   nameEn: Gymnos
 - id: habaki
+  sortIndex: h
   nameJa: ハバキ
   nameEn: Habaki
 - id: hanzo
+  sortIndex: h
   nameJa: ハンゾウ
   nameEn: Hanzo
 - id: hanzo_basho
+  sortIndex: h
   nameJa: バショウ
   nameEn: Basho
 - id: harimau
+  sortIndex: h
   nameJa: ハリマオ
   nameEn: Harimau
 - id: harold
+  sortIndex: h
   nameJa: ハロルド
   nameEn: Harold
 - id: hellion
+  sortIndex: h
   nameJa: ヘリオン
   nameEn: Hellion
 - id: younghellion
+  sortIndex: h
   nameJa: 若き日の勇姿 ヘリオン
   nameEn: Heroic Young Self Hellion
 - id: hulk
+  sortIndex: h
   nameJa: ハルク
   nameEn: Hulk
 - id: hybris
+  sortIndex: h
   nameJa: ヒュブリス
   nameEn: Hybris
 - id: jade
+  sortIndex: j
   nameJa: ジェイド
   nameEn: Jade
 - id: jalam
+  sortIndex: j
   nameJa: ジャラム
   nameEn: Jalam
 - id: jinnosuke
+  sortIndex: j
   nameJa: ジンノスケ
   nameEn: Jinnosuke
 - id: kafka
+  sortIndex: k
   nameJa: カフカ
   nameEn: Kafka
 - id: kagura
+  sortIndex: k
   nameJa: カグラ
   nameEn: Kagura
 - id: kancrow
+  sortIndex: k
   nameJa: カンクロウ
   nameEn: Kancrow
 - id: karetovi
+  sortIndex: k
   nameJa: カレトビ
   nameEn: Karetovi
 - id: kongoh
+  sortIndex: k
   nameJa: コンゴウ
   nameEn: Kongoh
 - id: laddin
+  sortIndex: l
   nameJa: ラジーン
   nameEn: Ala’ ad-Din
 - id: leonhart
+  sortIndex: l
   nameJa: レオンハート
   nameEn: Leonhart
 - id: lisa
+  sortIndex: l
   nameJa: リーサ
   nameEn: Lisa
 - id: lute
+  sortIndex: l
   nameJa: リュート
   nameEn: Lute
 - id: maxtla
+  sortIndex: m
   nameJa: マシュトラ
   nameEn: Maxtla
 - id: morgan
+  sortIndex: m
   nameJa: モーガン
   nameEn: Morgan
 - id: mummycaster
+  sortIndex: m
   nameJa: メイジマミー
   nameEn: Mage Mummy
 - id: mummyfighter
+  sortIndex: m
   nameJa: マミー
   nameEn: Mummy
 - id: mummyshooter
+  sortIndex: m
   nameJa: アーチャーマミー
   nameEn: Archer Mummy
+- id: bigmummy
+  sortIndex: m
+  nameJa: ビッグマミー
+  nameEn: Large Mummy
 - id: ninjablack
+  sortIndex: n
   nameJa: 黒忍者
   nameEn: Dark Ninja
 - id: ninjablue
+  sortIndex: n
   nameJa: 青忍者
   nameEn: Blue Ninja
 - id: ninjared
+  sortIndex: n
   nameJa: 赤忍者
   nameEn: Red Ninja
 - id: ninjawhite
+  sortIndex: n
   nameJa: 白忍者
   nameEn: Light Ninja
 - id: nitro
+  sortIndex: n
   nameJa: ニトロ
   nameEn: Nitro
 - id: ornis
+  sortIndex: o
   nameJa: オルニス
   nameEn: Ornis
 - id: patty
+  sortIndex: p
   nameJa: パティ
   nameEn: Patty
 - id: pino
+  sortIndex: p
   nameJa: ピノ
   nameEn: Pino
 - id: piratecaster
+  sortIndex: p
   nameJa: 海賊魔導兵
   nameEn: Pirate Sorcerer
 - id: piratefighter
+  sortIndex: p
   nameJa: 海賊剣兵
   nameEn: Pirate Swordsman
 - id: piratehealer
+  sortIndex: p
   nameJa: 海賊衛生兵
   nameEn: Pirate Medic
 - id: pirateshooter
+  sortIndex: p
   nameJa: 海賊銃兵
   nameEn: Pirate Musketeer
 - id: pius
+  sortIndex: p
   nameJa: ピオス
   nameEn: Pius
 - id: pollon_orta
+  sortIndex: p
   nameJa: ポロンとオルタ
   nameEn: Pollon & Orta
 - id: pugi
+  sortIndex: p
   nameJa: プージ
   nameEn: Pugi
 - id: ragnar
+  sortIndex: r
   nameJa: ラグナル
   nameEn: Ragnar
 - id: rai
+  sortIndex: r
   nameJa: ライ
   nameEn: Rai
 - id: rasho
+  sortIndex: r
   nameJa: ラショウ
   nameEn: Rasho
 - id: rasho_oni
+  sortIndex: r
   nameJa: 鬼ラショウ
   nameEn: Oni Rasho
 - id: rion
+  sortIndex: l
   nameJa: リオン
   nameEn: Lyon
 - id: robin
+  sortIndex: r
   nameJa: ロビン
   nameEn: Robin
 - id: romanes
+  sortIndex: r
   nameJa: ロマネス
   nameEn: Romanes
 - id: rook
+  sortIndex: r
   nameJa: ルーク
   nameEn: Rook
 - id: rothhart
+  sortIndex: r
   nameJa: ロットハルト
   nameEn: Rothhart
 - id: rougarou
+  sortIndex: r
   nameJa: ルガロゥ
   nameEn: Rougarou
 - id: rougarou_wolf
+  sortIndex: r
   nameJa: オオカミルガロゥ
   nameEn: Werewolf Rougarou
 - id: s_servant
+  sortIndex: s
   nameJa: サーヴァント
   nameEn: Servant
 - id: s_servantcaster
+  sortIndex: s
   nameJa: サーヴァントキャスター
   nameEn: Servant Sorcerer
 - id: s_servantguard
+  sortIndex: s
   nameJa: サーヴァントガード
   nameEn: Servant Guard
 - id: sarutobi
+  sortIndex: s
   nameJa: サルトビ
   nameEn: Sasuke Sarutobi
 - id: saturn
+  sortIndex: l
   nameJa: サタン
   nameEn: Lucifer
 - id: scavand
+  sortIndex: s
   nameJa: スカバンド
   nameEn: Scavand
 - id: seals
+  sortIndex: s
   nameJa: シールズ
   nameEn: Seals
 - id: sebek
+  sortIndex: s
   nameJa: ゼベク
   nameEn: Sebek
 - id: siddeley
+  sortIndex: s
   nameJa: シドレー
   nameEn: Siddeley
 - id: sigvaldi
+  sortIndex: s
   nameJa: シグヴァルディ
   nameEn: Sigvaldi
 - id: sinbad
+  sortIndex: s
   nameJa: シンバット
   nameEn: Sinbad
 - id: snowbandit
+  sortIndex: s
   nameJa: スノーバンディット
   nameEn: Snow Bandit
 - id: snowwolf
+  sortIndex: s
   nameJa: スノーウルフ
   nameEn: Snow Wolf
 - id: sol
+  sortIndex: s
   nameJa: ソル
   nameEn: Sol
 - id: solve
+  sortIndex: s
   nameJa: ソルベ
   nameEn: Solvé
 - id: stalon
+  sortIndex: s
   nameJa: スタロン
   nameEn: Stalon
 - id: tengo
+  sortIndex: t
   nameJa: テンゴ
   nameEn: Tengo
 - id: theodor
+  sortIndex: t
   nameJa: テオドール
   nameEn: Theodor
 - id: thomas
+  sortIndex: t
   nameJa: トーマス
   nameEn: Thomas
 - id: thorkell
+  sortIndex: t
   nameJa: トルケル
   nameEn: Thorkell
 - id: volund
+  sortIndex: v
   nameJa: ヴェルンド
   nameEn: Volund
 - id: walther
+  sortIndex: w
   nameJa: ウォルサー
   nameEn: Walther
 - id: whiteknight
+  sortIndex: p
   nameJa: パイス・ブラン 兵士
   nameEn: Pays Blanc Soldier
 - id: wrecker
+  sortIndex: w
   nameJa: レッカー
   nameEn: Wrecker
 - id: xiaolong
+  sortIndex: x
   nameJa: シャオロン
   nameEn: Xiaolong
 - id: yabusaha
+  sortIndex: y
   nameJa: ヤブサハ
   nameEn: Yabsakha
 - id: yaqut
+  sortIndex: y
   nameJa: ヤークート
   nameEn: Yaqut
 - id: yuno
+  sortIndex: y
   nameJa: ユーノ
   nameEn: Yuno
 - id: yurt
+  sortIndex: y
   nameJa: ユルト
   nameEn: Yurt
 - id: zacharoff
+  sortIndex: z
   nameJa: ザハロフ
   nameEn: Zacharoff

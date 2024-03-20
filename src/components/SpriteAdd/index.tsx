@@ -220,7 +220,9 @@ function SpriteAdd(props: {
             <select onChange={handleChangeSprite}>
               {spriteInfo.map((x) => (
                 <option key={x.id} value={x.id}>
-                  {i18n.language === "ja" ? x.nameJa : x.nameEn}
+                  {i18n.language === "ja"
+                    ? `[${x.sortIndex}] ${x.nameJa}`
+                    : x.nameEn}
                 </option>
               ))}
             </select>

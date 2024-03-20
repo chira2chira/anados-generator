@@ -7,6 +7,7 @@
       "browse": "Browse",
       "addRubyText": "Insert Ruby Annotation Text",
       "addAdditionalImage": "Add Additional Image",
+      "addAdditionalSprite": "Add Additional Sprite",
       "resetTransform": "Reset Position",
       "downloadImage": "Download Image"
     },
@@ -21,6 +22,9 @@
       "rubyHelp": "※Inserts at the previous cursor position. This is a feature to express furigana.",
       "areaName": "Area Name",
       "additionalImage": "Additional Image",
+      "additionalSprite": "Additional Sprite",
+      "spriteSkin": "Skin",
+      "spriteFace": "Face",
       "dimSwitch": "Dim the Image",
       "author": "Author",
       "hashtag": "Hashtag"

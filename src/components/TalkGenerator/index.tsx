@@ -21,7 +21,9 @@ import {
   addTalkWindow,
 } from "@/utils/talkCanvasUtil";
 import { sendEvent } from "@/utils/gtag";
+import type { SpriteInfo } from "@/utils/loadSprite";
 import ImageAdd from "../ImageAdd";
+import SpriteAdd from "../SpriteAdd";
 import RubyModal from "../RubyModal";
 
 const CANVAS_ID = "canvas-container";
@@ -32,7 +34,11 @@ type InputValues = {
   areaName: string;
 };
 
-export default function TalkGenerator() {
+type TalkGeneratorProps = {
+  spriteInfo: SpriteInfo[];
+};
+
+const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
   const { t } = useTranslation("common");
   const { handleFiles, imageBase64, fileName } = useFile();
   const [bgImage, setBgImage] = useState("");
@@ -50,6 +56,7 @@ export default function TalkGenerator() {
   const [rubyIndex, setRubyIndex] = useState(0);
   const [rubyModalOpen, setRubyModalOpen] = useState(false);
   const [additionalImage, setAdditionalImage] = useState<number[]>([]);
+  const [additionalSprite, setAdditionalSprite] = useState<number[]>([]);
   const stageRef = useRef<Konva.Stage>();
   const bgLayerRef = useRef<Konva.Layer>();
   const uiLayerRef = useRef<Konva.Layer>();
@@ -167,6 +174,18 @@ export default function TalkGenerator() {
     }
   };
 
+  const handleSpriteAdd = () => {
+    if (additionalSprite.length === 0) {
+      setAdditionalSprite([0]);
+    } else {
+      // 最大値+1
+      setAdditionalSprite([
+        ...additionalSprite,
+        Math.max.apply(null, additionalSprite) + 1,
+      ]);
+    }
+  };
+
   const handleAddRuby = () => {
     const textArea = textRef.current;
     if (textArea === null) return;
@@ -197,6 +216,13 @@ export default function TalkGenerator() {
       setAdditionalImage(additionalImage.filter((x) => x !== index));
     },
     [additionalImage]
+  );
+
+  const handeSpriteRemove = useCallback(
+    (index: number) => {
+      setAdditionalSprite(additionalSprite.filter((x) => x !== index));
+    },
+    [additionalSprite]
   );
 
   const handleDownload = async () => {
@@ -310,25 +336,48 @@ export default function TalkGenerator() {
         </FormGroup>
 
         {stageRef.current && (
-          <div
-            css={css`
-              display: flex;
-              flex-direction: column;
-              gap: 10px;
-            `}
-          >
-            {additionalImage.map((x) => (
-              <ImageAdd
-                key={x}
-                stage={stageRef.current!}
-                uniqueId={x}
-                onRemove={handeImageRemove}
-              />
-            ))}
-            <Button onClick={handleImageAdd} icon="add">
-              {t("ui.button.addAdditionalImage")}
-            </Button>
-          </div>
+          <>
+            <div
+              css={css`
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+              `}
+            >
+              {additionalImage.map((x) => (
+                <ImageAdd
+                  key={x}
+                  stage={stageRef.current!}
+                  uniqueId={x}
+                  onRemove={handeImageRemove}
+                />
+              ))}
+              <Button onClick={handleImageAdd} icon="add">
+                {t("ui.button.addAdditionalImage")}
+              </Button>
+            </div>
+            <div
+              css={css`
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+              `}
+            >
+              {additionalSprite.map((x) => (
+                <SpriteAdd
+                  key={x}
+                  stage={stageRef.current!}
+                  uniqueId={x}
+                  spriteInfo={props.spriteInfo}
+                  onRemove={handeSpriteRemove}
+                />
+              ))}
+              <Button onClick={handleSpriteAdd} icon="add">
+                {t("ui.button.addAdditionalSprite")}
+              </Button>
+            </div>
+          </>
         )}
       </div>
       <div
@@ -355,4 +404,6 @@ export default function TalkGenerator() {
       />
     </>
   );
-}
+};
+
+export default TalkGenerator;

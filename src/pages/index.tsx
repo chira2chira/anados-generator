@@ -1,4 +1,4 @@
-import { GetStaticProps } from "next";
+import { GetStaticProps, NextPage } from "next";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
@@ -7,12 +7,17 @@ import * as styles from "@/styles/Home.module";
 import { css } from "@emotion/react";
 import CommonMeta from "@/components/CommonMeta";
 import Link from "next/link";
+import { SpriteInfo, loadSprites } from "@/utils/loadSprite";
 
 const TalkGenerator = dynamic(() => import("@/components/TalkGenerator"), {
   ssr: false,
 });
 
-export default function Home() {
+type HomeProps = {
+  spriteInfo: SpriteInfo[];
+};
+
+const Home: NextPage<HomeProps> = (props) => {
   const { t } = useTranslation("common");
   const { asPath, locale, push } = useRouter();
 
@@ -57,7 +62,7 @@ export default function Home() {
         </header>
 
         <main css={styles.main}>
-          <TalkGenerator />
+          <TalkGenerator spriteInfo={props.spriteInfo} />
         </main>
 
         <footer
@@ -103,12 +108,16 @@ export default function Home() {
       </div>
     </>
   );
-}
+};
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<HomeProps> = async (context) => {
+  const spriteInfo = loadSprites();
   return {
     props: {
       ...(await serverSideTranslations(context.locale!, ["common"])),
+      spriteInfo,
     },
   };
 };
+
+export default Home;

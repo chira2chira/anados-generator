@@ -1,0 +1,423 @@
+- id: alec
+  nameJa: アレク
+  nameEn: Alec
+- id: amorey
+  nameJa: アモレー
+  nameEn: Amorey
+- id: anima
+  nameJa: アニマ
+  nameEn: Anima
+- id: arcana
+  nameJa: アルカナ
+  nameEn: Arcana
+- id: atmos
+  nameJa: アトムス
+  nameEn: Atmos
+- id: azmond
+  nameJa: アズモンド
+  nameEn: Azmond
+- id: baccarat
+  nameJa: バカラ
+  nameEn: Baccarat
+- id: baccarat_spybot
+  nameJa: スパイボット
+  nameEn: Spy Bot
+- id: balista
+  nameJa: バリスタ野盗
+  nameEn: Bandit Ballista
+- id: balt
+  nameJa: バルト
+  nameEn: Bart
+- id: bantu
+  nameJa: バントゥ
+  nameEn: Bantu
+- id: baran
+  nameJa: バラン
+  nameEn: Baran
+- id: barboros
+  nameJa: バルボロス
+  nameEn: Barboros
+- id: littlebarboros
+  nameJa: バル
+  nameEn: Bal
+- id: barboros_k
+  nameJa: 新たなる形相 バルボロス
+  nameEn: New Look Barboros
+- id: barlitz
+  nameJa: バーリッツ
+  nameEn: Barlitz
+- id: baron
+  nameJa: バロン
+  nameEn: Baron
+- id: bashkar
+  nameJa: バシュカー
+  nameEn: Bashkar
+- id: beelzebub
+  nameJa: ベルゼブブ
+  nameEn: Beelzebub
+- id: bigmummy
+  nameJa: ビッグマミー
+  nameEn: Large Mummy
+- id: billford
+  nameJa: ビルフォード
+  nameEn: Billford
+- id: billfordcrew_bonvoy
+  nameJa: ボンヴォイ
+  nameEn: Bonvoy
+- id: billfordcrew_marion
+  nameJa: マリオン
+  nameEn: Marion
+- id: blackknightaxe
+  nameJa: オブシドニア帝国斧兵
+  nameEn: Obsidonian Imperial Halberdier
+- id: blackknightcanon
+  nameJa: オブシドニア帝国砲兵
+  nameEn: Imperial Artillery Soldier
+- id: blackknightshooter
+  nameJa: オプシドニア帝国弩兵
+  nameEn: Obsidonian Imperial Archer
+- id: blackrider
+  nameJa: オブシドニア帝国 騎兵
+  nameEn: Obsidonian Imperial Cavalry
+- id: brut
+  nameJa: ブルート
+  nameEn: Brute
+- id: cazard
+  nameJa: カザード
+  nameEn: Kazard
+- id: chabo
+  nameJa: チャボ
+  nameEn: Chabeau
+- id: charlotte
+  nameJa: シャルロッテ
+  nameEn: Charlotte
+- id: civilian_casinosp
+  nameJa: カジノSP
+  nameEn: Casino Security
+- id: corca
+  nameJa: コルカ
+  nameEn: Corca
+- id: dakkar
+  nameJa: ダカール
+  nameEn: Dakkar
+- id: dion
+  nameJa: ディオン
+  nameEn: Dion
+- id: domino
+  nameJa: ドミノ
+  nameEn: Domino
+- id: dward
+  nameJa: ドワード
+  nameEn: Dward
+- id: dyne
+  nameJa: ダイン
+  nameEn: Dyne
+- id: edgar
+  nameJa: エドガー
+  nameEn: Edgar
+- id: elaine
+  nameJa: エレーン
+  nameEn: Elaine
+- id: equus
+  nameJa: エクウス
+  nameEn: Equus
+- id: flet
+  nameJa: フレット
+  nameEn: Flet
+- id: folker
+  nameJa: フォーカー
+  nameEn: Folker
+- id: forte
+  nameJa: フォルテ
+  nameEn: Forte
+- id: fu
+  nameJa: フウ
+  nameEn: Fu
+- id: fu_tetsubo
+  nameJa: テツボウ
+  nameEn: Tetsubo
+- id: gaia
+  nameJa: ガイア
+  nameEn: Gaia
+- id: gaiadragoon
+  nameJa: 暁のドラグーン ガイア
+  nameEn: Dragoon of the Dawn Gaia
+- id: normalgaia
+  nameJa: ガイア（初期）
+  nameEn: Normal Gaia
+- id: gambler
+  nameJa: ギャンブラー
+  nameEn: Gambler
+- id: gamura
+  nameJa: ガムラ
+  nameEn: Gamela
+- id: gaoh
+  nameJa: ガオウ
+  nameEn: Gaoh
+- id: goblincaster
+  nameJa: メイジゴブリン
+  nameEn: Mage Goblin
+- id: goblinfighter
+  nameJa: ゴブリンファイター
+  nameEn: Goblin Fighter
+- id: goblinfly
+  nameJa: スカイゴブリン
+  nameEn: Aerial Goblin
+- id: goblinrider
+  nameJa: ゴブリンライダー
+  nameEn: Goblin Rider
+- id: goblinshooter
+  nameJa: ゴブリンアーチャー
+  nameEn: Goblin Archer
+- id: gordov
+  nameJa: ゴルドフ
+  nameEn: Gordov
+- id: gymnos
+  nameJa: ギムノス
+  nameEn: Gymnos
+- id: habaki
+  nameJa: ハバキ
+  nameEn: Habaki
+- id: hanzo
+  nameJa: ハンゾウ
+  nameEn: Hanzo
+- id: hanzo_basho
+  nameJa: バショウ
+  nameEn: Basho
+- id: harimau
+  nameJa: ハリマオ
+  nameEn: Harimau
+- id: harold
+  nameJa: ハロルド
+  nameEn: Harold
+- id: hellion
+  nameJa: ヘリオン
+  nameEn: Hellion
+- id: younghellion
+  nameJa: 若き日の勇姿 ヘリオン
+  nameEn: Heroic Young Self Hellion
+- id: hulk
+  nameJa: ハルク
+  nameEn: Hulk
+- id: hybris
+  nameJa: ヒュブリス
+  nameEn: Hybris
+- id: jade
+  nameJa: ジェイド
+  nameEn: Jade
+- id: jalam
+  nameJa: ジャラム
+  nameEn: Jalam
+- id: jinnosuke
+  nameJa: ジンノスケ
+  nameEn: Jinnosuke
+- id: kafka
+  nameJa: カフカ
+  nameEn: Kafka
+- id: kagura
+  nameJa: カグラ
+  nameEn: Kagura
+- id: kancrow
+  nameJa: カンクロウ
+  nameEn: Kancrow
+- id: karetovi
+  nameJa: カレトビ
+  nameEn: Karetovi
+- id: kongoh
+  nameJa: コンゴウ
+  nameEn: Kongoh
+- id: laddin
+  nameJa: ラジーン
+  nameEn: Ala’ ad-Din
+- id: leonhart
+  nameJa: レオンハート
+  nameEn: Leonhart
+- id: lisa
+  nameJa: リーサ
+  nameEn: Lisa
+- id: lute
+  nameJa: リュート
+  nameEn: Lute
+- id: maxtla
+  nameJa: マシュトラ
+  nameEn: Maxtla
+- id: morgan
+  nameJa: モーガン
+  nameEn: Morgan
+- id: mummycaster
+  nameJa: メイジマミー
+  nameEn: Mage Mummy
+- id: mummyfighter
+  nameJa: マミー
+  nameEn: Mummy
+- id: mummyshooter
+  nameJa: アーチャーマミー
+  nameEn: Archer Mummy
+- id: ninjablack
+  nameJa: 黒忍者
+  nameEn: Dark Ninja
+- id: ninjablue
+  nameJa: 青忍者
+  nameEn: Blue Ninja
+- id: ninjared
+  nameJa: 赤忍者
+  nameEn: Red Ninja
+- id: ninjawhite
+  nameJa: 白忍者
+  nameEn: Light Ninja
+- id: nitro
+  nameJa: ニトロ
+  nameEn: Nitro
+- id: ornis
+  nameJa: オルニス
+  nameEn: Ornis
+- id: patty
+  nameJa: パティ
+  nameEn: Patty
+- id: pino
+  nameJa: ピノ
+  nameEn: Pino
+- id: piratecaster
+  nameJa: 海賊魔導兵
+  nameEn: Pirate Sorcerer
+- id: piratefighter
+  nameJa: 海賊剣兵
+  nameEn: Pirate Swordsman
+- id: piratehealer
+  nameJa: 海賊衛生兵
+  nameEn: Pirate Medic
+- id: pirateshooter
+  nameJa: 海賊銃兵
+  nameEn: Pirate Musketeer
+- id: pius
+  nameJa: ピオス
+  nameEn: Pius
+- id: pollon_orta
+  nameJa: ポロンとオルタ
+  nameEn: Pollon & Orta
+- id: pugi
+  nameJa: プージ
+  nameEn: Pugi
+- id: ragnar
+  nameJa: ラグナル
+  nameEn: Ragnar
+- id: rai
+  nameJa: ライ
+  nameEn: Rai
+- id: rasho
+  nameJa: ラショウ
+  nameEn: Rasho
+- id: rasho_oni
+  nameJa: 鬼ラショウ
+  nameEn: Oni Rasho
+- id: rion
+  nameJa: リオン
+  nameEn: Lyon
+- id: robin
+  nameJa: ロビン
+  nameEn: Robin
+- id: romanes
+  nameJa: ロマネス
+  nameEn: Romanes
+- id: rook
+  nameJa: ルーク
+  nameEn: Rook
+- id: rothhart
+  nameJa: ロットハルト
+  nameEn: Rothhart
+- id: rougarou
+  nameJa: ルガロゥ
+  nameEn: Rougarou
+- id: rougarou_wolf
+  nameJa: オオカミルガロゥ
+  nameEn: Werewolf Rougarou
+- id: s_servant
+  nameJa: サーヴァント
+  nameEn: Servant
+- id: s_servantcaster
+  nameJa: サーヴァントキャスター
+  nameEn: Servant Sorcerer
+- id: s_servantguard
+  nameJa: サーヴァントガード
+  nameEn: Servant Guard
+- id: sarutobi
+  nameJa: サルトビ
+  nameEn: Sasuke Sarutobi
+- id: saturn
+  nameJa: サタン
+  nameEn: Lucifer
+- id: scavand
+  nameJa: スカバンド
+  nameEn: Scavand
+- id: seals
+  nameJa: シールズ
+  nameEn: Seals
+- id: sebek
+  nameJa: ゼベク
+  nameEn: Sebek
+- id: siddeley
+  nameJa: シドレー
+  nameEn: Siddeley
+- id: sigvaldi
+  nameJa: シグヴァルディ
+  nameEn: Sigvaldi
+- id: sinbad
+  nameJa: シンバット
+  nameEn: Sinbad
+- id: snowbandit
+  nameJa: スノーバンディット
+  nameEn: Snow Bandit
+- id: snowwolf
+  nameJa: スノーウルフ
+  nameEn: Snow Wolf
+- id: sol
+  nameJa: ソル
+  nameEn: Sol
+- id: solve
+  nameJa: ソルベ
+  nameEn: Solvé
+- id: stalon
+  nameJa: スタロン
+  nameEn: Stalon
+- id: tengo
+  nameJa: テンゴ
+  nameEn: Tengo
+- id: theodor
+  nameJa: テオドール
+  nameEn: Theodor
+- id: thomas
+  nameJa: トーマス
+  nameEn: Thomas
+- id: thorkell
+  nameJa: トルケル
+  nameEn: Thorkell
+- id: volund
+  nameJa: ヴェルンド
+  nameEn: Volund
+- id: walther
+  nameJa: ウォルサー
+  nameEn: Walther
+- id: whiteknight
+  nameJa: パイス・ブラン 兵士
+  nameEn: Pays Blanc Soldier
+- id: wrecker
+  nameJa: レッカー
+  nameEn: Wrecker
+- id: xiaolong
+  nameJa: シャオロン
+  nameEn: Xiaolong
+- id: yabusaha
+  nameJa: ヤブサハ
+  nameEn: Yabsakha
+- id: yaqut
+  nameJa: ヤークート
+  nameEn: Yaqut
+- id: yuno
+  nameJa: ユーノ
+  nameEn: Yuno
+- id: yurt
+  nameJa: ユルト
+  nameEn: Yurt
+- id: zacharoff
+  nameJa: ザハロフ
+  nameEn: Zacharoff

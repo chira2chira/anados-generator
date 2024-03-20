@@ -18,10 +18,10 @@ const COLOR_SET = [
   "#FF4B00",
   "#03AF7A",
   "#005AFF",
-  "#4DC4FF",
-  "#FFF100",
-  "#990099",
-  "#804000",
+  // "#4DC4FF",
+  // "#FFF100",
+  // "#990099",
+  // "#804000",
 ];
 
 function getAnchorColor(num: number) {

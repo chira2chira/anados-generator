@@ -7,6 +7,7 @@
       "browse": "選択",
       "addRubyText": "ルビ付き文字を挿入",
       "addAdditionalImage": "画像を追加",
+      "addAdditionalSprite": "キャラ立ち絵を追加",
       "resetTransform": "位置リセット",
       "downloadImage": "画像をダウンロード"
     },
@@ -21,6 +22,9 @@
       "rubyHelp": "※直前のカーソル位置に挿入されます。",
       "areaName": "エリア名",
       "additionalImage": "追加画像",
+      "additionalSprite": "追加キャラ立ち絵",
+      "spriteSkin": "パターン",
+      "spriteFace": "表情",
       "dimSwitch": "暗くする",
       "author": "作った人",
       "hashtag": "ハッシュタグ"

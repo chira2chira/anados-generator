@@ -74,6 +74,7 @@ const Home: NextPage<HomeProps> = (props) => {
             gap: 8px;
           `}
         >
+          <p>{t("ui.text.assetsRights")}</p>
           <div>
             {t("ui.text.hashtag")}:{" "}
             <a

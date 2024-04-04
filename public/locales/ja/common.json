@@ -27,7 +27,8 @@
       "spriteFace": "表情",
       "dimSwitch": "暗くする",
       "author": "作った人",
-      "hashtag": "ハッシュタグ"
+      "hashtag": "ハッシュタグ",
+      "assetsRights": "ゲームアセットの著作権は株式会社Habbitに帰属します。"
     },
     "inputValue": {
       "chooseBgImage": "横長の画像を推奨",

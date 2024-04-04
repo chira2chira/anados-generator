@@ -27,7 +27,8 @@
       "spriteFace": "Face",
       "dimSwitch": "Dim the Image",
       "author": "Author",
-      "hashtag": "Hashtag"
+      "hashtag": "Hashtag",
+      "assetsRights": "Game assets are property of Habbit Co., Ltd."
     },
     "inputValue": {
       "chooseBgImage": "Choose Background File",

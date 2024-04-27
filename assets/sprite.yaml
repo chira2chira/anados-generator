@@ -362,6 +362,10 @@
   sortIndex: n
   nameJa: ニトロ
   nameEn: Nitro
+- id: nightmare_caster
+  sortIndex: o
+  nameJa: オリオン
+  nameEn: Orion
 - id: ornis
   sortIndex: o
   nameJa: オルニス
@@ -506,6 +510,10 @@
   sortIndex: s
   nameJa: ソルベ
   nameEn: Solvé
+- id: nightmare_guard
+  sortIndex: s
+  nameJa: スピカ
+  nameEn: Spica
 - id: stalon
   sortIndex: s
   nameJa: スタロン

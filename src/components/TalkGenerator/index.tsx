@@ -172,7 +172,6 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
       setAdditionalArr([{ type, id: 0 }]);
     } else {
       setAdditionalArr([
-        ...additionalArr,
         {
           type,
           id:
@@ -182,6 +181,7 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
               additionalArr.map((x) => x.id)
             ) + 1,
         },
+        ...additionalArr,
       ]);
     }
   };
@@ -192,6 +192,28 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
 
   const handleSpriteAdd = () => {
     handleAdditionalAdd("sprite");
+  };
+
+  const handleAdditionalLayerUp = (id: number, layer: Konva.Layer) => {
+    const target = additionalArr.find((x) => x.id === id)!;
+    const index = additionalArr.indexOf(target);
+    // UIより上のレイヤーにはいかせない
+    if (index === 0) return;
+    layer.moveUp();
+    setAdditionalArr(
+      additionalArr.toSpliced(index, 1).toSpliced(index - 1, 0, target)
+    );
+  };
+
+  const handleAdditionalLayerDown = (id: number, layer: Konva.Layer) => {
+    const target = additionalArr.find((x) => x.id === id)!;
+    const index = additionalArr.indexOf(target);
+    // 背景より下のレイヤーにはいかせない
+    if (index === additionalArr.length - 1) return;
+    layer.moveDown();
+    setAdditionalArr(
+      additionalArr.toSpliced(index, 1).toSpliced(index + 1, 0, target)
+    );
   };
 
   const handleAddRuby = () => {
@@ -346,6 +368,12 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
                 gap: 10px;
               `}
             >
+              <Button onClick={handleImageAdd} icon="add">
+                {t("ui.button.addAdditionalImage")}
+              </Button>
+              <Button onClick={handleSpriteAdd} icon="add">
+                {t("ui.button.addAdditionalSprite")}
+              </Button>
               {additionalArr.map((x) => (
                 <Fragment key={x.id}>
                   {x.type === "image" ? (
@@ -353,6 +381,8 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
                       stage={stageRef.current!}
                       uniqueId={x.id}
                       onRemove={handeAdditionalRemove}
+                      onLayerUp={handleAdditionalLayerUp}
+                      onLayerDown={handleAdditionalLayerDown}
                     />
                   ) : (
                     <SpriteAdd
@@ -360,16 +390,12 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
                       uniqueId={x.id}
                       spriteInfo={props.spriteInfo}
                       onRemove={handeAdditionalRemove}
+                      onLayerUp={handleAdditionalLayerUp}
+                      onLayerDown={handleAdditionalLayerDown}
                     />
                   )}
                 </Fragment>
               ))}
-              <Button onClick={handleImageAdd} icon="add">
-                {t("ui.button.addAdditionalImage")}
-              </Button>
-              <Button onClick={handleSpriteAdd} icon="add">
-                {t("ui.button.addAdditionalSprite")}
-              </Button>
             </div>
           </>
         )}

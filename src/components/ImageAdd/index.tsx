@@ -32,6 +32,8 @@ function ImageAdd(props: {
   stage: Konva.Stage;
   uniqueId: number;
   onRemove: (uniqueId: number) => void;
+  onLayerUp: (uniqueId: number, layer: Konva.Layer) => void;
+  onLayerDown: (uniqueId: number, layer: Konva.Layer) => void;
 }) {
   const { stage, uniqueId } = props;
 
@@ -121,98 +123,130 @@ function ImageAdd(props: {
     props.onRemove(uniqueId);
   };
 
+  const handleLayerUp = () => {
+    props.onLayerUp(uniqueId, layerRef.current!);
+  };
+
+  const handleLayerDown = () => {
+    props.onLayerDown(uniqueId, layerRef.current!);
+  };
+
   return (
-    <Card
+    <div
       css={css`
-        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
       `}
     >
-      <Button
+      <Card
         css={css`
-          position: absolute;
-          top: 0;
-          right: 0;
+          position: relative;
+          flex-grow: 1;
         `}
-        icon="cross"
-        intent="danger"
-        onClick={handleClose}
-        minimal
-      />
-      <FormGroup
-        label={
-          <div
-            css={css`
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-            `}
-          >
-            <div>
-              <span style={{ color: getAnchorColor(uniqueId) }}>◆</span>
-              {t("ui.text.additionalImage")}
-            </div>
+      >
+        <Button
+          css={css`
+            position: absolute;
+            top: 0;
+            right: 0;
+          `}
+          icon="cross"
+          intent="danger"
+          onClick={handleClose}
+          minimal
+        />
+        <FormGroup
+          label={
             <div
               css={css`
                 display: flex;
-                gap: 5px;
-                line-height: 0.9em;
-                font-size: 0.7em;
-                color: #5f6b7c;
+                align-items: center;
+                justify-content: space-between;
               `}
             >
-              <div
-                css={css`
-                  display: flex;
-                  flex-direction: column;
-                `}
-              >
-                <AttrInfo name="x" value={throttledAttr.x} />
-                <AttrInfo name="y" value={throttledAttr.y} />
+              <div>
+                <span style={{ color: getAnchorColor(uniqueId) }}>◆</span>
+                {t("ui.text.additionalImage")}
               </div>
               <div
                 css={css`
                   display: flex;
-                  flex-direction: column;
+                  gap: 5px;
+                  line-height: 0.9em;
+                  font-size: 0.7em;
+                  color: #5f6b7c;
                 `}
               >
-                <AttrInfo name="rotation" value={throttledAttr.rotation} />
-                <AttrInfo name="scale" value={throttledAttr.scale} />
+                <div
+                  css={css`
+                    display: flex;
+                    flex-direction: column;
+                  `}
+                >
+                  <AttrInfo name="x" value={throttledAttr.x} />
+                  <AttrInfo name="y" value={throttledAttr.y} />
+                </div>
+                <div
+                  css={css`
+                    display: flex;
+                    flex-direction: column;
+                  `}
+                >
+                  <AttrInfo name="rotation" value={throttledAttr.rotation} />
+                  <AttrInfo name="scale" value={throttledAttr.scale} />
+                </div>
               </div>
             </div>
-          </div>
-        }
-      >
-        <FileInput
+          }
+        >
+          <FileInput
+            css={css`
+              width: 100%;
+            `}
+            text={fileName || t("ui.inputValue.chooseAddImage")}
+            buttonText={t("ui.button.browse")}
+            onInputChange={handleFiles}
+            inputProps={{ accept: "image/*" }}
+          />
+        </FormGroup>
+        <div
           css={css`
-            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
           `}
-          text={fileName || t("ui.inputValue.chooseAddImage")}
-          buttonText={t("ui.button.browse")}
-          onInputChange={handleFiles}
-          inputProps={{ accept: "image/*" }}
-        />
-      </FormGroup>
+        >
+          <Checkbox
+            css={css`
+              margin: 0;
+            `}
+            checked={darker}
+            onChange={handleChangeDarker}
+          >
+            {t("ui.text.dimSwitch")}
+          </Checkbox>
+          <Button
+            icon="reset"
+            intent="warning"
+            small
+            onClick={handleClickReset}
+          >
+            {t("ui.button.resetTransform")}
+          </Button>
+        </div>
+      </Card>
       <div
         css={css`
           display: flex;
-          justify-content: space-between;
-          align-items: center;
+          flex-direction: column;
+          gap: 5px;
         `}
       >
-        <Checkbox
-          css={css`
-            margin: 0;
-          `}
-          checked={darker}
-          onChange={handleChangeDarker}
-        >
-          {t("ui.text.dimSwitch")}
-        </Checkbox>
-        <Button icon="reset" intent="warning" small onClick={handleClickReset}>
-          {t("ui.button.resetTransform")}
-        </Button>
+        <Button icon="chevron-up" minimal small onClick={handleLayerUp} />
+        <Button icon="chevron-down" minimal small onClick={handleLayerDown} />
       </div>
-    </Card>
+    </div>
   );
 }
 

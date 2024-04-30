@@ -31,6 +31,8 @@ function SpriteAdd(props: {
   uniqueId: number;
   spriteInfo: SpriteInfo[];
   onRemove: (uniqueId: number) => void;
+  onLayerUp: (uniqueId: number, layer: Konva.Layer) => void;
+  onLayerDown: (uniqueId: number, layer: Konva.Layer) => void;
 }) {
   const { stage, uniqueId, spriteInfo } = props;
 
@@ -148,142 +150,174 @@ function SpriteAdd(props: {
     props.onRemove(uniqueId);
   };
 
+  const handleLayerUp = () => {
+    props.onLayerUp(uniqueId, layerRef.current!);
+  };
+
+  const handleLayerDown = () => {
+    props.onLayerDown(uniqueId, layerRef.current!);
+  };
+
   return (
-    <Card
+    <div
       css={css`
-        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
       `}
     >
-      <Button
+      <Card
         css={css`
-          position: absolute;
-          top: 0;
-          right: 0;
+          position: relative;
+          flex-grow: 1;
         `}
-        icon="cross"
-        intent="danger"
-        onClick={handleClose}
-        minimal
-      />
-      <FormGroup
-        label={
+      >
+        <Button
+          css={css`
+            position: absolute;
+            top: 0;
+            right: 0;
+          `}
+          icon="cross"
+          intent="danger"
+          onClick={handleClose}
+          minimal
+        />
+        <FormGroup
+          label={
+            <div
+              css={css`
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+              `}
+            >
+              <div>
+                <span style={{ color: getAnchorColor(uniqueId) }}>◆</span>
+                {t("ui.text.additionalSprite")}
+              </div>
+              <div
+                css={css`
+                  display: flex;
+                  gap: 5px;
+                  line-height: 0.9em;
+                  font-size: 0.7em;
+                  color: #5f6b7c;
+                `}
+              >
+                <div
+                  css={css`
+                    display: flex;
+                    flex-direction: column;
+                  `}
+                >
+                  <AttrInfo name="x" value={throttledAttr.x} />
+                  <AttrInfo name="y" value={throttledAttr.y} />
+                </div>
+                <div
+                  css={css`
+                    display: flex;
+                    flex-direction: column;
+                  `}
+                >
+                  <AttrInfo name="rotation" value={throttledAttr.rotation} />
+                  <AttrInfo name="scale" value={throttledAttr.scale} />
+                </div>
+              </div>
+            </div>
+          }
+        >
           <div
             css={css`
               display: flex;
-              align-items: center;
-              justify-content: space-between;
+              flex-direction: column;
+              gap: 5px;
             `}
           >
-            <div>
-              <span style={{ color: getAnchorColor(uniqueId) }}>◆</span>
-              {t("ui.text.additionalSprite")}
+            <div className="bp5-html-select">
+              <select onChange={handleChangeSprite}>
+                {spriteInfo.map((x) => (
+                  <option key={x.id} value={x.id}>
+                    {i18n.language === "ja"
+                      ? `[${x.sortIndex}] ${x.nameJa}`
+                      : x.nameEn}
+                  </option>
+                ))}
+              </select>
+              <span className="bp5-icon bp5-icon-chevron-down"></span>
             </div>
             <div
               css={css`
                 display: flex;
                 gap: 5px;
-                line-height: 0.9em;
-                font-size: 0.7em;
-                color: #5f6b7c;
               `}
             >
-              <div
-                css={css`
-                  display: flex;
-                  flex-direction: column;
-                `}
-              >
-                <AttrInfo name="x" value={throttledAttr.x} />
-                <AttrInfo name="y" value={throttledAttr.y} />
+              <div className="bp5-html-select">
+                <select onChange={handleChangeSkin} value={skinIndex}>
+                  {spriteInfo
+                    .find((x) => x.id === spriteId)
+                    ?.skins.map((y) => (
+                      <option key={y.index} value={y.index}>
+                        {t("ui.text.spriteSkin")}
+                        {paddingZero(y.index + 1)}
+                      </option>
+                    ))}
+                </select>
+                <span className="bp5-icon bp5-icon-chevron-down"></span>
               </div>
-              <div
-                css={css`
-                  display: flex;
-                  flex-direction: column;
-                `}
-              >
-                <AttrInfo name="rotation" value={throttledAttr.rotation} />
-                <AttrInfo name="scale" value={throttledAttr.scale} />
+              <div className="bp5-html-select">
+                <select onChange={handleChangeFile} value={fileIndex}>
+                  {spriteInfo
+                    .find((x) => x.id === spriteId)
+                    ?.skins[skinIndex].files.map((y, i) => (
+                      <option key={y} value={i}>
+                        {t("ui.text.spriteFace")}
+                        {paddingZero(i + 1)}
+                      </option>
+                    ))}
+                </select>
+                <span className="bp5-icon bp5-icon-chevron-down"></span>
               </div>
             </div>
           </div>
-        }
-      >
+        </FormGroup>
         <div
           css={css`
             display: flex;
-            flex-direction: column;
-            gap: 5px;
+            justify-content: space-between;
+            align-items: center;
           `}
         >
-          <div className="bp5-html-select">
-            <select onChange={handleChangeSprite}>
-              {spriteInfo.map((x) => (
-                <option key={x.id} value={x.id}>
-                  {i18n.language === "ja"
-                    ? `[${x.sortIndex}] ${x.nameJa}`
-                    : x.nameEn}
-                </option>
-              ))}
-            </select>
-            <span className="bp5-icon bp5-icon-chevron-down"></span>
-          </div>
-          <div
+          <Checkbox
             css={css`
-              display: flex;
-              gap: 5px;
+              margin: 0;
             `}
+            checked={darker}
+            onChange={handleChangeDarker}
           >
-            <div className="bp5-html-select">
-              <select onChange={handleChangeSkin} value={skinIndex}>
-                {spriteInfo
-                  .find((x) => x.id === spriteId)
-                  ?.skins.map((y) => (
-                    <option key={y.index} value={y.index}>
-                      {t("ui.text.spriteSkin")}
-                      {paddingZero(y.index + 1)}
-                    </option>
-                  ))}
-              </select>
-              <span className="bp5-icon bp5-icon-chevron-down"></span>
-            </div>
-            <div className="bp5-html-select">
-              <select onChange={handleChangeFile} value={fileIndex}>
-                {spriteInfo
-                  .find((x) => x.id === spriteId)
-                  ?.skins[skinIndex].files.map((y, i) => (
-                    <option key={y} value={i}>
-                      {t("ui.text.spriteFace")}
-                      {paddingZero(i + 1)}
-                    </option>
-                  ))}
-              </select>
-              <span className="bp5-icon bp5-icon-chevron-down"></span>
-            </div>
-          </div>
+            {t("ui.text.dimSwitch")}
+          </Checkbox>
+          <Button
+            icon="reset"
+            intent="warning"
+            small
+            onClick={handleClickReset}
+          >
+            {t("ui.button.resetTransform")}
+          </Button>
         </div>
-      </FormGroup>
+      </Card>
       <div
         css={css`
           display: flex;
-          justify-content: space-between;
-          align-items: center;
+          flex-direction: column;
+          gap: 5px;
         `}
       >
-        <Checkbox
-          css={css`
-            margin: 0;
-          `}
-          checked={darker}
-          onChange={handleChangeDarker}
-        >
-          {t("ui.text.dimSwitch")}
-        </Checkbox>
-        <Button icon="reset" intent="warning" small onClick={handleClickReset}>
-          {t("ui.button.resetTransform")}
-        </Button>
+        <Button icon="chevron-up" minimal small onClick={handleLayerUp} />
+        <Button icon="chevron-down" minimal small onClick={handleLayerDown} />
       </div>
-    </Card>
+    </div>
   );
 }
 

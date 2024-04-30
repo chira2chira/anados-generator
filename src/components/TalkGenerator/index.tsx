@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { Fragment, useCallback, useEffect, useRef, useState } from "react";
 import { useTranslation } from "next-i18next";
 import * as styles from "@/styles/Home.module";
 import {
@@ -38,6 +38,12 @@ type TalkGeneratorProps = {
   spriteInfo: SpriteInfo[];
 };
 
+type AdditionalType = "image" | "sprite";
+type AdditionalIndex = {
+  type: AdditionalType;
+  id: number;
+};
+
 const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
   const { t } = useTranslation("common");
   const { handleFiles, imageBase64, fileName } = useFile();
@@ -55,8 +61,7 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
   });
   const [rubyIndex, setRubyIndex] = useState(0);
   const [rubyModalOpen, setRubyModalOpen] = useState(false);
-  const [additionalImage, setAdditionalImage] = useState<number[]>([]);
-  const [additionalSprite, setAdditionalSprite] = useState<number[]>([]);
+  const [additionalArr, setAdditionalArr] = useState<AdditionalIndex[]>([]);
   const stageRef = useRef<Konva.Stage>();
   const bgLayerRef = useRef<Konva.Layer>();
   const uiLayerRef = useRef<Konva.Layer>();
@@ -162,28 +167,31 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
     })();
   }, [inputValues, uiMode, displayAreaRegion, bigText, bgImage]);
 
-  const handleImageAdd = () => {
-    if (additionalImage.length === 0) {
-      setAdditionalImage([0]);
+  const handleAdditionalAdd = (type: AdditionalType) => {
+    if (additionalArr.length === 0) {
+      setAdditionalArr([{ type, id: 0 }]);
     } else {
-      // 最大値+1
-      setAdditionalImage([
-        ...additionalImage,
-        Math.max.apply(null, additionalImage) + 1,
+      setAdditionalArr([
+        ...additionalArr,
+        {
+          type,
+          id:
+            // 最大値+1
+            Math.max.apply(
+              null,
+              additionalArr.map((x) => x.id)
+            ) + 1,
+        },
       ]);
     }
   };
 
+  const handleImageAdd = () => {
+    handleAdditionalAdd("image");
+  };
+
   const handleSpriteAdd = () => {
-    if (additionalSprite.length === 0) {
-      setAdditionalSprite([0]);
-    } else {
-      // 最大値+1
-      setAdditionalSprite([
-        ...additionalSprite,
-        Math.max.apply(null, additionalSprite) + 1,
-      ]);
-    }
+    handleAdditionalAdd("sprite");
   };
 
   const handleAddRuby = () => {
@@ -211,18 +219,11 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
     textRef.current?.focus();
   };
 
-  const handeImageRemove = useCallback(
+  const handeAdditionalRemove = useCallback(
     (index: number) => {
-      setAdditionalImage(additionalImage.filter((x) => x !== index));
+      setAdditionalArr(additionalArr.filter((x) => x.id !== index));
     },
-    [additionalImage]
-  );
-
-  const handeSpriteRemove = useCallback(
-    (index: number) => {
-      setAdditionalSprite(additionalSprite.filter((x) => x !== index));
-    },
-    [additionalSprite]
+    [additionalArr]
   );
 
   const handleDownload = async () => {
@@ -345,34 +346,27 @@ const TalkGenerator: React.FC<TalkGeneratorProps> = (props) => {
                 gap: 10px;
               `}
             >
-              {additionalImage.map((x) => (
-                <ImageAdd
-                  key={x}
-                  stage={stageRef.current!}
-                  uniqueId={x}
-                  onRemove={handeImageRemove}
-                />
+              {additionalArr.map((x) => (
+                <Fragment key={x.id}>
+                  {x.type === "image" ? (
+                    <ImageAdd
+                      stage={stageRef.current!}
+                      uniqueId={x.id}
+                      onRemove={handeAdditionalRemove}
+                    />
+                  ) : (
+                    <SpriteAdd
+                      stage={stageRef.current!}
+                      uniqueId={x.id}
+                      spriteInfo={props.spriteInfo}
+                      onRemove={handeAdditionalRemove}
+                    />
+                  )}
+                </Fragment>
               ))}
               <Button onClick={handleImageAdd} icon="add">
                 {t("ui.button.addAdditionalImage")}
               </Button>
-            </div>
-            <div
-              css={css`
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-              `}
-            >
-              {additionalSprite.map((x) => (
-                <SpriteAdd
-                  key={x}
-                  stage={stageRef.current!}
-                  uniqueId={x}
-                  spriteInfo={props.spriteInfo}
-                  onRemove={handeSpriteRemove}
-                />
-              ))}
               <Button onClick={handleSpriteAdd} icon="add">
                 {t("ui.button.addAdditionalSprite")}
               </Button>

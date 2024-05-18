@@ -2,6 +2,10 @@
   sortIndex: a
   nameJa: アレク
   nameEn: Alec
+- id: alert
+  sortIndex: a
+  nameJa: アラート
+  nameEn: Allert
 - id: amorey
   sortIndex: a
   nameJa: アモレー
@@ -182,6 +186,10 @@
   sortIndex: f
   nameJa: テツボウ
   nameEn: Tetsubo
+- id: fullhouse
+  sortIndex: f
+  nameJa: フルハウス
+  nameEn: Full House
 - id: gaia
   sortIndex: g
   nameJa: ガイア
@@ -318,6 +326,10 @@
   sortIndex: l
   nameJa: リュート
   nameEn: Lute
+- id: magritte
+  sortIndex: m
+  nameJa: マグリット
+  nameEn: Magritte
 - id: maxtla
   sortIndex: m
   nameJa: マシュトラ

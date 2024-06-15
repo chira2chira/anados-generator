@@ -170,6 +170,10 @@
   sortIndex: e
   nameJa: エクウス
   nameEn: Equus
+- id: eternion
+  sortIndex: e
+  nameJa: エターニオン
+  nameEn: Eternion
 - id: flet
   sortIndex: f
   nameJa: フレット
@@ -334,6 +338,10 @@
   sortIndex: m
   nameJa: マグリット
   nameEn: Magritte
+- id: mammon
+  sortIndex: m
+  nameJa: マモン
+  nameEn: Mammon
 - id: maxtla
   sortIndex: m
   nameJa: マシュトラ

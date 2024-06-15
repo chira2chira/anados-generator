@@ -26,6 +26,7 @@ export const subtitle = css`
 `;
 
 export const controlBox = css`
+  min-width: 320px;
   margin-bottom: 20px;
 `;
 

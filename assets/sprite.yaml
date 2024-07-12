@@ -246,6 +246,10 @@
   sortIndex: g
   nameJa: ゴルドフ
   nameEn: Gordov
+- id: gou
+  sortIndex: g
+  nameJa: ゴウ
+  nameEn: Goh
 - id: gymnos
   sortIndex: g
   nameJa: ギムノス
@@ -286,10 +290,14 @@
   sortIndex: h
   nameJa: ヒュブリス
   nameEn: Hybris
-- id: jade
-  sortIndex: j
-  nameJa: ジェイド
-  nameEn: Jade
+- id: gou
+  sortIndex: g
+  nameJa: ゴウ
+  nameEn: Goh
+- id: ittetsu
+  sortIndex: i
+  nameJa: イッテツ
+  nameEn: Ittetsu
 - id: jalam
   sortIndex: j
   nameJa: ジャラム

@@ -94,6 +94,14 @@
   sortIndex: b
   nameJa: マリオン
   nameEn: Marion
+- id: biogolemgamma
+  sortIndex: b
+  nameJa: バイオゴーレム・γ
+  nameEn: Bionic Golem γ
+- id: biogolemtheta
+  sortIndex: b
+  nameJa: バイオゴーレム・θ
+  nameEn: Bionic Golem θ
 - id: blackknightaxe
   sortIndex: o
   nameJa: オブシドニア帝国斧兵
@@ -606,3 +614,7 @@
   sortIndex: z
   nameJa: ザハロフ
   nameEn: Zacharoff
+- id: zet
+  sortIndex: z
+  nameJa: ゼット
+  nameEn: Zed

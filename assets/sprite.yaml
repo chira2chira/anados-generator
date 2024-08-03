@@ -86,14 +86,6 @@
   sortIndex: b
   nameJa: ビルフォード
   nameEn: Billford
-- id: billfordcrew_bonvoy
-  sortIndex: b
-  nameJa: ボンヴォイ
-  nameEn: Bonvoy
-- id: billfordcrew_marion
-  sortIndex: b
-  nameJa: マリオン
-  nameEn: Marion
 - id: biogolemgamma
   sortIndex: b
   nameJa: バイオゴーレム・γ
@@ -118,6 +110,10 @@
   sortIndex: o
   nameJa: オブシドニア帝国 騎兵
   nameEn: Obsidonian Imperial Cavalry
+- id: billfordcrew_bonvoy
+  sortIndex: b
+  nameJa: ボンヴォイ
+  nameEn: Bonvoy
 - id: brut
   sortIndex: b
   nameJa: ブルート
@@ -358,6 +354,10 @@
   sortIndex: m
   nameJa: マモン
   nameEn: Mammon
+- id: billfordcrew_marion
+  sortIndex: m
+  nameJa: マリオン
+  nameEn: Marion
 - id: maxtla
   sortIndex: m
   nameJa: マシュトラ

@@ -126,7 +126,7 @@ function SpriteAdd(props: {
     setDarker(!darker);
   };
 
-  const handleTransform: Konva.KonvaEventListener<Transformer, any> = (evt) => {
+  const handleTransform = (evt: Konva.KonvaEventObject<Konva.Transformer>) => {
     const { attrs } = evt.target;
     setAttr((current) => ({
       x: Math.round(attrs.x),

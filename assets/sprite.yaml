@@ -78,6 +78,10 @@
   sortIndex: b
   nameJa: バシュカー
   nameEn: Bashkar
+- id: bashkar_2
+  sortIndex: b
+  nameJa: わるいバシュカー
+  nameEn: Evil Bashkar
 - id: beelzebub
   sortIndex: b
   nameJa: ベルゼブブ
@@ -118,6 +122,10 @@
   sortIndex: b
   nameJa: ブルート
   nameEn: Brute
+- id: bulksky
+  sortIndex: b
+  nameJa: バルクスキー
+  nameEn: Bulkski
 - id: cazard
   sortIndex: k
   nameJa: カザード
@@ -262,6 +270,10 @@
   sortIndex: h
   nameJa: ハバキ
   nameEn: Habaki
+- id: hagane
+  sortIndex: h
+  nameJa: ハガネ
+  nameEn: Hagane
 - id: hanzo
   sortIndex: h
   nameJa: ハンゾウ
@@ -574,6 +586,10 @@
   sortIndex: t
   nameJa: トルケル
   nameEn: Thorkell
+- id: tilikum
+  sortIndex: t
+  nameJa: ティリクム
+  nameEn: Tilikum
 - id: volund
   sortIndex: v
   nameJa: ヴェルンド

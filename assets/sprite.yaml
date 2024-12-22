@@ -10,6 +10,10 @@
   sortIndex: a
   nameJa: アモレー
   nameEn: Amorey
+- id: anagura
+  sortIndex: a
+  nameJa: アナグラ
+  nameEn: Anagura
 - id: anima
   sortIndex: a
   nameJa: アニマ
@@ -254,6 +258,10 @@
   sortIndex: g
   nameJa: ゴブリンアーチャー
   nameEn: Goblin Archer
+- id: sepia_engineer
+  sortIndex: g
+  nameJa: ゴーレムエンジニア
+  nameEn: Golem Engineer
 - id: gordov
   sortIndex: g
   nameJa: ゴルドフ
@@ -570,6 +578,14 @@
   sortIndex: s
   nameJa: スタロン
   nameEn: Stalon
+- id: sepia_merchant
+  sortIndex: s
+  nameJa: スチームマーチャント
+  nameEn: Steam Merchant
+- id: sven
+  sortIndex: s
+  nameJa: スヴェン
+  nameEn: Sven
 - id: tengo
   sortIndex: t
   nameJa: テンゴ
@@ -590,6 +606,10 @@
   sortIndex: t
   nameJa: ティリクム
   nameEn: Tilikum
+- id: todorf
+  sortIndex: t
+  nameJa: トドルフ
+  nameEn: Todolf
 - id: volund
   sortIndex: v
   nameJa: ヴェルンド
@@ -602,6 +622,10 @@
   sortIndex: p
   nameJa: パイス・ブラン 兵士
   nameEn: Pays Blanc Soldier
+- id: sepia_worker
+  sortIndex: w
+  nameJa: ワーカー
+  nameEn: Worker
 - id: wrecker
   sortIndex: w
   nameJa: レッカー

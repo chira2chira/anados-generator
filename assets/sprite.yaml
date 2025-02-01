@@ -182,6 +182,10 @@
   sortIndex: e
   nameJa: エレーン
   nameEn: Elaine
+- id: merman_eel
+  sortIndex: e
+  nameJa: デンキウナギ
+  nameEn: Electric Eel
 - id: equus
   sortIndex: e
   nameJa: エクウス
@@ -190,6 +194,10 @@
   sortIndex: e
   nameJa: エターニオン
   nameEn: Eternion
+- id: farouk
+  sortIndex: f
+  nameJa: ファルク
+  nameEn: Farouk
 - id: flet
   sortIndex: f
   nameJa: フレット
@@ -290,6 +298,10 @@
   sortIndex: h
   nameJa: バショウ
   nameEn: Basho
+- id: hamamsh
+  sortIndex: h
+  nameJa: ハマム
+  nameEn: Hamamsh
 - id: harimau
   sortIndex: h
   nameJa: ハリマオ
@@ -422,6 +434,10 @@
   sortIndex: n
   nameJa: ニトロ
   nameEn: Nitro
+- id: merman_octopus
+  sortIndex: o
+  nameJa: タコ海人
+  nameEn: Octopoid Sea Dweller
 - id: nightmare_caster
   sortIndex: o
   nameJa: オリオン
@@ -534,6 +550,10 @@
   sortIndex: s
   nameJa: スカバンド
   nameEn: Scavand
+- id: merman_seahorse
+  sortIndex: s
+  nameJa: タツノオトシゴ
+  nameEn: Seahorse
 - id: seals
   sortIndex: s
   nameJa: シールズ

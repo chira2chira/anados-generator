@@ -246,6 +246,10 @@
   sortIndex: g
   nameJa: ガオウ
   nameEn: Gaoh
+- id: ginji
+  sortIndex: g
+  nameJa: ギンジ
+  nameEn: Ginji
 - id: goblincaster
   sortIndex: g
   nameJa: メイジゴブリン
@@ -338,6 +342,10 @@
   sortIndex: j
   nameJa: ジャラム
   nameEn: Jalam
+- id: Jigorou
+  sortIndex: j
+  nameJa: ジゴロウ
+  nameEn: Jigoro
 - id: jinnosuke
   sortIndex: j
   nameJa: ジンノスケ
@@ -394,6 +402,10 @@
   sortIndex: m
   nameJa: マシュトラ
   nameEn: Maxtla
+- id: momiji
+  sortIndex: m
+  nameJa: モミジ
+  nameEn: Momiji
 - id: morgan
   sortIndex: m
   nameJa: モーガン
@@ -498,6 +510,10 @@
   sortIndex: r
   nameJa: 鬼ラショウ
   nameEn: Oni Rasho
+- id: rikufune
+  sortIndex: r
+  nameJa: リクフネ
+  nameEn: Rikufune
 - id: rion
   sortIndex: l
   nameJa: リオン

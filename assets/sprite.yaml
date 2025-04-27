@@ -338,6 +338,10 @@
   sortIndex: i
   nameJa: イッテツ
   nameEn: Ittetsu
+- id: eval
+  sortIndex: i
+  nameJa: イーヴァル
+  nameEn: Ivar
 - id: jalam
   sortIndex: j
   nameJa: ジャラム
@@ -366,6 +370,10 @@
   sortIndex: k
   nameJa: カレトビ
   nameEn: Karetovi
+- id: cardgang_king
+  sortIndex: k
+  nameJa: キング
+  nameEn: King
 - id: kongoh
   sortIndex: k
   nameJa: コンゴウ
@@ -518,6 +526,10 @@
   sortIndex: l
   nameJa: リオン
   nameEn: Lyon
+- id: rionpapa
+  sortIndex: l
+  nameJa: リオンパパ
+  nameEn: Lyon’s Dad
 - id: robin
   sortIndex: r
   nameJa: ロビン

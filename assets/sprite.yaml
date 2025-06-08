@@ -14,6 +14,10 @@
   sortIndex: a
   nameJa: アナグラ
   nameEn: Anagura
+- id: arkio
+  sortIndex: a
+  nameJa: アルキオン
+  nameEn: Alcyon
 - id: anima
   sortIndex: a
   nameJa: アニマ
@@ -154,6 +158,10 @@
   sortIndex: d
   nameJa: ダカール
   nameEn: Dakkar
+- id: deckert
+  sortIndex: d
+  nameJa: デッカート
+  nameEn: Dickert
 - id: dion
   sortIndex: d
   nameJa: ディオン
@@ -194,6 +202,10 @@
   sortIndex: e
   nameJa: エターニオン
   nameEn: Eternion
+- id: farmstaff
+  sortIndex: f
+  nameJa: 牧場スタッフ
+  nameEn: Farm Staff
 - id: farouk
   sortIndex: f
   nameJa: ファルク
@@ -410,6 +422,10 @@
   sortIndex: m
   nameJa: マシュトラ
   nameEn: Maxtla
+- id: milklover
+  sortIndex: m
+  nameJa: ミルク大好き冒険者
+  nameEn: Milk-Addicted Adventurer
 - id: momiji
   sortIndex: m
   nameJa: モミジ
@@ -498,6 +514,10 @@
   sortIndex: p
   nameJa: ポロンとオルタ
   nameEn: Pollon & Orta
+- id: proteo
+  sortIndex: p
+  nameJa: プロテオ
+  nameEn: Proteo
 - id: pugi
   sortIndex: p
   nameJa: プージ

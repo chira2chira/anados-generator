@@ -150,6 +150,10 @@
   sortIndex: c
   nameJa: カジノSP
   nameEn: Casino Security
+- id: salaryman
+  sortIndex: c
+  nameJa: サラリーマン
+  nameEn: Company Employee
 - id: corca
   sortIndex: c
   nameJa: コルカ
@@ -554,6 +558,10 @@
   sortIndex: r
   nameJa: ロビン
   nameEn: Robin
+- id: adventurer
+  sortIndex: r
+  nameJa: ごろつき冒険者
+  nameEn: Rogue Adventurer
 - id: romanes
   sortIndex: r
   nameJa: ロマネス

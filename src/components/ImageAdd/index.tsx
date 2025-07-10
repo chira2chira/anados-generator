@@ -1,17 +1,12 @@
 import { memo, useEffect, useRef, useState } from "react";
 import { useTranslation } from "next-i18next";
-import {
-  Button,
-  Card,
-  Checkbox,
-  FileInput,
-  FormGroup,
-} from "@blueprintjs/core";
+import { Button, Card, FileInput, FormGroup } from "@blueprintjs/core";
 import Konva from "konva";
 import { useFile } from "@/hooks/useFile";
 import useThrottle from "@/hooks/useThrottle";
 import { addAdditionalImage } from "@/utils/talkCanvasUtil";
 import { css } from "@emotion/react";
+import ImageControll from "../ImageControll";
 
 // https://jfly.uni-koeln.de/colorset/
 const COLOR_SET = [
@@ -39,7 +34,6 @@ function ImageAdd(props: {
 
   const { t } = useTranslation("common");
   const { handleFiles, imageBase64, fileName } = useFile();
-  const [darker, setDarker] = useState(false);
   const [attr, setAttr] = useState({ x: 0, y: 0, rotation: 0, scale: 1 });
   const throttledAttr = useThrottle(attr, 100);
   const layerRef = useRef<Konva.Layer>();
@@ -86,18 +80,8 @@ function ImageAdd(props: {
         image.rotation(oldRotation);
         image.scale(oldScale);
       }
-      setDarker(false);
     })();
   }, [imageBase64, uniqueId]);
-
-  const handleChangeDarker = () => {
-    if (darker === false) {
-      imageRef.current?.value(-1);
-    } else {
-      imageRef.current?.value(0);
-    }
-    setDarker(!darker);
-  };
 
   const handleTransform = (evt: Konva.KonvaEventObject<Konva.Transformer>) => {
     const { attrs } = evt.target;
@@ -210,31 +194,11 @@ function ImageAdd(props: {
             inputProps={{ accept: "image/*" }}
           />
         </FormGroup>
-        <div
-          css={css`
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-          `}
-        >
-          <Checkbox
-            css={css`
-              margin: 0;
-            `}
-            checked={darker}
-            onChange={handleChangeDarker}
-          >
-            {t("ui.text.dimSwitch")}
-          </Checkbox>
-          <Button
-            icon="reset"
-            intent="warning"
-            small
-            onClick={handleClickReset}
-          >
-            {t("ui.button.resetTransform")}
-          </Button>
-        </div>
+        <ImageControll
+          imageRef={imageRef}
+          initializeKey={imageBase64}
+          onReset={handleClickReset}
+        />
       </Card>
       <div
         css={css`

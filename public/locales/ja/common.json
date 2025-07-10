@@ -26,6 +26,7 @@
       "spriteSkin": "パターン",
       "spriteFace": "表情",
       "dimSwitch": "暗くする",
+      "opacity": "不透明度",
       "author": "作った人",
       "hashtag": "ハッシュタグ",
       "assetsRights": "ゲームアセットの著作権は株式会社Habbitに帰属します。"

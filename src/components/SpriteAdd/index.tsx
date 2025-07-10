@@ -1,11 +1,12 @@
 import { memo, useEffect, useRef, useState } from "react";
 import { useTranslation } from "next-i18next";
-import { Button, Card, Checkbox, FormGroup } from "@blueprintjs/core";
+import { Button, Card, FormGroup } from "@blueprintjs/core";
 import Konva from "konva";
 import useThrottle from "@/hooks/useThrottle";
 import { addAdditionalImage } from "@/utils/talkCanvasUtil";
 import type { SpriteInfo } from "@/utils/loadSprite";
 import { css } from "@emotion/react";
+import ImageControll from "../ImageControll";
 
 // https://jfly.uni-koeln.de/colorset/
 const COLOR_SET = [
@@ -40,7 +41,6 @@ function SpriteAdd(props: {
   const [spriteId, setSpriteId] = useState(spriteInfo[0].id);
   const [skinIndex, setSkinInfex] = useState(0);
   const [fileIndex, setFileIndex] = useState(0);
-  const [darker, setDarker] = useState(false);
   const [attr, setAttr] = useState({ x: 0, y: 0, rotation: 0, scale: 1 });
   const throttledAttr = useThrottle(attr, 100);
   const layerRef = useRef<Konva.Layer>();
@@ -89,7 +89,6 @@ function SpriteAdd(props: {
         image.rotation(oldRotation);
         image.scale(oldScale);
       }
-      setDarker(false);
     })();
   }, [fileIndex, skinIndex, spriteId, spriteInfo, uniqueId]);
 
@@ -115,15 +114,6 @@ function SpriteAdd(props: {
   const handleChangeFile: React.ChangeEventHandler<HTMLSelectElement> = (e) => {
     const index = Number(e.currentTarget.value);
     setFileIndex(index);
-  };
-
-  const handleChangeDarker = () => {
-    if (darker === false) {
-      imageRef.current?.value(-1);
-    } else {
-      imageRef.current?.value(0);
-    }
-    setDarker(!darker);
   };
 
   const handleTransform = (evt: Konva.KonvaEventObject<Konva.Transformer>) => {
@@ -281,31 +271,11 @@ function SpriteAdd(props: {
             </div>
           </div>
         </FormGroup>
-        <div
-          css={css`
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-          `}
-        >
-          <Checkbox
-            css={css`
-              margin: 0;
-            `}
-            checked={darker}
-            onChange={handleChangeDarker}
-          >
-            {t("ui.text.dimSwitch")}
-          </Checkbox>
-          <Button
-            icon="reset"
-            intent="warning"
-            small
-            onClick={handleClickReset}
-          >
-            {t("ui.button.resetTransform")}
-          </Button>
-        </div>
+        <ImageControll
+          imageRef={imageRef}
+          initializeKey={spriteId + skinIndex + fileIndex}
+          onReset={handleClickReset}
+        />
       </Card>
       <div
         css={css`

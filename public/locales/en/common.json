@@ -26,6 +26,7 @@
       "spriteSkin": "Skin",
       "spriteFace": "Face",
       "dimSwitch": "Dim",
+      "opacity": "Opacity",
       "author": "Author",
       "hashtag": "Hashtag",
       "assetsRights": "Game assets are property of Habbit Co., Ltd."

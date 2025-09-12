@@ -138,6 +138,10 @@
   sortIndex: k
   nameJa: カザード
   nameEn: Kazard
+- id: calhoun
+  sortIndex: c
+  nameJa: カルフーン
+  nameEn: Calhoun
 - id: chabo
   sortIndex: c
   nameJa: チャボ
@@ -346,6 +350,10 @@
   sortIndex: h
   nameJa: ヒュブリス
   nameEn: Hybris
+- id: archaeologist
+  sortIndex: i
+  nameJa: イルフェート
+  nameEn: Ilfait
 - id: ittetsu
   sortIndex: i
   nameJa: イッテツ
@@ -486,6 +494,10 @@
   sortIndex: p
   nameJa: パティ
   nameEn: Patty
+- id: phegor
+  sortIndex: p
+  nameJa: フェゴール
+  nameEn: Phegor
 - id: pino
   sortIndex: p
   nameJa: ピノ

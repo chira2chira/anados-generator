@@ -342,10 +342,18 @@
   sortIndex: h
   nameJa: 若き日の勇姿 ヘリオン
   nameEn: Heroic Young Self Hellion
+- id: hifumi
+  sortIndex: h
+  nameJa: ヒフミ
+  nameEn: Hifumi
 - id: hulk
   sortIndex: h
   nameJa: ハルク
   nameEn: Hulk
+- id: hurricane
+  sortIndex: h
+  nameJa: ハリケンとタフ
+  nameEn: Hurricane & Tuff
 - id: hybris
   sortIndex: h
   nameJa: ヒュブリス
@@ -534,6 +542,10 @@
   sortIndex: p
   nameJa: プージ
   nameEn: Pugi
+- id: labiro
+  sortIndex: r
+  nameJa: ラビロウ
+  nameEn: Rabirou
 - id: ragnar
   sortIndex: r
   nameJa: ラグナル

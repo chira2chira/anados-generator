@@ -170,6 +170,10 @@
   sortIndex: d
   nameJa: デッカート
   nameEn: Dickert
+- id: diesel
+  sortIndex: d
+  nameJa: ディーゼル
+  nameEn: Diesel
 - id: dion
   sortIndex: d
   nameJa: ディオン
@@ -194,6 +198,10 @@
   sortIndex: e
   nameJa: エドガー
   nameEn: Edgar
+- id: magicalweapon
+  sortIndex: e
+  nameJa: エイドロン
+  nameEn: Eidolon
 - id: elaine
   sortIndex: e
   nameJa: エレーン
@@ -254,6 +262,10 @@
   sortIndex: g
   nameJa: ガイア（初期）
   nameEn: Normal Gaia
+- id: gallium
+  sortIndex: g
+  nameJa: ガリウム
+  nameEn: Gallium
 - id: gambler
   sortIndex: g
   nameJa: ギャンブラー
@@ -718,6 +730,10 @@
   sortIndex: p
   nameJa: パイス・ブラン 兵士
   nameEn: Pays Blanc Soldier
+- id: wilder
+  sortIndex: w
+  nameJa: ワイルダー
+  nameEn: Wilder
 - id: sepia_worker
   sortIndex: w
   nameJa: ワーカー

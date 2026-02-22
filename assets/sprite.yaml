@@ -82,6 +82,10 @@
   sortIndex: b
   nameJa: バロン
   nameEn: Baron
+- id: baron_2
+  sortIndex: b
+  nameJa: ダークホース バロン
+  nameEn: Dark Horse Baron
 - id: bashkar
   sortIndex: b
   nameJa: バシュカー
@@ -226,6 +230,10 @@
   sortIndex: f
   nameJa: ファルク
   nameEn: Farouk
+- id: fin
+  sortIndex: f
+  nameJa: フィン
+  nameEn: Finn
 - id: flet
   sortIndex: f
   nameJa: フレット
@@ -234,10 +242,18 @@
   sortIndex: f
   nameJa: フォーカー
   nameEn: Folker
+- id: foras
+  sortIndex: f
+  nameJa: フォラス
+  nameEn: Foras
 - id: forte
   sortIndex: f
   nameJa: フォルテ
   nameEn: Forte
+- id: freiya
+  sortIndex: f
+  nameJa: フレイヤ
+  nameEn: Freja
 - id: fu
   sortIndex: f
   nameJa: フウ
@@ -626,6 +642,18 @@
   sortIndex: s
   nameJa: サーヴァントガード
   nameEn: Servant Guard
+- id: sanders
+  sortIndex: s
+  nameJa: サンダース
+  nameEn: Sanders
+- id: santaarmybeast
+  sortIndex: s
+  nameJa: サンタアーミー（ガード）
+  nameEn: Santa’s Army Member (Guard)
+- id: santaarmyhuman
+  sortIndex: s
+  nameJa: サンタアーミー（ヴァンガード）
+  nameEn: Santa’s Army Member (Vanguard)
 - id: sarutobi
   sortIndex: s
   nameJa: サルトビ
@@ -666,6 +694,10 @@
   sortIndex: s
   nameJa: スノーバンディット
   nameEn: Snow Bandit
+- id: snowbunnywarrior
+  sortIndex: s
+  nameJa: 雪兎族の戦士
+  nameEn: Snow Rabbit Tribe Fighter
 - id: snowwolf
   sortIndex: s
   nameJa: スノーウルフ

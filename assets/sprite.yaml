@@ -1,3 +1,7 @@
+- id: akuro
+  sortIndex: a
+  nameJa: アクロ
+  nameEn: Akuro
 - id: alec
   sortIndex: a
   nameJa: アレク
@@ -214,6 +218,14 @@
   sortIndex: e
   nameJa: デンキウナギ
   nameEn: Electric Eel
+- id: laguias
+  sortIndex: e
+  nameJa: ラ・ギアス
+  nameEn: El Goliat
+- id: enma
+  sortIndex: e
+  nameJa: エンマ
+  nameEn: Enma
 - id: equus
   sortIndex: e
   nameJa: エクウス
@@ -402,6 +414,10 @@
   sortIndex: j
   nameJa: ジャラム
   nameEn: Jalam
+- id: jeff
+  sortIndex: j
+  nameJa: ジェフ
+  nameEn: Jeff
 - id: Jigorou
   sortIndex: j
   nameJa: ジゴロウ
@@ -426,6 +442,10 @@
   sortIndex: k
   nameJa: カレトビ
   nameEn: Karetovi
+- id: kashi
+  sortIndex: k
+  nameJa: カシ
+  nameEn: Kashi
 - id: cardgang_king
   sortIndex: k
   nameJa: キング
@@ -618,6 +638,10 @@
   sortIndex: r
   nameJa: ルーク
   nameEn: Rook
+- id: rookiehunter
+  sortIndex: r
+  nameJa: かけだしハンター
+  nameEn: Rookie Hunter
 - id: rothhart
   sortIndex: r
   nameJa: ロットハルト
@@ -666,6 +690,10 @@
   sortIndex: s
   nameJa: スカバンド
   nameEn: Scavand
+- id: sage
+  sortIndex: s
+  nameJa: セイジ
+  nameEn: Seiji
 - id: merman_seahorse
   sortIndex: s
   nameJa: タツノオトシゴ
@@ -750,6 +778,10 @@
   sortIndex: t
   nameJa: トドルフ
   nameEn: Todolf
+- id: tsukimaru
+  sortIndex: t
+  nameJa: ツキマル
+  nameEn: Tsukimaru
 - id: volund
   sortIndex: v
   nameJa: ヴェルンド

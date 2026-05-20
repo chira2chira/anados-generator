@@ -1,0 +1,4618 @@
+{
+  "akuro": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "alec": {
+    "skin001": {
+      "ja": "勇者",
+      "en": "Hero"
+    },
+    "skin002": {
+      "ja": "勇者兜なし",
+      "en": "Hero - Helmetless"
+    },
+    "skin051": {
+      "ja": "魔族",
+      "en": "Dark"
+    },
+    "skin052": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "alert": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "鞭持ち",
+      "en": "Whip"
+    },
+    "skin005": {
+      "ja": "手ぶら",
+      "en": "Empty - Handed"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "水着鞭なし",
+      "en": "Swimwear - No Whip"
+    }
+  },
+  "amorey": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "マリンテイマー ヘルメットなし",
+      "en": "Marine Tamer Helmetless"
+    },
+    "skin009": {
+      "ja": "マリンテイマー",
+      "en": "Marine Tamer"
+    },
+    "skin010": {
+      "ja": "マリンテイマー 動物なし",
+      "en": "Marine Tamer No Animal Companions"
+    },
+    "skin050": {
+      "ja": "ハーフアニバーサリー",
+      "en": "Half Anniversary"
+    },
+    "skin051": {
+      "ja": "ハーフアニバーサリー シャツなし",
+      "en": "Half Anniversary No Shirt"
+    },
+    "skin052": {
+      "ja": "ハーフアニバーサリー 上裸",
+      "en": "Half Anniversary Topless"
+    },
+    "skin053": {
+      "ja": "ハーフアニバーサリー 水着",
+      "en": "Half Anniversary Swimwear"
+    },
+    "skin054": {
+      "ja": "ハーフアニバーサリー 水着浮き輪なし",
+      "en": "Half Anniversary Swimwear - No Lifesaver"
+    }
+  },
+  "anagura": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin007": {
+      "ja": "コートなし木の棒なし",
+      "en": "No Coat & No Wooden Staff"
+    },
+    "skin009": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin011": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin013": {
+      "ja": "水着 サングラスなし",
+      "en": "Swimwear No Sunglasses"
+    },
+    "skin015": {
+      "ja": "水着 サングラスなしアクセサリーなし",
+      "en": "Swimwear No Sunglasses & No Accessories"
+    }
+  },
+  "arkio": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin007": {
+      "ja": "コートと武器なし",
+      "en": "No Coat - Unarmed"
+    },
+    "skin009": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "anima": {
+    "skin001": {
+      "ja": "楽器なし",
+      "en": "No Tambourine"
+    },
+    "skin002": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin006": {
+      "ja": "水着楽器なし",
+      "en": "Swimwear - No Tambourine"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "arcana": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin003": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin008": {
+      "ja": "ドリームナイト",
+      "en": "Sweven Knight"
+    },
+    "skin009": {
+      "ja": "ドリームナイト 武器なし",
+      "en": "Sweven Knight Unarmed"
+    }
+  },
+  "atmos": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    }
+  },
+  "azmond": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "レペゼンラスト",
+      "en": "Reppin' Lust"
+    },
+    "skin052": {
+      "ja": "レペゼンラスト 水着",
+      "en": "Reppin' Lust Swimwear"
+    }
+  },
+  "baccarat": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "軽く露出",
+      "en": "Teasing"
+    },
+    "skin005": {
+      "ja": "大露出",
+      "en": "Exposed"
+    },
+    "skin007": {
+      "ja": "腕下",
+      "en": "Lowered Arm"
+    },
+    "skin009": {
+      "ja": "腕下軽く露出",
+      "en": "Lowered Arm Teasing"
+    },
+    "skin011": {
+      "ja": "腕下大露出",
+      "en": "Lowered Arm Exposed"
+    },
+    "skin013": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin017": {
+      "ja": "水着腕下",
+      "en": "Swimwear Lowered Arm"
+    },
+    "skin029": {
+      "ja": "イカサマ勝負師",
+      "en": "Conning Cony"
+    },
+    "skin031": {
+      "ja": "イカサマ勝負師 下着",
+      "en": "Conning Cony Underwear"
+    },
+    "skin033": {
+      "ja": "イカサマ勝負師 煙草なし",
+      "en": "Conning Cony No Cigar"
+    },
+    "skin035": {
+      "ja": "イカサマ勝負師 下着煙草なし",
+      "en": "Conning Cony Underwear & No Cigar"
+    },
+    "skin037": {
+      "ja": "イカサマ勝負師 下着相棒なし",
+      "en": "Conning Cony Underwear & Alone"
+    },
+    "skin039": {
+      "ja": "イカサマ勝負師 下着煙草と相棒なし",
+      "en": "Conning Cony Underwear & Cigar Alone"
+    }
+  },
+  "baccarat_spybot": {
+    "skin050": {
+      "ja": "スパイボットくん",
+      "en": "Spybot"
+    },
+    "skin051": {
+      "ja": "スパイボットくん",
+      "en": "Spybot"
+    },
+    "skin053": {
+      "ja": "スパイボットくん椅子",
+      "en": "Chairbot"
+    },
+    "skin054": {
+      "ja": "スパイボットくん椅子",
+      "en": "Chairbot"
+    }
+  },
+  "balt": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "帽子なし",
+      "en": "Hatless"
+    },
+    "skin003": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin004": {
+      "ja": "コートと武器なし",
+      "en": "No Coat - Unarmed"
+    },
+    "skin005": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin013": {
+      "ja": "海風香る艇長",
+      "en": "Seabreeze-Scented Sea Captain"
+    }
+  },
+  "bantu": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin004": {
+      "ja": "上裸武器なし",
+      "en": "Topless - Unarmed"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "baquu": {
+    "skin001": {
+      "ja": "煙なし水タバコくわえなし",
+      "en": "No Smoke & No Hookah"
+    },
+    "skin003": {
+      "ja": "水タバコくわえなし",
+      "en": "No Hookah"
+    },
+    "skin005": {
+      "ja": "マスクなし煙なし水タバコくわえなし",
+      "en": "Maskless No Smoke & No Hookah"
+    },
+    "skin007": {
+      "ja": "マスクなし水タバコくわえなし",
+      "en": "Maskless No Hookah"
+    },
+    "skin009": {
+      "ja": "煙なし",
+      "en": "No Smoke"
+    },
+    "skin011": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin013": {
+      "ja": "マスクなし煙なし",
+      "en": "Maskless No Smoke"
+    },
+    "skin015": {
+      "ja": "マスクなし",
+      "en": "Maskless"
+    },
+    "skin019": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin020": {
+      "ja": "水着飴なし",
+      "en": "Swimwear No Candy"
+    },
+    "skin051": {
+      "ja": "やる気まんまんモード",
+      "en": "Fully Pumped Mode"
+    },
+    "skin055": {
+      "ja": "ゴキゲンサマーモード 手開き",
+      "en": "Cloud Nine Summer Mode Open Hand"
+    },
+    "skin057": {
+      "ja": "ゴキゲンサマーモード",
+      "en": "Cloud Nine Summer Mode"
+    },
+    "skin059": {
+      "ja": "ゴキゲンサマーモード 翼閉じ",
+      "en": "Cloud Nine Summer Mode Wings Closed"
+    },
+    "skin061": {
+      "ja": "ゴキゲンサマーモード 全裸翼閉じ",
+      "en": "Cloud Nine Summer Mode Naked - Wings Closed"
+    },
+    "skin100": {
+      "ja": "ひと夏の冒険",
+      "en": "Summer Adventurer"
+    }
+  },
+  "baran": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "運命糸の紡ぎ手",
+      "en": "Weaver of Fate"
+    },
+    "skin051": {
+      "ja": "運命糸の紡ぎ手 水着",
+      "en": "Weaver of Fate Swimwear"
+    }
+  },
+  "barboros": {
+    "skin001": {
+      "ja": "竜王",
+      "en": "Dragon King"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin010": {
+      "ja": "水着２",
+      "en": "Swimwear 2"
+    },
+    "skin011": {
+      "ja": "バル・ド・ラ・ローズ",
+      "en": "Bal de la Rose"
+    },
+    "skin012": {
+      "ja": "バル・ド・ラ・ローズ 下着",
+      "en": "Bal de la Rose Underwear"
+    }
+  },
+  "littlebarboros": {
+    "skin001": {
+      "ja": "バル",
+      "en": "Bal"
+    }
+  },
+  "barboros_k": {
+    "skin001": {
+      "ja": "新たなる形相",
+      "en": "New Look"
+    },
+    "skin003": {
+      "ja": "新たなる形相 翼なし",
+      "en": "New Look Wingless"
+    },
+    "skin005": {
+      "ja": "新たなる形相 全裸",
+      "en": "New Look Naked"
+    },
+    "skin008": {
+      "ja": "新たなる形相 翼なし全裸",
+      "en": "New Look Wingless - Naked"
+    }
+  },
+  "barlitz": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "ナイフなし",
+      "en": "No Knife"
+    },
+    "skin003": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin004": {
+      "ja": "コートとナイフなし",
+      "en": "No Coat or Knife"
+    },
+    "skin005": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin006": {
+      "ja": "上裸ナイフなし",
+      "en": "Topless - No Knife"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin013": {
+      "ja": "闇夜を駆けるはぐれ刑事 銃なし",
+      "en": "Lone Detective No Pistol"
+    },
+    "skin014": {
+      "ja": "闇夜を駆けるはぐれ刑事",
+      "en": "Lone Detective"
+    },
+    "skin015": {
+      "ja": "闇夜を駆けるはぐれ刑事 コートなし銃なし",
+      "en": "Lone Detective No Coat & No Pistol"
+    },
+    "skin016": {
+      "ja": "闇夜を駆けるはぐれ刑事 コートなし",
+      "en": "Lone Detective No Coat"
+    },
+    "skin017": {
+      "ja": "闇夜を駆けるはぐれ刑事 上裸",
+      "en": "Lone Detective Topless"
+    },
+    "skin019": {
+      "ja": "闇夜を駆けるはぐれ刑事 上裸銃なし",
+      "en": "Lone Detective Topless & No Pistol"
+    },
+    "skin021": {
+      "ja": "闇夜を駆けるはぐれ刑事 下着",
+      "en": "Lone Detective Underwear"
+    }
+  },
+  "baron": {
+    "skin001": {
+      "ja": "バロン",
+      "en": "Baron"
+    },
+    "skin007": {
+      "ja": "バロン マスク溶ける",
+      "en": "Baron Mask Melting"
+    }
+  },
+  "baron_2": {
+    "skin001": {
+      "ja": "栄冠のダークホース",
+      "en": "Dark Horse of Glory"
+    },
+    "skin002": {
+      "ja": "栄冠のダークホース レース服",
+      "en": "Dark Horse of Glory Racing Suit"
+    },
+    "skin003": {
+      "ja": "栄冠のダークホース 水着",
+      "en": "Dark Horse of Glory Swimwear"
+    }
+  },
+  "bashkar": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "ガウンなし",
+      "en": "No Cloak"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "bashkar_2": {
+    "skin001": {
+      "ja": "やられ上等エロレスヒール",
+      "en": "Naughty Butt-Kicked"
+    },
+    "skin002": {
+      "ja": "やられ上等エロレスヒール コートなし",
+      "en": "Naughty Butt-Kicked No Coat"
+    },
+    "skin003": {
+      "ja": "やられ上等エロレスヒール コートなしグローブなし",
+      "en": "Naughty Butt-Kicked No Coat & No Gloves"
+    },
+    "skin004": {
+      "ja": "やられ上等エロレスヒール 上裸",
+      "en": "Naughty Butt-Kicked Topless"
+    },
+    "skin005": {
+      "ja": "やられ上等エロレスヒール 水着",
+      "en": "Naughty Butt-Kicked Swimwear"
+    },
+    "skin009": {
+      "ja": "やられ上等エロレスヒール 水着海水パンツなし",
+      "en": "Naughty Butt-Kicked Swimwear - No Swim Trunks"
+    }
+  },
+  "beelzebub": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "billford": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "スーツ",
+      "en": "Suit"
+    }
+  },
+  "biogolemgamma": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "biogolemtheta": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "billfordcrew_bonvoy": {
+    "skin001": {
+      "ja": "ボンヴォイ",
+      "en": "Bonvoy"
+    },
+    "skin002": {
+      "ja": "ボンヴォイ 装備なし",
+      "en": "Bonvoy No Equipment"
+    },
+    "skin003": {
+      "ja": "ボンヴォイ 水着",
+      "en": "Bonvoy Swimwear"
+    },
+    "skin007": {
+      "ja": "エンジョイフィッシング",
+      "en": "Fishing Enthusiast"
+    }
+  },
+  "brut": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "バイオソルジャー",
+      "en": "Bionic Soldier"
+    }
+  },
+  "bulksky": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "ホットマンビースト ヴィランモード",
+      "en": "Hot Man-Beast Villain Mode"
+    },
+    "skin052": {
+      "ja": "ホットマンビースト ヴィランモード水着",
+      "en": "Hot Man-Beast Villain Mode - Swimwear"
+    },
+    "skin100": {
+      "ja": "ホットマンビースト",
+      "en": "Hot Man-Beast"
+    },
+    "skin101": {
+      "ja": "ホットマンビースト 下着",
+      "en": "Hot Man-Beast Underwear"
+    },
+    "skin103": {
+      "ja": "ホットマンビースト 水着",
+      "en": "Hot Man-Beast Swimwear"
+    }
+  },
+  "cazard": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "私服",
+      "en": "Gym Clothes"
+    },
+    "skin004": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin006": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin010": {
+      "ja": "エプロン",
+      "en": "Apron"
+    }
+  },
+  "calhoun": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "ゴーグル上げ",
+      "en": "Goggles Raised"
+    },
+    "skin005": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin007": {
+      "ja": "ゴーグル上げ武器なし",
+      "en": "Goggles Raised - Unarmed"
+    },
+    "skin009": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin011": {
+      "ja": "水着ゴーグルなし",
+      "en": "Swimwear - No Goggles"
+    }
+  },
+  "chabo": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "ウィンターデート",
+      "en": "Winter Date"
+    },
+    "skin008": {
+      "ja": "ウィンターデート ゴーグルなし",
+      "en": "Winter Date No Goggles"
+    },
+    "skin050": {
+      "ja": "デカブツ狩りだ！",
+      "en": "Big Meat Hunter"
+    },
+    "skin051": {
+      "ja": "デカブツ狩りだ！ 武器なし",
+      "en": "Big Meat Hunter Unarmed"
+    }
+  },
+  "charlotte": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着２",
+      "en": "Swimwear 2"
+    },
+    "skin003": {
+      "ja": "水着３",
+      "en": "Swimwear 3"
+    },
+    "skin006": {
+      "ja": "水着４",
+      "en": "Swimwear 4"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "ネコミミサキュバス",
+      "en": "Cat-Eared Succubus"
+    }
+  },
+  "civilian_casinosp": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "サングラス上げ",
+      "en": "Sunglasses Raised"
+    },
+    "skin005": {
+      "ja": "サングラスなし",
+      "en": "No Sunglasses"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "水着 サングラス上げ",
+      "en": "Swimwear Sunglasses Raised"
+    },
+    "skin011": {
+      "ja": "水着 サングラスなし",
+      "en": "Swimwear No Sunglasses"
+    }
+  },
+  "salaryman": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "鞄なし",
+      "en": "No Bag"
+    },
+    "skin003": {
+      "ja": "ハンカチなし",
+      "en": "No Handkerchief"
+    },
+    "skin004": {
+      "ja": "手ぶら",
+      "en": "Empty-Handed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "corca": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "今夜パパは帰らない 覆面なし",
+      "en": "Daddy's Out Tonight Maskless"
+    },
+    "skin007": {
+      "ja": "今夜パパは帰らない",
+      "en": "Daddy's Out Tonight"
+    },
+    "skin008": {
+      "ja": "今夜パパは帰らない 武器なし",
+      "en": "Daddy's Out Tonight Unarmed"
+    },
+    "skin011": {
+      "ja": "レンタルお父さん",
+      "en": "Rent-a-Daddy"
+    }
+  },
+  "dakkar": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "おしゃれ着ボードなし",
+      "en": "Stylish Clothes - No Surfboard"
+    },
+    "skin007": {
+      "ja": "おしゃれ着",
+      "en": "Stylish Clothes"
+    },
+    "skin013": {
+      "ja": "キャプテンノーチラス",
+      "en": "Captain Nautilus"
+    }
+  },
+  "deckert": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "マフラーなし",
+      "en": "No Scarf"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin015": {
+      "ja": "巨大化モード",
+      "en": "Gigantified Mode"
+    },
+    "skin017": {
+      "ja": "巨大化モード マフラーなし",
+      "en": "Gigantified Mode No Scarf"
+    },
+    "skin019": {
+      "ja": "巨大化モード 水着",
+      "en": "Gigantified Mode Swimwear"
+    }
+  },
+  "diesel": {
+    "skin001": {
+      "ja": "翼なし",
+      "en": "Wingless"
+    },
+    "skin002": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "dion": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin004": {
+      "ja": "水着武器なし",
+      "en": "Swimwear - Unarmed"
+    },
+    "skin008": {
+      "ja": "裸エプロン",
+      "en": "Naked - Apron"
+    },
+    "skin009": {
+      "ja": "サマースカイダイビング",
+      "en": "Summer Skydiving"
+    },
+    "skin011": {
+      "ja": "サマースカイダイビング ライフガードチューブなし",
+      "en": "Summer Skydiving No Rescue Tube"
+    }
+  },
+  "domey": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "過去",
+      "en": "Past"
+    },
+    "skin007": {
+      "ja": "バーベキューマスター",
+      "en": "BBQ Master"
+    },
+    "skin009": {
+      "ja": "バーベキューマスター ゴーグルなし",
+      "en": "BBQ Master No Goggles"
+    },
+    "skin011": {
+      "ja": "バーベキューマスター 眼帯",
+      "en": "BBQ Master Eyepatch"
+    },
+    "skin013": {
+      "ja": "バーベキューマスター 眼帯ゴーグルなし",
+      "en": "BBQ Master Eyepatch - No Goggles"
+    }
+  },
+  "domino": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "dward": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "ドスケベモンスター",
+      "en": "Pervy Monster"
+    }
+  },
+  "dyne": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin004": {
+      "ja": "トレーニング",
+      "en": "Training"
+    },
+    "skin005": {
+      "ja": "水着２",
+      "en": "Swimwear 2"
+    },
+    "skin050": {
+      "ja": "復讐者",
+      "en": "Avenger"
+    },
+    "skin052": {
+      "ja": "復讐者 武器なし",
+      "en": "Avenger Unarmed"
+    },
+    "skin054": {
+      "ja": "復讐者 上裸",
+      "en": "Avenger Topless"
+    },
+    "skin056": {
+      "ja": "復讐者 上裸武器なし",
+      "en": "Avenger Topless - Unarmed"
+    },
+    "skin058": {
+      "ja": "復讐者 水着シャツなし",
+      "en": "Avenger Swimwear - Shirtless"
+    },
+    "skin062": {
+      "ja": "復讐者 水着浮き輪なし",
+      "en": "Avenger Swimwear - No Lifesaver"
+    },
+    "skin065": {
+      "ja": "復讐者 水着",
+      "en": "Avenger Swimwear"
+    }
+  },
+  "edgar": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "酒なし",
+      "en": "No Alcohol"
+    },
+    "skin003": {
+      "ja": "ブレザーマスクなし",
+      "en": "Blazer - No Blindfold"
+    },
+    "skin004": {
+      "ja": "ブレザー",
+      "en": "Blazer"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "ウェイター",
+      "en": "Waiter"
+    },
+    "skin009": {
+      "ja": "ゴージャスドリーム",
+      "en": "Dreams of Luxury"
+    }
+  },
+  "magicalweapon": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    }
+  },
+  "elaine": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "merman_eel": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "電気オフ",
+      "en": "Electricity Off"
+    }
+  },
+  "laguias": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "enma": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "閻魔帳なし",
+      "en": "No The Book of Sins"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "水着閻魔帳なし",
+      "en": "Swimwear - No The Book of Sins"
+    },
+    "skin007": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin009": {
+      "ja": "下着閻魔帳なし",
+      "en": "Underwear - No The Book of Sins"
+    }
+  },
+  "equus": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "eternion": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "farmstaff": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    }
+  },
+  "farouk": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "fin": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "下着青",
+      "en": "Blue Underwear"
+    },
+    "skin005": {
+      "ja": "下着白",
+      "en": "White Underwear"
+    }
+  },
+  "flet": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin009": {
+      "ja": "出張海の家",
+      "en": "Sea Lodge"
+    },
+    "skin050": {
+      "ja": "実りのラージファーム",
+      "en": "Bountiful Farm-Raiser"
+    },
+    "skin052": {
+      "ja": "実りのラージファーム 水着",
+      "en": "Bountiful Farm-Raiser Swimwear"
+    },
+    "skin056": {
+      "ja": "実りのラージファーム 巨大化モード",
+      "en": "Bountiful Farm-Raiser Gigantified Mode"
+    },
+    "skin058": {
+      "ja": "実りのラージファーム 巨大化モード水着",
+      "en": "Bountiful Farm-Raiser Gigantified Mode - Swimwear"
+    }
+  },
+  "folker": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "むかしむかし…… 帽子なし",
+      "en": "Long, Long Ago... Hatless"
+    },
+    "skin051": {
+      "ja": "むかしむかし……",
+      "en": "Long, Long Ago..."
+    }
+  },
+  "foras": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    }
+  },
+  "forte": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin009": {
+      "ja": "アスレチックカウボーイ 憑依なし",
+      "en": "Athletic Cowboy Not Possessed"
+    },
+    "skin010": {
+      "ja": "アスレチックカウボーイ オーラなし",
+      "en": "Athletic Cowboy No Aura"
+    },
+    "skin011": {
+      "ja": "アスレチックカウボーイ",
+      "en": "Athletic Cowboy"
+    }
+  },
+  "freiya": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    }
+  },
+  "fu": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "三味線なし",
+      "en": "No Shamisen"
+    },
+    "skin003": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin006": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "伝説の色本作家",
+      "en": "Wordsmith of Erotica"
+    },
+    "skin008": {
+      "ja": "伝説の色本作家 楽器持ち",
+      "en": "Wordsmith of Erotica Instrument"
+    },
+    "skin009": {
+      "ja": "伝説の色本作家 手ぶら",
+      "en": "Wordsmith of Erotica Empty-Handed"
+    },
+    "skin010": {
+      "ja": "伝説の色本作家 フードなしペン持ち",
+      "en": "Wordsmith of Erotica No Hood - Pen"
+    },
+    "skin011": {
+      "ja": "伝説の色本作家 フードなし楽器持ち",
+      "en": "Wordsmith of Erotica No Hood - Instrument"
+    },
+    "skin012": {
+      "ja": "伝説の色本作家 フードなし手ぶら",
+      "en": "Wordsmith of Erotica No Hood - Empty-Handed"
+    },
+    "skin013": {
+      "ja": "伝説の色本作家 上裸",
+      "en": "Wordsmith of Erotica Topless"
+    }
+  },
+  "fu_tetsubo": {
+    "skin001": {
+      "ja": "テツボウ",
+      "en": "Tetsubo"
+    },
+    "skin002": {
+      "ja": "テツボウ インナーなし",
+      "en": "Tetsubo No Croptop"
+    },
+    "skin004": {
+      "ja": "テツボウ 水着",
+      "en": "Tetsubo Swimwear"
+    }
+  },
+  "fullhouse": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "バンダナなし",
+      "en": "No bandana"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin011": {
+      "ja": "上裸バンダナなし",
+      "en": "Topless - No bandana"
+    },
+    "skin013": {
+      "ja": "水着バンダナなし",
+      "en": "Swimwear - No bandana"
+    },
+    "skin017": {
+      "ja": "犯罪者矯正更生官",
+      "en": "Criminal Correctional Officer"
+    },
+    "skin019": {
+      "ja": "犯罪者矯正更生官 武器なし",
+      "en": "Criminal Correctional Officer Unarmed"
+    },
+    "skin021": {
+      "ja": "犯罪者矯正更生官 バンダナなし",
+      "en": "Criminal Correctional Officer No bandana"
+    },
+    "skin023": {
+      "ja": "犯罪者矯正更生官 バンダナと武器なし",
+      "en": "Criminal Correctional Officer No bandana & Unarmed"
+    }
+  },
+  "gaia": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin008": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin010": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin011": {
+      "ja": "やられ",
+      "en": "Injured"
+    },
+    "skin012": {
+      "ja": "水着２",
+      "en": "Swimwear 2"
+    },
+    "skin014": {
+      "ja": "水着３",
+      "en": "Swimwear 3"
+    },
+    "skin016": {
+      "ja": "水着４",
+      "en": "Swimwear 4"
+    }
+  },
+  "gaiadragoon": {
+    "skin001": {
+      "ja": "ドラグーン",
+      "en": "Dragoon"
+    },
+    "skin002": {
+      "ja": "ドラグーン 武器なし",
+      "en": "Dragoon Unarmed"
+    },
+    "skin003": {
+      "ja": "ドラグーン 水着",
+      "en": "Dragoon Swimwear"
+    },
+    "skin004": {
+      "ja": "ドラグーン 全裸",
+      "en": "Dragoon Naked"
+    }
+  },
+  "normalgaia": {
+    "skin001": {
+      "ja": "戦士",
+      "en": "Warrior"
+    },
+    "skin002": {
+      "ja": "戦士 やられ",
+      "en": "Warrior Injured"
+    },
+    "skin003": {
+      "ja": "戦士 上裸",
+      "en": "Warrior Topless"
+    },
+    "skin004": {
+      "ja": "戦士 水着",
+      "en": "Warrior Swimwear"
+    }
+  },
+  "gallium": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "ゴーグルなし",
+      "en": "No Goggles"
+    },
+    "skin003": {
+      "ja": "マスクなし",
+      "en": "Maskless"
+    },
+    "skin004": {
+      "ja": "ゴーグルなしマスクなし",
+      "en": "No Goggles & Maskless"
+    },
+    "skin009": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "gambler": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "賭博馬並絶頂伝",
+      "en": "Legendary Derby Gambler"
+    },
+    "skin052": {
+      "ja": "賭博馬並絶頂伝 手ぶら",
+      "en": "Legendary Derby Gambler Empty-Handed"
+    },
+    "skin056": {
+      "ja": "賭博馬並絶頂伝 水着",
+      "en": "Legendary Derby Gambler Swimwear"
+    }
+  },
+  "gamura": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "もっこり",
+      "en": "Bulge"
+    },
+    "skin004": {
+      "ja": "葉っぱ",
+      "en": "Leaf"
+    },
+    "skin006": {
+      "ja": "コテカ",
+      "en": "Koteka"
+    },
+    "skin009": {
+      "ja": "サンシャイン・マスク",
+      "en": "Sunshine Mask"
+    }
+  },
+  "gaoh": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "炎なし",
+      "en": "No Flames"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "炎パンツ",
+      "en": "Flame Underwear"
+    },
+    "skin007": {
+      "ja": "パンツ",
+      "en": "Underwear"
+    },
+    "skin012": {
+      "ja": "ウルトラスーパーノービス",
+      "en": "Ultra Super Novice"
+    },
+    "skin014": {
+      "ja": "ウルトラスーパーノービス 炎なし",
+      "en": "Ultra Super Novice No Flames"
+    },
+    "skin016": {
+      "ja": "ウルトラスーパーノービス 下着",
+      "en": "Ultra Super Novice Underwear"
+    },
+    "skin018": {
+      "ja": "ウルトラスーパーノービス 下着飾りなし",
+      "en": "Ultra Super Novice Underwear - No Accesory"
+    }
+  },
+  "ginji": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "コート手持ち",
+      "en": "Coat in Hand"
+    },
+    "skin007": {
+      "ja": "コートと武器なし",
+      "en": "No Coat - Unarmed"
+    },
+    "skin009": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin012": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin014": {
+      "ja": "水着コート手持ち",
+      "en": "Swimwear - Coat in Hand"
+    },
+    "skin016": {
+      "ja": "水着コートなし",
+      "en": "Swimwear - No Coat"
+    },
+    "skin050": {
+      "ja": "光の君親衛隊長",
+      "en": "Captain of Team Shining Prince"
+    },
+    "skin051": {
+      "ja": "光の君親衛隊長 抱き枕なし",
+      "en": "Captain of Team Shining Prince No Dakimakura"
+    },
+    "skin054": {
+      "ja": "光の君親衛隊長 眼鏡持ち",
+      "en": "Captain of Team Shining Prince Holding Glasses"
+    },
+    "skin056": {
+      "ja": "光の君親衛隊長 眼鏡持ち抱き枕なし",
+      "en": "Captain of Team Shining Prince Holding Glasses - No Dakimakura"
+    },
+    "skin058": {
+      "ja": "光の君親衛隊長 ペンライト持ち",
+      "en": "Captain of Team Shining Prince Holding Light Stick"
+    },
+    "skin060": {
+      "ja": "光の君親衛隊長 コートなし",
+      "en": "Captain of Team Shining Prince No Coat"
+    },
+    "skin062": {
+      "ja": "光の君親衛隊長 コートなし抱き枕なし",
+      "en": "Captain of Team Shining Prince No Coat - No Dakimakura"
+    },
+    "skin064": {
+      "ja": "光の君親衛隊長 コートなし眼鏡持ち",
+      "en": "Captain of Team Shining Prince No Coat - Holding Glasses"
+    },
+    "skin066": {
+      "ja": "光の君親衛隊長 コートなしペンライト持ち",
+      "en": "Captain of Team Shining Prince No Coat - Holding Light Stick"
+    },
+    "skin068": {
+      "ja": "光の君親衛隊長 上裸",
+      "en": "Captain of Team Shining Prince Topless"
+    }
+  },
+  "sepia_engineer": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "gordov": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "もくもく煙の興行主",
+      "en": "Billowing Impresario"
+    }
+  },
+  "gou": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "ヒーロー",
+      "en": "Hero"
+    },
+    "skin007": {
+      "ja": "ヒーロー 水着",
+      "en": "Hero Swimwear"
+    },
+    "skin011": {
+      "ja": "エンハンサーなし",
+      "en": "No Enhancer"
+    },
+    "skin012": {
+      "ja": "ヒーロー ドリンクなし",
+      "en": "Hero No Drinks"
+    }
+  },
+  "gymnos": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "牧師",
+      "en": "Pastor"
+    },
+    "skin003": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "栄光の騎士",
+      "en": "Knight of Glory"
+    },
+    "skin051": {
+      "ja": "栄光の騎士 牧師",
+      "en": "Knight of Glory Pastor"
+    }
+  },
+  "habaki": {
+    "skin001": {
+      "ja": "鍬持ち",
+      "en": "Holding Hoe"
+    },
+    "skin003": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin005": {
+      "ja": "ふんどし",
+      "en": "Loincloth"
+    },
+    "skin007": {
+      "ja": "ふんどしタオルなし",
+      "en": "Loincloth - No Towel"
+    },
+    "skin013": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin015": {
+      "ja": "水着２",
+      "en": "Swimwear 2"
+    },
+    "skin019": {
+      "ja": "清き流れの鉄拳",
+      "en": "Iron Fists of Pure Flow"
+    },
+    "skin021": {
+      "ja": "清き流れの鉄拳 ふんどし",
+      "en": "Iron Fists of Pure Flow No Kasaya"
+    },
+    "skin023": {
+      "ja": "清き流れの鉄拳 胴着なし",
+      "en": "Iron Fists of Pure Flow No Jujitsu Uniform"
+    }
+  },
+  "hagane": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "装備なし",
+      "en": "No Equipment"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "悪役",
+      "en": "Heel"
+    },
+    "skin011": {
+      "ja": "悪役 装備発光",
+      "en": "Heel Armament Illumination"
+    },
+    "skin013": {
+      "ja": "悪役 武器なし",
+      "en": "Heel No Equipment"
+    },
+    "skin015": {
+      "ja": "悪役 水着",
+      "en": "Heel Swimwear"
+    }
+  },
+  "hanzo": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "頭巾なし",
+      "en": "No Headgear"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "バショウなし",
+      "en": "No Basho"
+    },
+    "skin007": {
+      "ja": "バショウと頭巾なし",
+      "en": "No Basho or Headgear"
+    },
+    "skin010": {
+      "ja": "水着バショウなし",
+      "en": "Swimwear No Basho"
+    },
+    "skin012": {
+      "ja": "レスキュードッグ",
+      "en": "Rescue Dog"
+    }
+  },
+  "hanzo_basho": {
+    "skin011": {
+      "ja": "バショウ",
+      "en": "Basho"
+    },
+    "skin013": {
+      "ja": "バショウ 浮き輪",
+      "en": "Basho Lifesaver"
+    },
+    "skin014": {
+      "ja": "バショウ 浮き輪人魂なし",
+      "en": "Basho Lifesaver - No Spirits"
+    },
+    "skin050": {
+      "ja": "バショウ人の形 水着",
+      "en": "Human Basho Lifesaver"
+    },
+    "skin053": {
+      "ja": "バショウ人の形 水着人魂なし",
+      "en": "Human Basho Lifesaver - No Spirits"
+    }
+  },
+  "hamamsh": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "水着シャツなし",
+      "en": "Swimwear - Shirtless"
+    }
+  },
+  "harimau": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "harold": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "ゴーストサンタ",
+      "en": "Ghost Santa"
+    },
+    "skin052": {
+      "ja": "ゴーストサンタ 帽子なし",
+      "en": "Ghost Santa Hatless"
+    },
+    "skin054": {
+      "ja": "ゴーストサンタ コートなし",
+      "en": "Ghost Santa No Coat"
+    },
+    "skin056": {
+      "ja": "ゴーストサンタ コートと帽子なし",
+      "en": "Ghost Santa No Hat or Coat"
+    },
+    "skin058": {
+      "ja": "ゴーストサンタ 上裸",
+      "en": "Ghost Santa Topless"
+    },
+    "skin060": {
+      "ja": "ゴーストサンタ 上裸帽子なし",
+      "en": "Ghost Santa Topless - Hatless"
+    },
+    "skin062": {
+      "ja": "ゴーストサンタ 下着",
+      "en": "Ghost Santa Underwear"
+    },
+    "skin064": {
+      "ja": "ゴーストサンタ 下着帽子なし",
+      "en": "Ghost Santa Underwear - Hatless"
+    }
+  },
+  "hellion": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "渇望の騎士",
+      "en": "The Covetous Knight"
+    },
+    "skin003": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin014": {
+      "ja": "渇望の騎士 上裸",
+      "en": "The Covetous Knight Topless"
+    },
+    "skin050": {
+      "ja": "囚われし忠義の産駒",
+      "en": "Captive Loyal Foal"
+    },
+    "skin051": {
+      "ja": "囚われし忠義の産駒 武器なし",
+      "en": "Captive Loyal Foal Unarmed"
+    },
+    "skin052": {
+      "ja": "囚われし忠義の産駒 フードなし",
+      "en": "Captive Loyal Foal No Veil"
+    },
+    "skin053": {
+      "ja": "囚われし忠義の産駒 フードなし武器なし",
+      "en": "Captive Loyal Foal No Veil - Unarmed"
+    },
+    "skin054": {
+      "ja": "囚われし忠義の産駒 コートなし",
+      "en": "Captive Loyal Foal No Coat"
+    },
+    "skin056": {
+      "ja": "囚われし忠義の産駒 コートなしフードなし",
+      "en": "Captive Loyal Foal No Coat & No Veil"
+    },
+    "skin058": {
+      "ja": "囚われし忠義の産駒 鎧なし",
+      "en": "Captive Loyal Foal Unarmored"
+    },
+    "skin060": {
+      "ja": "囚われし忠義の産駒 鎧なしフードなし",
+      "en": "Captive Loyal Foal Unarmored & No Veil"
+    }
+  },
+  "younghellion": {
+    "skin001": {
+      "ja": "若き日の勇姿",
+      "en": "Heroic Young Self"
+    }
+  },
+  "hifumi": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "ふんどし",
+      "en": "Loincloth"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "水着 サングラスなし",
+      "en": "Swimwear No Sunglasses"
+    }
+  },
+  "hulk": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "トレーニング",
+      "en": "Training"
+    },
+    "skin007": {
+      "ja": "マッスルスモウレスラー",
+      "en": "Muscly Sumo Wrestler"
+    },
+    "skin008": {
+      "ja": "マッスルスモウレスラー メダルなし",
+      "en": "Muscly Sumo Wrestler No Medal"
+    }
+  },
+  "hurricane": {
+    "skin001": {
+      "ja": "ハリケン",
+      "en": "Hurricane"
+    },
+    "skin002": {
+      "ja": "ハリケンとタフ",
+      "en": "Hurricane & Tuff"
+    },
+    "skin003": {
+      "ja": "ハリケン 装備なし",
+      "en": "Hurricane No Equipment"
+    },
+    "skin004": {
+      "ja": "ハリケンとタフ 装備なし",
+      "en": "Hurricane & Tuff No Equipment"
+    },
+    "skin005": {
+      "ja": "ハリケン 私服",
+      "en": "Hurricane Casual Outfit"
+    },
+    "skin006": {
+      "ja": "ハリケンとタフ 私服",
+      "en": "Hurricane & Tuff Casual Outfit"
+    },
+    "skin007": {
+      "ja": "ハリケン 水着",
+      "en": "Hurricane Swimwear"
+    },
+    "skin009": {
+      "ja": "ハリケンとタフ 水着",
+      "en": "Hurricane & Tuff Swimwear"
+    },
+    "skin011": {
+      "ja": "ハリケン 水着サングラスなし",
+      "en": "Hurricane Swimwear - No Sunglasses"
+    },
+    "skin013": {
+      "ja": "ハリケンとタフ 水着サングラスなし",
+      "en": "Hurricane & Tuff Swimwear - No Sunglasses"
+    },
+    "skin050": {
+      "ja": "声デカハンター教官",
+      "en": "Deafening Hunter Instructor"
+    },
+    "skin053": {
+      "ja": "声デカハンター教官 水着",
+      "en": "Deafening Hunter Instructor Swimwear"
+    },
+    "skin055": {
+      "ja": "声デカハンター教官 ハリケン",
+      "en": "Deafening Hunter Instructor Hurricane"
+    },
+    "skin057": {
+      "ja": "声デカハンター教官 ハリケン水着",
+      "en": "Deafening Hunter Instructor Hurricane - Swimwear"
+    },
+    "skin061": {
+      "ja": "タフ",
+      "en": "Tuff"
+    },
+    "skin062": {
+      "ja": "タフ 装備なし",
+      "en": "Tuff No Equipment"
+    },
+    "skin063": {
+      "ja": "タフ 私服",
+      "en": "Tuff Casual Outfit"
+    },
+    "skin064": {
+      "ja": "タフ 水着",
+      "en": "Tuff Swimwear"
+    },
+    "skin065": {
+      "ja": "声デカハンター教官 タフ",
+      "en": "Deafening Hunter Instructor Tuff"
+    },
+    "skin066": {
+      "ja": "声デカハンター教官 タフ水着",
+      "en": "Deafening Hunter Instructor Tuff - Swimwear"
+    }
+  },
+  "hybris": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "翼閉じ",
+      "en": "Wings Closed"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "黒装束",
+      "en": "Black Robe"
+    },
+    "skin012": {
+      "ja": "黒装束下着",
+      "en": "Black Robe - Underwear"
+    }
+  },
+  "archaeologist": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    }
+  },
+  "ittetsu": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin001_hero": {
+      "ja": "ヒーロー",
+      "en": "Hero"
+    },
+    "skin003": {
+      "ja": "ふんどし",
+      "en": "Loincloth"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "eval": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "jalam": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "頭飾りなし",
+      "en": "No Headdress"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "黒装束",
+      "en": "Black Robe"
+    },
+    "skin050": {
+      "ja": "支配者の審判",
+      "en": "Arbiter of Kings"
+    },
+    "skin052": {
+      "ja": "支配者の審判 頭飾りなし",
+      "en": "Arbiter of Kings No Headdress"
+    },
+    "skin054": {
+      "ja": "支配者の審判 水着",
+      "en": "Arbiter of Kings Swimwear"
+    }
+  },
+  "jeff": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "Jigorou": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "ふんどし",
+      "en": "Loincloth"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "水着もっこり",
+      "en": "Swimwear - Bulge"
+    },
+    "skin050": {
+      "ja": "魍魎匣の光る君",
+      "en": "Demon Box Shining Prince"
+    },
+    "skin053": {
+      "ja": "魍魎匣の光る君 インナーなし",
+      "en": "Demon Box Shining Prince No Innerwear"
+    },
+    "skin057": {
+      "ja": "魍魎匣の光る君 コートなし",
+      "en": "Demon Box Shining Prince No Coat"
+    },
+    "skin060": {
+      "ja": "魍魎匣の光る君 ふんどし",
+      "en": "Demon Box Shining Prince Loincloth"
+    },
+    "skin064": {
+      "ja": "魍魎匣の光る君 帽子なし",
+      "en": "Demon Box Shining Prince Hatless"
+    },
+    "skin067": {
+      "ja": "魍魎匣の光る君 ふんどし飾りなし",
+      "en": "Demon Box Shining Prince Loincloth - No Accesory"
+    }
+  },
+  "jinnosuke": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin004": {
+      "ja": "上裸武器なし",
+      "en": "Topless - Unarmed"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "水着酒なし",
+      "en": "Swimwear - No Sake"
+    },
+    "skin009": {
+      "ja": "水着手ぶら",
+      "en": "Swimwear - Empty-Handed"
+    },
+    "skin010": {
+      "ja": "水着武器なし",
+      "en": "Swimwear - Unarmed"
+    },
+    "skin050": {
+      "ja": "ヤマトの風雷仁王",
+      "en": "The Yamato King Over Wind & Thunder"
+    },
+    "skin052": {
+      "ja": "ヤマトの風雷仁王 ふんどし白",
+      "en": "The Yamato King Over Wind & Thunder White Loincloth"
+    },
+    "skin054": {
+      "ja": "ヤマトの風雷仁王 ふんどし黒",
+      "en": "The Yamato King Over Wind & Thunder Black Loincloth"
+    }
+  },
+  "kafka": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin004": {
+      "ja": "フード武器なし",
+      "en": "Hood - Unarmed"
+    },
+    "skin008": {
+      "ja": "フード",
+      "en": "Hood"
+    },
+    "skin050": {
+      "ja": "守護騎士への願い",
+      "en": "Desiring for His Guardian"
+    },
+    "skin051": {
+      "ja": "守護騎士への願い 水着",
+      "en": "Desiring for His Guardian Swimwear"
+    }
+  },
+  "kagura": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin003": {
+      "ja": "水着武器なし",
+      "en": "Swimwear - Unarmed"
+    },
+    "skin011": {
+      "ja": "悪鬼調伏道中膝栗毛 道具持ち",
+      "en": "Well-Trodden Subjugator of Evil Demons Holding Item"
+    },
+    "skin012": {
+      "ja": "悪鬼調伏道中膝栗毛",
+      "en": "Well-Trodden Subjugator of Evil Demons"
+    },
+    "skin013": {
+      "ja": "悪鬼調伏道中膝栗毛 手ぶら",
+      "en": "Well-Trodden Subjugator of Evil Demons Empty-Handed"
+    },
+    "skin014": {
+      "ja": "悪鬼調伏道中膝栗毛 ふんどし道具持ち",
+      "en": "Well-Trodden Subjugator of Evil Demons Loincloth - Holding Item"
+    },
+    "skin016": {
+      "ja": "悪鬼調伏道中膝栗毛 ふんどし",
+      "en": "Well-Trodden Subjugator of Evil Demons Loincloth"
+    },
+    "skin018": {
+      "ja": "悪鬼調伏道中膝栗毛 ふんどし手ぶら",
+      "en": "Well-Trodden Subjugator of Evil Demons Loincloth - Empty-Handed"
+    }
+  },
+  "kancrow": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "札なし",
+      "en": "Without Totems"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "水着札なし",
+      "en": "Swimwear Without Totems"
+    },
+    "skin050": {
+      "ja": "君に贈るミルキーウェイ",
+      "en": "A Milky Way for You"
+    },
+    "skin052": {
+      "ja": "君に贈るミルキーウェイ 羽衣なし",
+      "en": "A Milky Way for You No Celestial Feather Cloak"
+    }
+  },
+  "karetovi": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "袴",
+      "en": "Hakama"
+    },
+    "skin007": {
+      "ja": "愛のエプロン",
+      "en": "Apron of Love"
+    },
+    "skin008": {
+      "ja": "愛のエプロンコートなし",
+      "en": "Apron of Love No Coat"
+    }
+  },
+  "kashi": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "仮面",
+      "en": "Mask"
+    },
+    "skin005": {
+      "ja": "仮面なし",
+      "en": "Maskless"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "cardgang_king": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin004": {
+      "ja": "コートと武器なし",
+      "en": "No Coat - Unarmed"
+    }
+  },
+  "kongoh": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "ふんどし",
+      "en": "Loincloth"
+    },
+    "skin010": {
+      "ja": "男の花道",
+      "en": "Flourishing Virility"
+    }
+  },
+  "laddin": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "leonhart": {
+    "skin001": {
+      "ja": "黒服",
+      "en": "Black Coat"
+    },
+    "skin002": {
+      "ja": "黒服武器なし",
+      "en": "Black Coat - Unarmed"
+    },
+    "skin003": {
+      "ja": "ノーマル",
+      "en": "Normal"
+    },
+    "skin004": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin006": {
+      "ja": "ビーチハンター",
+      "en": "Beach Hunter"
+    },
+    "skin007": {
+      "ja": "水着２",
+      "en": "Swimwear 2"
+    },
+    "skin010": {
+      "ja": "バリタチ船長",
+      "en": "Topdomian Pirate Captain"
+    }
+  },
+  "lisa": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin003": {
+      "ja": "水着グラスなし",
+      "en": "Swimwear - No Glass"
+    }
+  },
+  "lute": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "magritte": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "タバコなし",
+      "en": "No Cigar"
+    },
+    "skin005": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin007": {
+      "ja": "武器なしタバコなし",
+      "en": "Unarmed & No Cigar"
+    },
+    "skin009": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin010": {
+      "ja": "水着タバコなし",
+      "en": "Swimwear - No Cigar"
+    },
+    "skin050": {
+      "ja": "ゴージャスナイトクルージング",
+      "en": "Luxury Night Cruising"
+    },
+    "skin052": {
+      "ja": "ゴージャスナイトクルージング 酒なし",
+      "en": "Luxury Night Cruising No Sake"
+    },
+    "skin054": {
+      "ja": "ゴージャスナイトクルージング マスクと酒なし",
+      "en": "Luxury Night Cruising Maskless & No Sake"
+    },
+    "skin056": {
+      "ja": "ゴージャスナイトクルージング 頭巾なし",
+      "en": "Luxury Night Cruising No Headgear"
+    }
+  },
+  "mammon": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "通常 バイザーオフ",
+      "en": "Standard Visor Off"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "水着 サングラス上げ",
+      "en": "Swimwear Sunglasses Raised"
+    }
+  },
+  "billfordcrew_marion": {
+    "skin001": {
+      "ja": "マリオン",
+      "en": "Marion"
+    },
+    "skin002": {
+      "ja": "マリオン 水着",
+      "en": "Marion Swimwear"
+    },
+    "skin006": {
+      "ja": "ハートストライカー",
+      "en": "Heart Striker"
+    }
+  },
+  "maxtla": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    }
+  },
+  "milklover": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "momiji": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "morgan": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "mummycaster": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "mummyfighter": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "mummyshooter": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "bigmummy": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "ninjablack": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "ninjablue": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "ninjared": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "ninjawhite": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "nitro": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "エプロン",
+      "en": "Apron"
+    }
+  },
+  "merman_octopus": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    }
+  },
+  "nightmare_caster": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin007": {
+      "ja": "下着武器なし",
+      "en": "Underwear - Unarmed"
+    },
+    "skin013": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "キミだけの夢馬をつくろう",
+      "en": "Night-Mare of Your Dreams"
+    },
+    "skin052": {
+      "ja": "通常２",
+      "en": "Standard 2"
+    },
+    "skin056": {
+      "ja": "キミだけの夢馬をつくろう 水着",
+      "en": "Night-Mare of Your Dreams Swimwear"
+    }
+  },
+  "ornis": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "patty": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "軍服",
+      "en": "Uniform"
+    },
+    "skin007": {
+      "ja": "軍服コートなし",
+      "en": "Uniform No Coat"
+    },
+    "skin008": {
+      "ja": "進めマグナム号",
+      "en": "Magnum, Roll Out!"
+    },
+    "skin011": {
+      "ja": "マグナム号",
+      "en": "The Magnum"
+    },
+    "skin050": {
+      "ja": "オーロラの聖獣 オーラなし",
+      "en": "Aurorean Sacred Beast No Aura"
+    },
+    "skin051": {
+      "ja": "オーロラの聖獣 軍服",
+      "en": "Aurorean Sacred Beast Uniform"
+    },
+    "skin052": {
+      "ja": "オーロラの聖獣 水着",
+      "en": "Aurorean Sacred Beast Swimwear"
+    },
+    "skin055": {
+      "ja": "オーロラの聖獣",
+      "en": "Aurorean Sacred Beast"
+    }
+  },
+  "phegor": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin004": {
+      "ja": "水着乗り物なし",
+      "en": "Swimwear - No Hydro-Scooter"
+    }
+  },
+  "pino": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "軍服帽子なし",
+      "en": "Uniform - Hatless"
+    },
+    "skin003": {
+      "ja": "軍服",
+      "en": "Uniform"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "piratecaster": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "魔法なし",
+      "en": "No Magic"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "piratefighter": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "piratehealer": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "pirateshooter": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "pius": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "杖なし",
+      "en": "No Staff"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "水着杖なし",
+      "en": "Swimwear - No Staff"
+    },
+    "skin013": {
+      "ja": "トランスファービースト",
+      "en": "Transmogrified Beast"
+    },
+    "skin015": {
+      "ja": "トランスファービースト 杖なし",
+      "en": "Transmogrified Beast No Staff"
+    }
+  },
+  "pollon_orta": {
+    "skin001": {
+      "ja": "ポロン",
+      "en": "Pollon"
+    },
+    "skin003": {
+      "ja": "ポロン 水着",
+      "en": "Pollon Swimwear"
+    },
+    "skin006": {
+      "ja": "ポロン 潜水服",
+      "en": "Pollon Diving suit"
+    },
+    "skin051": {
+      "ja": "オルタ",
+      "en": "Orta"
+    },
+    "skin053": {
+      "ja": "オルタ 水着",
+      "en": "Orta Swimwear"
+    },
+    "skin057": {
+      "ja": "オルタ 潜水服",
+      "en": "Orta Diving suit"
+    }
+  },
+  "proteo": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "マッチョモード",
+      "en": "Gigantified Mode"
+    },
+    "skin009": {
+      "ja": "マッチョモード 水着",
+      "en": "Gigantified Mode Swimwear"
+    },
+    "skin011": {
+      "ja": "マッチョモード 水着ショベルなし",
+      "en": "Gigantified Mode Swimwear - No Shovel"
+    }
+  },
+  "pugi": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "ライフセーバー",
+      "en": "Lifesaver"
+    }
+  },
+  "labiro": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "ラビロウ",
+      "en": "Rabirou"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "ベザレル",
+      "en": "Bezalel"
+    }
+  },
+  "ragnar": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "ハードコアミッション",
+      "en": "Hardcore Mission"
+    },
+    "skin006": {
+      "ja": "ハードコアミッション 鞭なし",
+      "en": "Hardcore Mission No Whip"
+    }
+  },
+  "rai": {
+    "skin001": {
+      "ja": "太鼓なし",
+      "en": "No Taiko"
+    },
+    "skin002": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "上裸太鼓なし",
+      "en": "Topless - No Taiko"
+    },
+    "skin004": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着太鼓なし",
+      "en": "Swimwear - No Taiko"
+    },
+    "skin006": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin011": {
+      "ja": "酔狂の夢路 太鼓なし",
+      "en": "Capricious Dreamer No Taiko"
+    },
+    "skin012": {
+      "ja": "酔狂の夢路",
+      "en": "Capricious Dreamer"
+    },
+    "skin013": {
+      "ja": "酔狂の夢路 インナーなし太鼓なし",
+      "en": "Capricious Dreamer No Croptop or Taiko"
+    },
+    "skin015": {
+      "ja": "酔狂の夢路 インナーなし",
+      "en": "Capricious Dreamer No Croptop"
+    },
+    "skin017": {
+      "ja": "酔狂の夢路 上裸太鼓なし",
+      "en": "Capricious Dreamer Topless - No Taiko"
+    },
+    "skin019": {
+      "ja": "酔狂の夢路 上裸",
+      "en": "Capricious Dreamer Topless"
+    },
+    "skin021": {
+      "ja": "酔狂の夢路 フード太鼓なし",
+      "en": "Capricious Dreamer Hood - No Taiko"
+    },
+    "skin022": {
+      "ja": "酔狂の夢路 フード",
+      "en": "Capricious Dreamer Hood"
+    }
+  },
+  "rasho": {
+    "skin001": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin002": {
+      "ja": "上裸武器なし",
+      "en": "Topless - Unarmed"
+    },
+    "skin003": {
+      "ja": "上裸手開き",
+      "en": "Topless - Open Hand"
+    },
+    "skin004": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "水着武器なし",
+      "en": "Swimwear - Unarmed"
+    },
+    "skin007": {
+      "ja": "水着手開き",
+      "en": "Swimwear - Open Hand"
+    },
+    "skin012": {
+      "ja": "背面",
+      "en": "Back"
+    }
+  },
+  "rasho_oni": {
+    "skin051": {
+      "ja": "鬼の形 上裸",
+      "en": "Oni Form Topless"
+    },
+    "skin052": {
+      "ja": "鬼の形 上裸武器なし",
+      "en": "Oni Form Topless - Unarmed"
+    },
+    "skin053": {
+      "ja": "鬼の形 上裸手開き",
+      "en": "Oni Form Topless - Open Hand"
+    },
+    "skin054": {
+      "ja": "鬼の形",
+      "en": "Oni Form"
+    },
+    "skin055": {
+      "ja": "鬼の形 水着",
+      "en": "Oni Form Swimwear"
+    },
+    "skin056": {
+      "ja": "鬼の形 水着武器なし",
+      "en": "Oni Form Swimwear - Unarmed"
+    },
+    "skin057": {
+      "ja": "鬼の形 水着手開き",
+      "en": "Oni Form Swimwear - Open Hand"
+    },
+    "skin062": {
+      "ja": "鬼の形 背面",
+      "en": "Oni Form Back"
+    }
+  },
+  "rikufune": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "rion": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "雪の日の約束",
+      "en": "Snowy Day Promise"
+    },
+    "skin010": {
+      "ja": "バルキースナイパー",
+      "en": "Bulky Sniper"
+    },
+    "skin011": {
+      "ja": "バルキースナイパー 武器なし",
+      "en": "Bulky Sniper Unarmed"
+    },
+    "skin012": {
+      "ja": "バルキースナイパー 水着",
+      "en": "Bulky Sniper Swimwear"
+    }
+  },
+  "rionpapa": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "水着魚なし",
+      "en": "Swimwear - No Fish"
+    },
+    "skin009": {
+      "ja": "下着",
+      "en": "Underwear"
+    }
+  },
+  "robin": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin006": {
+      "ja": "グルメハンター",
+      "en": "Gourmet Hunter"
+    },
+    "skin007": {
+      "ja": "グルメハンター ゴーグルなし",
+      "en": "Gourmet Hunter No Snorkeling Mask"
+    }
+  },
+  "adventurer": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "romanes": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "汗",
+      "en": "Sweating"
+    },
+    "skin003": {
+      "ja": "モップ持ち",
+      "en": "Holding Mop"
+    },
+    "skin004": {
+      "ja": "モップ持ち汗",
+      "en": "Holding Mop - Sweating"
+    },
+    "skin005": {
+      "ja": "器具持ち",
+      "en": "Holding Strigil"
+    },
+    "skin006": {
+      "ja": "器具持ち汗",
+      "en": "Holding Strigil - Sweating"
+    },
+    "skin007": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin008": {
+      "ja": "下着汗",
+      "en": "Underwear - Sweating"
+    },
+    "skin009": {
+      "ja": "目隠し",
+      "en": "Blindfolded"
+    },
+    "skin010": {
+      "ja": "目隠し汗",
+      "en": "Blindfolded - Sweating"
+    },
+    "skin011": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin012": {
+      "ja": "水着汗",
+      "en": "Swimwear - Sweating"
+    }
+  },
+  "rook": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "マージナイト",
+      "en": "Magiknight"
+    },
+    "skin050": {
+      "ja": "ラブトイハンター",
+      "en": "X-Rated Toy Hunter"
+    },
+    "skin051": {
+      "ja": "ラブトイハンター エプロン萎え",
+      "en": "X-Rated Toy Hunter Apron - Flaccid"
+    },
+    "skin055": {
+      "ja": "ラブトイハンター 水着シャツなし",
+      "en": "X-Rated Toy Hunter Swimwear - Shirtless"
+    },
+    "skin057": {
+      "ja": "ラブトイハンター 水着",
+      "en": "X-Rated Toy Hunter Swimwear"
+    },
+    "skin061": {
+      "ja": "ラブトイハンター 水着浮き輪なし",
+      "en": "X-Rated Toy Hunter Swimwear - No Lifesaver"
+    },
+    "skin063": {
+      "ja": "ラブトイハンター 水着浮き輪なし帽子なし",
+      "en": "X-Rated Toy Hunter Swimwear - No Lifesaver & Hatless"
+    }
+  },
+  "rookiehunter": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "兜なし",
+      "en": "Helmetless"
+    },
+    "skin004": {
+      "ja": "兜なし武器なし",
+      "en": "Helmetless - Unarmed"
+    }
+  },
+  "rothhart": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "魔法なし",
+      "en": "No Magic"
+    },
+    "skin003": {
+      "ja": "ケープなし",
+      "en": "No Cape"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "rougarou": {
+    "skin001": {
+      "ja": "フードオン",
+      "en": "Hooded"
+    },
+    "skin002": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "rougarou_wolf": {
+    "skin051": {
+      "ja": "オオカミ フードオン",
+      "en": "Wolf Form Hooded"
+    },
+    "skin052": {
+      "ja": "オオカミ",
+      "en": "Wolf Form"
+    },
+    "skin053": {
+      "ja": "オオカミ 下着",
+      "en": "Wolf Form Underwear"
+    },
+    "skin054": {
+      "ja": "オオカミ 水着",
+      "en": "Wolf Form Swimwear"
+    },
+    "skin101": {
+      "ja": "ウェアウルフ・アルファ",
+      "en": "Alpha Werewolf"
+    }
+  },
+  "s_servant": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "露出",
+      "en": "Exposed"
+    },
+    "skin003": {
+      "ja": "貞操帯",
+      "en": "Chastity Belt"
+    },
+    "skin007": {
+      "ja": "暴走",
+      "en": "Rampage"
+    },
+    "skin011": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "s_servantcaster": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "s_servantguard": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "蓋なし",
+      "en": "No Cover"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "sanders": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "帽子なし",
+      "en": "Hatless"
+    }
+  },
+  "santaarmybeast": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "santaarmyhuman": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "sarutobi": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin004": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin006": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "saturn": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "超新星の新郎",
+      "en": "Stellar Bridegroom"
+    }
+  },
+  "scavand": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "sage": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "兜なし",
+      "en": "Helmetless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "merman_seahorse": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    }
+  },
+  "seals": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "火の鳥",
+      "en": "Firebird"
+    },
+    "skin005": {
+      "ja": "マント",
+      "en": "Cloak"
+    },
+    "skin006": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "ミラージ",
+      "en": "Mirage"
+    },
+    "skin053": {
+      "ja": "ミラージ水着",
+      "en": "Mirage - Swimwear"
+    },
+    "skin100": {
+      "ja": "通常２",
+      "en": "Standard 2"
+    },
+    "skin101": {
+      "ja": "通常２短髪",
+      "en": "Standard 2 - Short Hair"
+    },
+    "skin102": {
+      "ja": "水着２",
+      "en": "Swimwear 2"
+    },
+    "skin104": {
+      "ja": "水着２鞄なし",
+      "en": "Swimwear 2  - No Bag"
+    },
+    "skin150": {
+      "ja": "リビドー解放フリーサマー",
+      "en": "Libido-Liberating Free Summer"
+    }
+  },
+  "sebek": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin004": {
+      "ja": "上裸武器なし",
+      "en": "Topless - Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "siddeley": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "帽子",
+      "en": "Hat"
+    },
+    "skin003": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "サンライズホーク もっこり",
+      "en": "Sunrise Hawk Bulge"
+    }
+  },
+  "sigvaldi": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin011": {
+      "ja": "ダイビングバディ",
+      "en": "Diving Buddy"
+    },
+    "skin012": {
+      "ja": "扉開く尋問官",
+      "en": "Door-Opening Interrogator"
+    }
+  },
+  "sinbad": {
+    "skin001": {
+      "ja": "神官騎士",
+      "en": "Hieratic Knight"
+    },
+    "skin003": {
+      "ja": "マッパマン",
+      "en": "Barecheeked Thief"
+    },
+    "skin009": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin010": {
+      "ja": "水着 サングラスなし",
+      "en": "Swimwear No Sunglasses"
+    },
+    "skin050": {
+      "ja": "聖夜の最強フリーター",
+      "en": "Christmas Eve's Strongest Part-Timer"
+    },
+    "skin052": {
+      "ja": "聖夜の最強フリーター サングラスなし",
+      "en": "Christmas Eve's Strongest Part-Timer No Sunglasses"
+    }
+  },
+  "snowbandit": {
+    "skin051": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin052": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "snowbunnywarrior": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "snowwolf": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "水着 ドリンクなし",
+      "en": "Swimwear No Drinks"
+    }
+  },
+  "sol": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "グレートファーマー",
+      "en": "First-Rate Farmer"
+    }
+  },
+  "solve": {
+    "skin001": {
+      "ja": "ランタン持ち",
+      "en": "Holding Lantern"
+    },
+    "skin003": {
+      "ja": "双眼鏡持ち",
+      "en": "Holding Spectacles"
+    },
+    "skin005": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin012": {
+      "ja": "シャドープリースト",
+      "en": "Priest in the Shadows"
+    },
+    "skin014": {
+      "ja": "シャドープリースト フードなし",
+      "en": "Priest in the Shadows No Hood"
+    },
+    "skin052": {
+      "ja": "シャドープリースト デーモン",
+      "en": "Priest in the Shadows Demon"
+    },
+    "skin053": {
+      "ja": "シャドープリースト デーモンフードなし",
+      "en": "Priest in the Shadows Demon -  No Hood"
+    },
+    "skin054": {
+      "ja": "シャドープリースト デーモン上裸",
+      "en": "Priest in the Shadows Demon -  Topless"
+    }
+  },
+  "nightmare_guard": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "水着炎なし",
+      "en": "Swimwear - No Flames"
+    },
+    "skin050": {
+      "ja": "超必勝スキームの伝道師",
+      "en": "Major Wins Scheming Evangelist"
+    },
+    "skin051": {
+      "ja": "超必勝スキームの伝道師 炎なし",
+      "en": "Major Wins Scheming Evangelist No Flames"
+    },
+    "skin052": {
+      "ja": "超必勝スキームの伝道師 水着",
+      "en": "Major Wins Scheming Evangelist Swimwear"
+    },
+    "skin053": {
+      "ja": "超必勝スキームの伝道師 水着炎なし",
+      "en": "Major Wins Scheming Evangelist Swimwear - No Flames"
+    }
+  },
+  "stalon": {
+    "skin002": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin004": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin008": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "道拓くアークデーモン",
+      "en": "Trailblazing Archdemon"
+    },
+    "skin011": {
+      "ja": "道拓くアークデーモン 武器なし",
+      "en": "Trailblazing Archdemon Unarmed"
+    },
+    "skin013": {
+      "ja": "道拓くアークデーモン 装備なし",
+      "en": "Trailblazing Archdemon No Equipment"
+    }
+  },
+  "sepia_merchant": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "sven": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin007": {
+      "ja": "上裸武器なし",
+      "en": "Topless - Unarmed"
+    },
+    "skin009": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "特命！ハニトラ隊長",
+      "en": "Special Mission: Captain Honeytrap"
+    },
+    "skin052": {
+      "ja": "特命！ハニトラ隊長 武器なし",
+      "en": "Special Mission: Captain Honeytrap Unarmed"
+    },
+    "skin056": {
+      "ja": "特命！ハニトラ隊長 水着",
+      "en": "Special Mission: Captain Honeytrap Swimwear"
+    }
+  },
+  "tengo": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "ふんどし",
+      "en": "Loincloth"
+    }
+  },
+  "theodor": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin011": {
+      "ja": "水着２",
+      "en": "Swimwear 2"
+    },
+    "skin012": {
+      "ja": "水着３",
+      "en": "Swimwear 3"
+    },
+    "skin013": {
+      "ja": "水着４",
+      "en": "Swimwear 4"
+    },
+    "skin050": {
+      "ja": "ドラゴンキラー",
+      "en": "Dragon Killer"
+    },
+    "skin052": {
+      "ja": "ドラゴンキラー 装備発光",
+      "en": "Dragon Killer Armament Illumination"
+    },
+    "skin054": {
+      "ja": "ドラゴンキラー 武器なし",
+      "en": "Dragon Killer Unarmed"
+    },
+    "skin056": {
+      "ja": "ドラゴンキラー マントなし",
+      "en": "Dragon Killer No Cloak"
+    },
+    "skin058": {
+      "ja": "ドラゴンキラー マントなし装備発光",
+      "en": "Dragon Killer No Coat - Armament Illumination"
+    },
+    "skin060": {
+      "ja": "ドラゴンキラー マントと武器なし",
+      "en": "Dragon Killer No Coat - Unarmed"
+    }
+  },
+  "thomas": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "パイプなし",
+      "en": "No Pipe"
+    },
+    "skin005": {
+      "ja": "帽子なし",
+      "en": "Hatless"
+    },
+    "skin009": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin010": {
+      "ja": "裸エプロン",
+      "en": "Naked - Apron"
+    },
+    "skin012": {
+      "ja": "名誉会長",
+      "en": "Renowned Boss"
+    },
+    "skin014": {
+      "ja": "名誉会長 パイプなし",
+      "en": "Renowned Boss No Pipe"
+    },
+    "skin016": {
+      "ja": "名誉会長 帽子なし",
+      "en": "Renowned Boss Hatless"
+    }
+  },
+  "thorkell": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "マフラーなし",
+      "en": "No Scarf"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin004": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin008": {
+      "ja": "突撃特派員",
+      "en": "Special Corps on the Offensive!"
+    },
+    "skin009": {
+      "ja": "青き炎の運び手",
+      "en": "Bearer of Blue Flames"
+    },
+    "skin010": {
+      "ja": "青き炎の運び手 鞄なし",
+      "en": "Bearer of Blue Flames No Bag"
+    },
+    "skin011": {
+      "ja": "青き炎の運び手 水着",
+      "en": "Bearer of Blue Flames Swimwear"
+    },
+    "skin012": {
+      "ja": "青き炎の運び手 水着上裸",
+      "en": "Bearer of Blue Flames Swimwear - Topless"
+    }
+  },
+  "tilikum": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin005": {
+      "ja": "水着飾りなし",
+      "en": "Swimwear - No Accesory"
+    },
+    "skin006": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "todorf": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "水着飾りなし",
+      "en": "Swimwear - No Accesory"
+    },
+    "skin050": {
+      "ja": "サンタアーミー軍事教官",
+      "en": "Santa's Army Military Instructor"
+    },
+    "skin051": {
+      "ja": "サンタアーミー軍事教官 武器なし",
+      "en": "Santa's Army Military Instructor Unarmed"
+    },
+    "skin052": {
+      "ja": "サンタアーミー軍事教官 コートなし",
+      "en": "Santa's Army Military Instructor No Coat"
+    },
+    "skin053": {
+      "ja": "サンタアーミー軍事教官 コートなし武器なし",
+      "en": "Santa's Army Military Instructor No Coat - Unarmed"
+    }
+  },
+  "tsukimaru": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "コートなし",
+      "en": "No Coat"
+    },
+    "skin007": {
+      "ja": "下着",
+      "en": "Underwear"
+    },
+    "skin009": {
+      "ja": "下着緊縛なし",
+      "en": "Underwear - No Bondage Rope"
+    },
+    "skin011": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin013": {
+      "ja": "水着武器なし",
+      "en": "Swimwear - Unarmed"
+    },
+    "skin015": {
+      "ja": "ふんどし白",
+      "en": "White Loincloth"
+    }
+  },
+  "volund": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin007": {
+      "ja": "スパルタントレーナー",
+      "en": "Spartan Trainer"
+    }
+  },
+  "walther": {
+    "skin001": {
+      "ja": "フルマスク",
+      "en": "Full Mask"
+    },
+    "skin002": {
+      "ja": "覆面",
+      "en": "Half Mask"
+    },
+    "skin003": {
+      "ja": "犬マスク",
+      "en": "Muzzle"
+    },
+    "skin004": {
+      "ja": "マスクなし",
+      "en": "Maskless"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "ブラックバニー",
+      "en": "Bunnyboy"
+    },
+    "skin011": {
+      "ja": "ブラックバニー コートなし",
+      "en": "Bunnyboy No Coat"
+    },
+    "skin013": {
+      "ja": "ブラックバニー 装備なし",
+      "en": "Bunnyboy No Equipment"
+    }
+  },
+  "wilder": {
+    "skin001": {
+      "ja": "手開きエンハンサーなしサングラスなし",
+      "en": "Open Hand - No Enhancer & No Sunglasses"
+    },
+    "skin002": {
+      "ja": "手開きエンハンサーなし",
+      "en": "Open Hand - No Enhancer"
+    },
+    "skin003": {
+      "ja": "手開きサングラスなし",
+      "en": "Open Hand - No Sunglasses"
+    },
+    "skin004": {
+      "ja": "手開き",
+      "en": "Open Hand"
+    },
+    "skin005": {
+      "ja": "武器なし手開きエンハンサーなしサングラスなし",
+      "en": "Unarmed - Open Hand & No Enhancer & No Sunglasses"
+    },
+    "skin006": {
+      "ja": "武器なし手開きエンハンサーなし",
+      "en": "Unarmed - Open Hand & No Enhancer"
+    },
+    "skin007": {
+      "ja": "武器なし手開きサングラスなし",
+      "en": "Unarmed - Open Hand & No Sunglasses"
+    },
+    "skin008": {
+      "ja": "武器なし手開き",
+      "en": "Unarmed - Open Hand"
+    },
+    "skin009": {
+      "ja": "シャツなしエンハンサーなしサングラスなし",
+      "en": "No Shirt & No Enhancer & No Sunglasses"
+    },
+    "skin011": {
+      "ja": "シャツなしエンハンサーなし",
+      "en": "No Shirt & No Enhancer"
+    },
+    "skin013": {
+      "ja": "シャツなしサングラスなし",
+      "en": "No Shirt & No Sunglasses"
+    },
+    "skin015": {
+      "ja": "シャツなし",
+      "en": "No Shirt"
+    },
+    "skin017": {
+      "ja": "上裸手開きエンハンサーなしサングラスなし",
+      "en": "Topless - Open Hand & No Enhancer & No Sunglasses"
+    },
+    "skin019": {
+      "ja": "上裸手開きエンハンサーなし",
+      "en": "Topless - Open Hand & No Enhancer"
+    },
+    "skin021": {
+      "ja": "上裸手開きサングラスなし",
+      "en": "Topless - Open Hand & No Sunglasses"
+    },
+    "skin023": {
+      "ja": "上裸手開き",
+      "en": "Topless - Open Hand"
+    },
+    "skin025": {
+      "ja": "エンハンサーなしサングラスなし",
+      "en": "No Enhancer & No Sunglasses"
+    },
+    "skin026": {
+      "ja": "エンハンサーなし",
+      "en": "No Enhancer"
+    },
+    "skin027": {
+      "ja": "サングラスなし",
+      "en": "No Sunglasses"
+    },
+    "skin028": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin029": {
+      "ja": "武器なしエンハンサーなし",
+      "en": "Unarmed & No Enhancer"
+    },
+    "skin030": {
+      "ja": "武器なしサングラスなし",
+      "en": "Unarmed & No Sunglasses"
+    },
+    "skin031": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin032": {
+      "ja": "上裸エンハンサーなしサングラスなし",
+      "en": "Topless & No Enhancer & No Sunglasses"
+    },
+    "skin034": {
+      "ja": "上裸エンハンサーなし",
+      "en": "Topless & No Enhancer"
+    },
+    "skin036": {
+      "ja": "上裸サングラスなし",
+      "en": "Topless & No Sunglasses"
+    },
+    "skin038": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin048": {
+      "ja": "ヴィランモード",
+      "en": "Villain Mode"
+    },
+    "skin051": {
+      "ja": "ヴィランモード武器なし",
+      "en": "Villain Mode - Unarmed"
+    },
+    "skin054": {
+      "ja": "水着手開き",
+      "en": "Swimwear - Open Hand"
+    },
+    "skin057": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "sepia_worker": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "wrecker": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "アイアンウィルプリズナー プリズナー",
+      "en": "Iron-Willed Prisoner Prisoner"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin050": {
+      "ja": "通常２",
+      "en": "Standard 2"
+    },
+    "skin052": {
+      "ja": "アイアンウィルプリズナー プリズナー２",
+      "en": "Iron-Willed Prisoner Prisoner 2"
+    },
+    "skin054": {
+      "ja": "アイアンウィルプリズナー 口枷なし",
+      "en": "Iron-Willed Prisoner No Muzzle"
+    },
+    "skin056": {
+      "ja": "アイアンウィルプリズナー",
+      "en": "Iron-Willed Prisoner"
+    },
+    "skin058": {
+      "ja": "水着２",
+      "en": "Swimwear 2"
+    }
+  },
+  "xiaolong": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin005": {
+      "ja": "ふんどし",
+      "en": "Loincloth"
+    },
+    "skin009": {
+      "ja": "温泉拳法純潔の書",
+      "en": "Martial Art Purity Scholarship"
+    }
+  },
+  "yabusaha": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "本持ち",
+      "en": "Book"
+    },
+    "skin003": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin011": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin013": {
+      "ja": "熱血個別指導",
+      "en": "Passionate Private Tutor"
+    }
+  },
+  "yaqut": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "口布なし",
+      "en": "No Veil"
+    },
+    "skin007": {
+      "ja": "口布と武器なし",
+      "en": "No Veil - Unarmed"
+    },
+    "skin009": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "yuno": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "幸せになるのはオレだ！",
+      "en": "I Will Find My Happiness!"
+    },
+    "skin011": {
+      "ja": "幸せになるのはオレだ！ 帽子なし",
+      "en": "I Will Find My Happiness! Hatless"
+    },
+    "skin013": {
+      "ja": "幸せになるのはオレだ！ サスペンダーなし",
+      "en": "I Will Find My Happiness! No Suspenders"
+    },
+    "skin015": {
+      "ja": "幸せになるのはオレだ！ 帽子とサスペンダーなし",
+      "en": "I Will Find My Happiness! No Suspenders or Hat"
+    },
+    "skin017": {
+      "ja": "幸せになるのはオレだ！ シャツなし",
+      "en": "I Will Find My Happiness! Shirtless"
+    },
+    "skin019": {
+      "ja": "幸せになるのはオレだ！ シャツと帽子なし",
+      "en": "I Will Find My Happiness! No Hat or Shirt"
+    },
+    "skin021": {
+      "ja": "レンタル彼氏",
+      "en": "Rental Partner"
+    },
+    "skin023": {
+      "ja": "レンタル彼氏 武器なし",
+      "en": "Rental Partner Unarmed"
+    }
+  },
+  "yurt": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "杖なし",
+      "en": "No Staff"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "zacharoff": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "悟りのスフィンクス",
+      "en": "Enlightened Sphinx"
+    },
+    "skin003": {
+      "ja": "上裸",
+      "en": "Topless"
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin008": {
+      "ja": "水着浮き輪なし",
+      "en": "Swimwear - No Lifesaver"
+    },
+    "skin009": {
+      "ja": "デモンズモナーク",
+      "en": "Monarch of Demons"
+    },
+    "skin010": {
+      "ja": "デモンズモナーク フードなし",
+      "en": "Monarch of Demons No Hood"
+    },
+    "skin012": {
+      "ja": "悟りのスフィンクス 上裸",
+      "en": "Enlightened Sphinx Topless"
+    },
+    "skin015": {
+      "ja": "水着タオルなし",
+      "en": "Swimwear - No Towel"
+    },
+    "skin016": {
+      "ja": "悟りのスフィンクス 水着タオルなし",
+      "en": "Enlightened Sphinx Swimwear - No Towel"
+    },
+    "skin017": {
+      "ja": "悟りのスフィンクス 水着",
+      "en": "Enlightened Sphinx Swimwear"
+    },
+    "skin018": {
+      "ja": "悟りのスフィンクス 水着浮き輪なし",
+      "en": "Enlightened Sphinx Swimwear - No Lifesaver"
+    }
+  },
+  "zet": {
+    "skin001": {
+      "ja": "サングラスなし",
+      "en": "No Sunglasses"
+    },
+    "skin002": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着 サングラスなし",
+      "en": "Swimwear No Sunglasses"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    },
+    "skin009": {
+      "ja": "獣化 サングラスなし",
+      "en": "Bestialized No Sunglasses"
+    },
+    "skin010": {
+      "ja": "獣化",
+      "en": "Bestialized"
+    },
+    "skin011": {
+      "ja": "獣化 水着サングラスなし",
+      "en": "Bestialized Swimwear - No Sunglasses"
+    },
+    "skin013": {
+      "ja": "獣化 水着",
+      "en": "Bestialized Swimwear"
+    },
+    "skin050": {
+      "ja": "セレブヴィランヘッド",
+      "en": "Celebrity Villain Top Dog"
+    },
+    "skin053": {
+      "ja": "セレブヴィランヘッド 獣化",
+      "en": "Celebrity Villain Top Dog Bestialized"
+    }
+  }
+}

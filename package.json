@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:sprite-names": "node scripts/buildSpriteNames.js"
   },
   "dependencies": {
     "@blueprintjs/core": "^5.3.1",

@@ -245,13 +245,19 @@ function SpriteAdd(props: {
               <div className="bp5-html-select">
                 <select onChange={handleChangeSkin} value={skinIndex}>
                   {spriteInfo
-                    .find((x) => x.id === spriteId)
-                    ?.skins.map((y) => (
-                      <option key={y.index} value={y.index}>
-                        {t("ui.text.spriteSkin")}
-                        {paddingZero(y.index + 1)}
-                      </option>
-                    ))}
+                    .find((x) => {console.log(x, spriteId);return x.id === spriteId})
+                    ?.skins.map((y) => {
+                      const masterName =
+                        i18n.language === "ja" ? y.nameJa : y.nameEn;
+                      return (
+                        <option key={y.index} value={y.index}>
+                          {masterName ??
+                            `${t("ui.text.spriteSkin")}${paddingZero(
+                              y.index + 1
+                            )}`}
+                        </option>
+                      );
+                    })}
                 </select>
                 <span className="bp5-icon bp5-icon-chevron-down"></span>
               </div>

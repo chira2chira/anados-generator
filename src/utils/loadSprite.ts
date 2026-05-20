@@ -5,6 +5,8 @@ import path from "path";
 type SkinInfo = {
   index: number;
   files: string[];
+  nameJa?: string;
+  nameEn?: string;
 };
 
 export type SpriteInfo = {
@@ -15,13 +17,29 @@ export type SpriteInfo = {
   skins: SkinInfo[];
 };
 
+type SpriteNamesJson = Record<string, Record<string, { ja: string; en: string }>>;
+
 export function loadYaml<T>(yamlPath: string) {
   return yaml.load(
     fs.readFileSync(path.join(process.cwd(), yamlPath), "utf-8")
   ) as T;
 }
 
+function loadSpriteNames(): SpriteNamesJson {
+  const file = path.join(process.cwd(), "assets/spriteNames.json");
+  if (!fs.existsSync(file)) {
+    console.warn(
+      "assets/spriteNames.json が見つかりません。skin名は連番表示にフォールバックします。" +
+        " 生成するには `yarn build:sprite-names` を実行してください。"
+    );
+    return {};
+  }
+  return JSON.parse(fs.readFileSync(file, "utf-8")) as SpriteNamesJson;
+}
+
 export function loadSprites() {
+  const spriteNames = loadSpriteNames();
+
   const spriteInfo: SpriteInfo[] = loadYaml<SpriteInfo[]>("assets/sprite.yaml")
     .map((x) => {
       const skins: SkinInfo[] = [];
@@ -37,9 +55,16 @@ export function loadSprites() {
         return { ...x, skins };
       }
 
-      rootFiles.forEach((x, i) => {
-        const images = fs.readdirSync(path.join(spritePath, x));
-        skins.push({ index: i, files: images.map((y) => `${x}/${y}`) });
+      const nameMap = spriteNames[x.id] ?? {};
+      rootFiles.forEach((folder, i) => {
+        const images = fs.readdirSync(path.join(spritePath, folder));
+        const names = nameMap[folder];
+        skins.push({
+          index: i,
+          files: images.map((y) => `${folder}/${y}`),
+          ...(names?.ja ? { nameJa: names.ja } : {}),
+          ...(names?.en ? { nameEn: names.en } : {}),
+        });
       });
       return { ...x, skins };
     })

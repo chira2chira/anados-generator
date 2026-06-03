@@ -103,4 +103,5 @@ yarn build:sprite-names   # assets/data/* から spriteNames.json + spriteManife
 - `spriteNames.json` には skin の表示名のみが入り、巨大マスター由来の他データはアプリに混入しない。
 - sprite フォルダで「skin フォルダ階層を持たない」(画像が直下に並ぶ) 構造のものは `loadSprite.ts` 側で 1ファイル = 1skin として扱う。スクリプトはこれをスキップしてアプリのフォールバックに任せる。`spriteManifest.json` にもこれらは載らない (= unit_id 解決不可のため API 対象外)。
 - `spriteManifest.json` はビルド時の master データ依存の生成物。新規 sprite 画像だけコミットして `yarn build:sprite-names` を再実行しないと manifest (= API のレスポンス) が古いままになる。
+- `loadSprite.ts` の getStaticProps が `public/static/image/sprite` を fs 列挙するため、@vercel/nft が画像ディレクトリ全体 (~1.8GB) を index ページのサーバ関数に同梱し serverless function サイズ上限を超える。`next.config.js` の `experimental.outputFileTracingExcludes` で `public/**` を関数トレースから除外して回避している。**Windows ローカルの `yarn build` ではこの除外が空振りし `.next/server/pages/index.js.nft.json` に画像が残るが、デプロイ先 (Vercel = Linux) では正しく除外される** (Next 内部の picomatch がパス区切りに依存するため)。
 - Konva 描画は `TalkGenerator` で Stage を 1 つ作り、`bgLayer` (背景) / 任意の追加 Layer (Image/Sprite) / `uiLayer` (会話ウィンドウ) の順で重ねる。レイヤー順は `SpriteAdd` の上下ボタンで `moveUp` / `moveDown` する。

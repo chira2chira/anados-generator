@@ -22,6 +22,14 @@
       "ja": "勇者兜なし",
       "en": "Hero - Helmetless"
     },
+    "skin003": {
+      "ja": "心躍る冒険",
+      "en": "Fluttered Adventurer"
+    },
+    "skin004": {
+      "ja": "心躍る冒険 兜なし",
+      "en": "Fluttered Adventurer Rank Up"
+    },
     "skin051": {
       "ja": "魔族",
       "en": "Dark"
@@ -131,6 +139,58 @@
     "skin015": {
       "ja": "水着 サングラスなしアクセサリーなし",
       "en": "Swimwear No Sunglasses & No Accessories"
+    }
+  },
+  "andro_guard": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "andro_healer": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "andro_vanguard": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin005": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "sepiatrainee": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
     }
   },
   "arkio": {
@@ -1043,6 +1103,16 @@
       "en": "Swimwear"
     }
   },
+  "dunk": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
   "dward": {
     "skin001": {
       "ja": "通常",
@@ -1623,6 +1693,20 @@
       "en": "Ultra Super Novice Underwear - No Accesory"
     }
   },
+  "garoad": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
   "ginji": {
     "skin001": {
       "ja": "通常",
@@ -1719,6 +1803,16 @@
     "skin006": {
       "ja": "もくもく煙の興行主",
       "en": "Billowing Impresario"
+    }
+  },
+  "frightenedtraveler": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "水着",
+      "en": "Swimwear"
     }
   },
   "gou": {
@@ -2209,6 +2303,16 @@
       "en": "Swimwear"
     }
   },
+  "jade": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
   "jalam": {
     "skin001": {
       "ja": "通常",
@@ -2585,6 +2689,20 @@
     "skin002": {
       "ja": "上裸",
       "en": "Topless"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
+    }
+  },
+  "saunner": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "サウナ服",
+      "en": "Sauna Outfit"
     },
     "skin003": {
       "ja": "水着",
@@ -3848,6 +3966,10 @@
       "ja": "水着",
       "en": "Swimwear"
     },
+    "skin011": {
+      "ja": "ワンダーランドの案内人",
+      "en": "The Wonderland's Guide"
+    },
     "skin012": {
       "ja": "シャドープリースト",
       "en": "Priest in the Shadows"
@@ -3901,6 +4023,24 @@
     "skin053": {
       "ja": "超必勝スキームの伝道師 水着炎なし",
       "en": "Major Wins Scheming Evangelist Swimwear - No Flames"
+    }
+  },
+  "saunner_tiger": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "サウナ服",
+      "en": "Sauna Outfit"
+    },
+    "skin005": {
+      "ja": "黒装束",
+      "en": "Black Robe"
+    },
+    "skin006": {
+      "ja": "水着",
+      "en": "Swimwear"
     }
   },
   "stalon": {
@@ -4177,6 +4317,16 @@
     "skin015": {
       "ja": "ふんどし白",
       "en": "White Loincloth"
+    }
+  },
+  "youngtraveler": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin003": {
+      "ja": "水着",
+      "en": "Swimwear"
     }
   },
   "volund": {
@@ -4461,6 +4611,18 @@
     "skin009": {
       "ja": "水着",
       "en": "Swimwear"
+    },
+    "skin013": {
+      "ja": "ふたりだけの記念日 口布と帽子なし",
+      "en": "An Anniversary Exclusively for Two No Veil or Hat"
+    },
+    "skin014": {
+      "ja": "ふたりだけの記念日 口布なし",
+      "en": "An Anniversary Exclusively for Two No Veil"
+    },
+    "skin015": {
+      "ja": "ふたりだけの記念日",
+      "en": "An Anniversary Exclusively for Two"
     }
   },
   "yuno": {

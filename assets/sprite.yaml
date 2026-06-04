@@ -18,6 +18,22 @@
   sortIndex: a
   nameJa: アナグラ
   nameEn: Anagura
+- id: andro_guard
+  sortIndex: a
+  nameJa: アンドロゲイナーG
+  nameEn: Androgenizer G
+- id: andro_healer
+  sortIndex: a
+  nameJa: アンドロゲイナーH
+  nameEn: Androgenizer H
+- id: andro_vanguard
+  sortIndex: a
+  nameJa: アンドロゲイナーV
+  nameEn: Androgenizer V
+- id: sepiatrainee
+  sortIndex: a
+  nameJa: 見習い工員
+  nameEn: Apprentice Worker
 - id: arkio
   sortIndex: a
   nameJa: アルキオン
@@ -194,6 +210,10 @@
   sortIndex: d
   nameJa: ドミノ
   nameEn: Domino
+- id: dunk
+  sortIndex: d
+  nameJa: ダンク
+  nameEn: Dunk
 - id: dward
   sortIndex: d
   nameJa: ドワード
@@ -306,6 +326,10 @@
   sortIndex: g
   nameJa: ガオウ
   nameEn: Gaoh
+- id: garoad
+  sortIndex: g
+  nameJa: ガロード
+  nameEn: Garold
 - id: ginji
   sortIndex: g
   nameJa: ギンジ
@@ -338,6 +362,10 @@
   sortIndex: g
   nameJa: ゴルドフ
   nameEn: Gordov
+- id: frightenedtraveler
+  sortIndex: g
+  nameJa: 噂好きの冒険者
+  nameEn: Gossiping Adventurer
 - id: gou
   sortIndex: g
   nameJa: ゴウ
@@ -410,6 +438,10 @@
   sortIndex: i
   nameJa: イーヴァル
   nameEn: Ivar
+- id: jade
+  sortIndex: j
+  nameJa: ジェイド
+  nameEn: Jade
 - id: jalam
   sortIndex: j
   nameJa: ジャラム
@@ -470,6 +502,10 @@
   sortIndex: l
   nameJa: リュート
   nameEn: Lute
+- id: saunner
+  sortIndex: m
+  nameJa: 魔物好きの冒険者
+  nameEn: Magical Beast-Loving Adventurer
 - id: magritte
   sortIndex: m
   nameJa: マグリット
@@ -742,6 +778,10 @@
   sortIndex: s
   nameJa: スピカ
   nameEn: Spica
+- id: saunner_tiger
+  sortIndex: s
+  nameJa: サウナ好きの冒険者
+  nameEn: Sauna-Loving Adventurer
 - id: stalon
   sortIndex: s
   nameJa: スタロン
@@ -782,6 +822,10 @@
   sortIndex: t
   nameJa: ツキマル
   nameEn: Tsukimaru
+- id: youngtraveler
+  sortIndex: u
+  nameJa: 不運な冒険者
+  nameEn: Unlucky Adventurer
 - id: volund
   sortIndex: v
   nameJa: ヴェルンド

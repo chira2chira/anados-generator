@@ -414,6 +414,18 @@
   sortIndex: h
   nameJa: ヒフミ
   nameEn: Hifumi
+- id: ise_elder
+  sortIndex: h
+  nameJa: 温泉郷の番台
+  nameEn: Hot-Spring Doorkeeper
+- id: ise_fox
+  sortIndex: h
+  nameJa: 温泉郷の狐
+  nameEn: Hot-Spring Fox
+- id: ise_oni
+  sortIndex: h
+  nameJa: 温泉郷の赤鬼
+  nameEn: Hot-Spring Red Demon
 - id: hulk
   sortIndex: h
   nameJa: ハルク

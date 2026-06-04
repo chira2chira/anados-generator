@@ -1195,6 +1195,120 @@
       ]
     }
   ],
+  "1030": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder001_skin001.webp",
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder002_skin001.webp",
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder003_skin001.webp",
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder004_skin001.webp",
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder005_skin001.webp",
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder006_skin001.webp",
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder007_skin001.webp",
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder008_skin001.webp",
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder009_skin001.webp",
+        "/static/image/sprite/ise_elder/skin001/fg_ise_elder010_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin002",
+      "nameJa": "武器なし",
+      "nameEn": "Unarmed",
+      "nameZh": "沒武器",
+      "images": [
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder001_skin002.webp",
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder002_skin002.webp",
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder003_skin002.webp",
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder004_skin002.webp",
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder005_skin002.webp",
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder006_skin002.webp",
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder007_skin002.webp",
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder008_skin002.webp",
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder009_skin002.webp",
+        "/static/image/sprite/ise_elder/skin002/fg_ise_elder010_skin002.webp"
+      ]
+    }
+  ],
+  "1031": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox001_skin001.webp",
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox002_skin001.webp",
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox003_skin001.webp",
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox004_skin001.webp",
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox005_skin001.webp",
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox006_skin001.webp",
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox007_skin001.webp",
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox008_skin001.webp",
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox009_skin001.webp",
+        "/static/image/sprite/ise_fox/skin001/fg_ise_fox010_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin002",
+      "nameJa": "武器なし",
+      "nameEn": "Unarmed",
+      "nameZh": "沒武器",
+      "images": [
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox001_skin002.webp",
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox002_skin002.webp",
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox003_skin002.webp",
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox004_skin002.webp",
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox005_skin002.webp",
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox006_skin002.webp",
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox007_skin002.webp",
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox008_skin002.webp",
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox009_skin002.webp",
+        "/static/image/sprite/ise_fox/skin002/fg_ise_fox010_skin002.webp"
+      ]
+    }
+  ],
+  "1032": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni001_skin001.webp",
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni002_skin001.webp",
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni003_skin001.webp",
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni004_skin001.webp",
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni005_skin001.webp",
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni006_skin001.webp",
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni007_skin001.webp",
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni008_skin001.webp",
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni009_skin001.webp",
+        "/static/image/sprite/ise_oni/skin001/fg_ise_oni010_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin002",
+      "nameJa": "武器なし",
+      "nameEn": "Unarmed",
+      "nameZh": "沒武器",
+      "images": [
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni001_skin002.webp",
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni002_skin002.webp",
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni003_skin002.webp",
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni004_skin002.webp",
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni005_skin002.webp",
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni006_skin002.webp",
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni007_skin002.webp",
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni008_skin002.webp",
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni009_skin002.webp",
+        "/static/image/sprite/ise_oni/skin002/fg_ise_oni010_skin002.webp"
+      ]
+    }
+  ],
   "2001": [
     {
       "id": "skin001",

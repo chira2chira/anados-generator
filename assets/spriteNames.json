@@ -2135,6 +2135,36 @@
       "en": "Swimwear No Sunglasses"
     }
   },
+  "ise_elder": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    }
+  },
+  "ise_fox": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    }
+  },
+  "ise_oni": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard"
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed"
+    }
+  },
   "hulk": {
     "skin001": {
       "ja": "通常",

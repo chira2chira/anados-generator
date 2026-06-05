@@ -9154,6 +9154,23 @@
   ],
   "5066": [
     {
+      "id": "skin008",
+      "nameJa": "サンライズホーク",
+      "nameEn": "Sunrise Hawk",
+      "nameZh": "黎明之鷹",
+      "images": [
+        "/static/image/sprite/siddeley/skin008/fg_siddeley001_skin008.webp",
+        "/static/image/sprite/siddeley/skin008/fg_siddeley002_skin008.webp",
+        "/static/image/sprite/siddeley/skin008/fg_siddeley003_skin008.webp",
+        "/static/image/sprite/siddeley/skin008/fg_siddeley004_skin008.webp",
+        "/static/image/sprite/siddeley/skin008/fg_siddeley005_skin008.webp",
+        "/static/image/sprite/siddeley/skin008/fg_siddeley006_skin008.webp",
+        "/static/image/sprite/siddeley/skin008/fg_siddeley007_skin008.webp",
+        "/static/image/sprite/siddeley/skin008/fg_siddeley008_skin008.webp",
+        "/static/image/sprite/siddeley/skin008/fg_siddeley009_skin008.webp"
+      ]
+    },
+    {
       "id": "skin009",
       "nameJa": "サンライズホーク もっこり",
       "nameEn": "Sunrise Hawk Bulge",

@@ -65,8 +65,10 @@ scripts/
 1. `scripts/buildSpriteNames.js` を `yarn build:sprite-names` で手動実行 → `assets/spriteNames.json` と `assets/spriteManifest.json` を生成。
    - 結合キー: sprite ファイル stem (`fg_<id>_skin***`) ↔ `UAnadosCharacter.SubFileName` の `/` 以降 → `CharacterName` ↔ `master_galleries.ucharacter_name` → `title_jp` / `title_en` / `title_tw` / `unit_id`。
    - `<br>` タグは空白に正規化。マッチしない skin はログに warn を出し JSON から除外 (= アプリ側で連番フォールバック)。
-   - `spriteManifest.json` は `unit_id → [{ id, nameJa, nameEn, nameZh, images[] }]` 構造。**unit_id は skin 単位で紐付く**ため、1 sprite フォルダ内の skin が複数 unit_id に分かれたり、1 unit_id が複数 sprite フォルダにまたがる (多対多)。同一 unit_id 内で skin フォルダ名が衝突する場合は 2 件目以降の id に `_<spriteId>` を付与して一意化する (warn 出力)。
-2. `src/utils/loadSprite.ts` の `loadSprites()` がサーバ側 (getStaticProps) で `sprite.yaml` を読み、各 sprite の skin フォルダ列挙 + `spriteNames.json` の名前を付与して `SpriteInfo[]` を返す。
+   - **表情ソート**: `UAnadosCharacter.Pattern` (各ファイルの表情名) と `master_galleries.expression_list` (スペース区切りの表情順リスト) を組み合わせ、各スキンの画像ファイルをゲーム内と同じ順にソートしてから JSON に書き出す。Pattern が expression_list に存在しない場合はファイル名順で末尾に置く。
+   - `spriteNames.json` は `spriteId → { skinFolder → { ja, en, files[] } }` 構造。`files` はソート済みファイル名リスト。
+   - `spriteManifest.json` は `unit_id → [{ id, nameJa, nameEn, nameZh, images[] }]` 構造。`images` も expression_list 順でソート済み。**unit_id は skin 単位で紐付く**ため、1 sprite フォルダ内の skin が複数 unit_id に分かれたり、1 unit_id が複数 sprite フォルダにまたがる (多対多)。同一 unit_id 内で skin フォルダ名が衝突する場合は 2 件目以降の id に `_<spriteId>` を付与して一意化する (warn 出力)。
+2. `src/utils/loadSprite.ts` の `loadSprites()` がサーバ側 (getStaticProps) で `sprite.yaml` を読み、各 sprite の skin フォルダ列挙 + `spriteNames.json` の名前・ファイル順を付与して `SpriteInfo[]` を返す。`spriteNames.json` に `files` が存在する skin はその順序を使い、ない場合はファイルシステム列挙順にフォールバック。
    - `getStaticProps` の戻り値は JSON シリアライズされるため、`nameJa`/`nameEn` は値があるときだけスプレッドで付ける (`undefined` 不可)。
 3. ブラウザ側の `SpriteAdd` が `i18n.language` に応じて `nameJa` / `nameEn` を表示。未設定 skin は `t("ui.text.spriteSkin") + paddingZero(...)` で連番フォールバック。
 
@@ -100,7 +102,7 @@ yarn build:sprite-names   # assets/data/* から spriteNames.json + spriteManife
 
 ## 注意点
 
-- `spriteNames.json` には skin の表示名のみが入り、巨大マスター由来の他データはアプリに混入しない。
+- `spriteNames.json` には skin 表示名 (`ja`/`en`) とゲーム内順ソート済みのファイルリスト (`files`) が入る。巨大マスター由来の他データはアプリに混入しない。
 - sprite フォルダで「skin フォルダ階層を持たない」(画像が直下に並ぶ) 構造のものは `loadSprite.ts` 側で 1ファイル = 1skin として扱う。スクリプトはこれをスキップしてアプリのフォールバックに任せる。`spriteManifest.json` にもこれらは載らない (= unit_id 解決不可のため API 対象外)。
 - `spriteManifest.json` はビルド時の master データ依存の生成物。新規 sprite 画像だけコミットして `yarn build:sprite-names` を再実行しないと manifest (= API のレスポンス) が古いままになる。
 - `loadSprite.ts` の getStaticProps が `public/static/image/sprite` を fs 列挙するため、@vercel/nft が画像ディレクトリ全体 (~1.8GB) を index ページのサーバ関数に同梱し serverless function サイズ上限を超える。`next.config.js` の `experimental.outputFileTracingExcludes` で `public/**` を関数トレースから除外して回避している。**Windows ローカルの `yarn build` ではこの除外が空振りし `.next/server/pages/index.js.nft.json` に画像が残るが、デプロイ先 (Vercel = Linux) では正しく除外される** (Next 内部の picomatch がパス区切りに依存するため)。

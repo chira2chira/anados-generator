@@ -46,8 +46,22 @@ function buildSubFileNameMap(uCharacterList) {
   return map;
 }
 
+function buildPatternMap(uCharacterList) {
+  // stem (ファイル名の拡張子なし) → Pattern (表情名) のマップ。
+  // 表情ソートに使う。同一 stem が複数エントリにある場合は先勝ち。
+  const map = new Map();
+  for (const entry of uCharacterList) {
+    const sub = entry.SubFileName;
+    if (!sub || !entry.Pattern) continue;
+    const stem = sub.includes("/") ? sub.split("/").pop() : sub;
+    if (!stem || map.has(stem)) continue;
+    map.set(stem, entry.Pattern);
+  }
+  return map;
+}
+
 function buildGalleryMap(master) {
-  // ucharacter_name → { ja, en, unitId } のマップ
+  // ucharacter_name → { ja, en, unitId, expressionList } のマップ
   const map = new Map();
   const galleries = master?.ret?.master_galleries ?? [];
   for (const g of galleries) {
@@ -58,6 +72,9 @@ function buildGalleryMap(master) {
       en: normalizeTitle(g.title_en),
       zh: normalizeTitle(g.title_tw),
       unitId: g.unit_id,
+      expressionList: g.expression_list
+        ? g.expression_list.split(" ").filter(Boolean)
+        : [],
     });
   }
   return map;
@@ -69,6 +86,7 @@ function main() {
   const master = loadJson(MASTER_JSON);
 
   const subFileMap = buildSubFileNameMap(uCharacterList);
+  const patternMap = buildPatternMap(uCharacterList);
   const galleryMap = buildGalleryMap(master);
 
   const result = {};
@@ -99,7 +117,8 @@ function main() {
       if (!fs.statSync(skinPath).isDirectory()) continue;
       const images = fs.readdirSync(skinPath);
       if (images.length === 0) continue;
-      // 同フォルダ内ファイルは全て同じ SubFileName を指すため 1 件で十分
+      // 同フォルダ内のファイルは全て同じキャラクター (同一 CharacterName) のため
+      // 1 件で CharacterName を解決し、各ファイルの Pattern で expression_list 順にソートする。
       const stem = path.parse(images[0]).name;
       const candidates = subFileMap.get(stem);
       if (!candidates || candidates.length === 0) {
@@ -123,7 +142,21 @@ function main() {
         );
         continue;
       }
-      skinEntries[skinFolder] = { ja: title.ja, en: title.en };
+
+      // expression_list の順にファイルをソートする。
+      // Pattern が expression_list にない場合はファイル名順で末尾に置く。
+      const expressionList = title.expressionList ?? [];
+      const sortedImages = [...images].sort((a, b) => {
+        const aPattern = patternMap.get(path.parse(a).name) ?? "";
+        const bPattern = patternMap.get(path.parse(b).name) ?? "";
+        const aIdx = expressionList.indexOf(aPattern);
+        const bIdx = expressionList.indexOf(bPattern);
+        const aOrder = aIdx === -1 ? Infinity : aIdx;
+        const bOrder = bIdx === -1 ? Infinity : bIdx;
+        return aOrder !== bOrder ? aOrder - bOrder : a.localeCompare(b);
+      });
+
+      skinEntries[skinFolder] = { ja: title.ja, en: title.en, files: sortedImages };
 
       // manifest: unit_id 単位で skin を集約 (画像フルパス込み)
       const unitId = String(title.unitId);
@@ -141,7 +174,7 @@ function main() {
         nameJa: title.ja,
         nameEn: title.en,
         nameZh: title.zh,
-        images: images.map(
+        images: sortedImages.map(
           (img) => `/static/image/sprite/${sprite.id}/${skinFolder}/${img}`
         ),
       });

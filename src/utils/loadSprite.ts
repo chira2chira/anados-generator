@@ -17,7 +17,10 @@ export type SpriteInfo = {
   skins: SkinInfo[];
 };
 
-type SpriteNamesJson = Record<string, Record<string, { ja: string; en: string }>>;
+type SpriteNamesJson = Record<
+  string,
+  Record<string, { ja: string; en: string; files?: string[] }>
+>;
 
 export function loadYaml<T>(yamlPath: string) {
   return yaml.load(
@@ -59,9 +62,12 @@ export function loadSprites() {
       rootFiles.forEach((folder, i) => {
         const images = fs.readdirSync(path.join(spritePath, folder));
         const names = nameMap[folder];
+        // expression_list 順にソートされたファイルリストが spriteNames.json にあれば使う。
+        // ない場合はファイルシステムの列挙順 (= ファイル名順) にフォールバック。
+        const sortedFiles = names?.files?.length ? names.files : images;
         skins.push({
           index: i,
-          files: images.map((y) => `${folder}/${y}`),
+          files: sortedFiles.map((f) => `${folder}/${f}`),
           ...(names?.ja ? { nameJa: names.ja } : {}),
           ...(names?.en ? { nameEn: names.en } : {}),
         });

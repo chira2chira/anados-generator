@@ -146,6 +146,10 @@
   sortIndex: o
   nameJa: オブシドニア帝国 騎兵
   nameEn: Obsidonian Imperial Cavalry
+- id: balista_bolt
+  sortIndex: b
+  nameJa: ボルト
+  nameEn: Bolt
 - id: billfordcrew_bonvoy
   sortIndex: b
   nameJa: ボンヴォイ
@@ -254,6 +258,10 @@
   sortIndex: e
   nameJa: エターニオン
   nameEn: Eternion
+- id: fager
+  sortIndex: f
+  nameJa: ファガー
+  nameEn: Faegar
 - id: farmstaff
   sortIndex: f
   nameJa: 牧場スタッフ
@@ -594,6 +602,10 @@
   sortIndex: o
   nameJa: オルニス
   nameEn: Ornis
+- id: oswald
+  sortIndex: o
+  nameJa: オズワルド
+  nameEn: Oswald
 - id: patty
   sortIndex: p
   nameJa: パティ
@@ -794,6 +806,10 @@
   sortIndex: s
   nameJa: サウナ好きの冒険者
   nameEn: Sauna-Loving Adventurer
+- id: sputnik
+  sortIndex: s
+  nameJa: スプートニク
+  nameEn: Sputnik
 - id: stalon
   sortIndex: s
   nameJa: スタロン

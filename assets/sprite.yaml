@@ -182,6 +182,10 @@
   sortIndex: c
   nameJa: カジノSP
   nameEn: Casino Security
+- id: cardgang_clover
+  sortIndex: c
+  nameJa: クラブ
+  nameEn: Clubs
 - id: salaryman
   sortIndex: c
   nameJa: サラリーマン
@@ -190,6 +194,10 @@
   sortIndex: c
   nameJa: コルカ
   nameEn: Corca
+- id: cardgang_diamond
+  sortIndex: d
+  nameJa: ダイヤ
+  nameEn: Diamonds
 - id: dakkar
   sortIndex: d
   nameJa: ダカール
@@ -410,6 +418,10 @@
   sortIndex: h
   nameJa: ハロルド
   nameEn: Harold
+- id: cardgang_heart
+  sortIndex: h
+  nameJa: ハート
+  nameEn: Hearts
 - id: hellion
   sortIndex: h
   nameJa: ヘリオン
@@ -754,6 +766,10 @@
   sortIndex: s
   nameJa: セイジ
   nameEn: Seiji
+- id: cardgang_spade
+  sortIndex: s
+  nameJa: スペード
+  nameEn: Spades
 - id: merman_seahorse
   sortIndex: s
   nameJa: タツノオトシゴ

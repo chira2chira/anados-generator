@@ -103,7 +103,7 @@
     },
     "skin004": {
       "ja": "心躍る冒険 兜なし",
-      "en": "Fluttered Adventurer Rank Up",
+      "en": "Fluttered Adventurer Silver Rank",
       "files": [
         "fg_alec004_skin004.webp",
         "fg_alec001_skin004.webp",
@@ -3447,6 +3447,78 @@
         "fg_billfordcrew_bonvoy011_skin007.webp",
         "fg_billfordcrew_bonvoy010_skin007.webp"
       ]
+    },
+    "skin050": {
+      "ja": "冒険酒場の人気者",
+      "en": "Hot Shot of the Adventurer Pubs",
+      "files": [
+        "fg_bonvoy001_skin050.webp",
+        "fg_bonvoy002_skin050.webp",
+        "fg_bonvoy003_skin050.webp",
+        "fg_bonvoy004_skin050.webp",
+        "fg_bonvoy005_skin050.webp",
+        "fg_bonvoy007_skin050.webp",
+        "fg_bonvoy006_skin050.webp",
+        "fg_bonvoy009_skin050.webp",
+        "fg_bonvoy012_skin050.webp",
+        "fg_bonvoy008_skin050.webp",
+        "fg_bonvoy011_skin050.webp",
+        "fg_bonvoy010_skin050.webp"
+      ]
+    },
+    "skin051": {
+      "ja": "冒険酒場の人気者 武器なし",
+      "en": "Hot Shot of the Adventurer Pubs No Equipment",
+      "files": [
+        "fg_bonvoy001_skin051.webp",
+        "fg_bonvoy002_skin051.webp",
+        "fg_bonvoy003_skin051.webp",
+        "fg_bonvoy004_skin051.webp",
+        "fg_bonvoy005_skin051.webp",
+        "fg_bonvoy007_skin051.webp",
+        "fg_bonvoy006_skin051.webp",
+        "fg_bonvoy009_skin051.webp",
+        "fg_bonvoy012_skin051.webp",
+        "fg_bonvoy008_skin051.webp",
+        "fg_bonvoy011_skin051.webp",
+        "fg_bonvoy010_skin051.webp"
+      ]
+    },
+    "skin052": {
+      "ja": "冒険酒場の人気者 水着",
+      "en": "Hot Shot of the Adventurer Pubs Swimwear",
+      "files": [
+        "fg_bonvoy001_skin052.webp",
+        "fg_bonvoy002_skin052.webp",
+        "fg_bonvoy003_skin052.webp",
+        "fg_bonvoy004_skin052.webp",
+        "fg_bonvoy005_skin052.webp",
+        "fg_bonvoy007_skin052.webp",
+        "fg_bonvoy006_skin052.webp",
+        "fg_bonvoy009_skin052.webp",
+        "fg_bonvoy012_skin052.webp",
+        "fg_bonvoy008_skin052.webp",
+        "fg_bonvoy011_skin052.webp",
+        "fg_bonvoy010_skin052.webp"
+      ]
+    },
+    "skin054": {
+      "ja": "冒険酒場の人気者 水着武器なし",
+      "en": "Hot Shot of the Adventurer Pubs Swimwear - No Equipment",
+      "files": [
+        "fg_bonvoy001_skin054.webp",
+        "fg_bonvoy002_skin054.webp",
+        "fg_bonvoy003_skin054.webp",
+        "fg_bonvoy004_skin054.webp",
+        "fg_bonvoy005_skin054.webp",
+        "fg_bonvoy007_skin054.webp",
+        "fg_bonvoy006_skin054.webp",
+        "fg_bonvoy009_skin054.webp",
+        "fg_bonvoy012_skin054.webp",
+        "fg_bonvoy008_skin054.webp",
+        "fg_bonvoy011_skin054.webp",
+        "fg_bonvoy010_skin054.webp"
+      ]
     }
   },
   "brut": {
@@ -4268,6 +4340,32 @@
       ]
     }
   },
+  "cardgang_clover": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard",
+      "files": [
+        "fg_clover001_skin001.webp",
+        "fg_clover002_skin001.webp",
+        "fg_clover003_skin001.webp",
+        "fg_clover004_skin001.webp",
+        "fg_clover006_skin001.webp",
+        "fg_clover005_skin001.webp"
+      ]
+    },
+    "skin002": {
+      "ja": "囚人服",
+      "en": "Jail-Garb",
+      "files": [
+        "fg_clover001_skin002.webp",
+        "fg_clover002_skin002.webp",
+        "fg_clover003_skin002.webp",
+        "fg_clover004_skin002.webp",
+        "fg_clover006_skin002.webp",
+        "fg_clover005_skin002.webp"
+      ]
+    }
+  },
   "salaryman": {
     "skin001": {
       "ja": "通常",
@@ -4508,6 +4606,50 @@
         "fg_corca014_skin011.webp",
         "fg_corca017_skin011.webp",
         "fg_corca016_skin011.webp"
+      ]
+    }
+  },
+  "cardgang_diamond": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard",
+      "files": [
+        "fg_diamond001_skin001.webp",
+        "fg_diamond003_skin001.webp",
+        "fg_diamond004_skin001.webp",
+        "fg_diamond005_skin001.webp",
+        "fg_diamond008_skin001.webp",
+        "fg_diamond007_skin001.webp",
+        "fg_diamond006_skin001.webp",
+        "fg_diamond002_skin001.webp"
+      ]
+    },
+    "skin003": {
+      "ja": "下着",
+      "en": "Underwear",
+      "files": [
+        "fg_diamond001_skin003.webp",
+        "fg_diamond003_skin003.webp",
+        "fg_diamond004_skin003.webp",
+        "fg_diamond005_skin003.webp",
+        "fg_diamond008_skin003.webp",
+        "fg_diamond007_skin003.webp",
+        "fg_diamond006_skin003.webp",
+        "fg_diamond002_skin003.webp"
+      ]
+    },
+    "skin005": {
+      "ja": "囚人服",
+      "en": "Jail-Garb",
+      "files": [
+        "fg_diamond001_skin005.webp",
+        "fg_diamond003_skin005.webp",
+        "fg_diamond004_skin005.webp",
+        "fg_diamond005_skin005.webp",
+        "fg_diamond008_skin005.webp",
+        "fg_diamond007_skin005.webp",
+        "fg_diamond006_skin005.webp",
+        "fg_diamond002_skin005.webp"
       ]
     }
   },
@@ -5669,6 +5811,32 @@
         "fg_magicalweapon017_skin001.webp",
         "fg_magicalweapon018_skin001.webp"
       ]
+    },
+    "skin004": {
+      "ja": "水着",
+      "en": "Swimwear",
+      "files": [
+        "fg_magicalweapon001_skin004.webp",
+        "fg_magicalweapon002_skin004.webp",
+        "fg_magicalweapon004_skin004.webp",
+        "fg_magicalweapon005_skin004.webp",
+        "fg_magicalweapon006_skin004.webp",
+        "fg_magicalweapon009_skin004.webp",
+        "fg_magicalweapon007_skin004.webp",
+        "fg_magicalweapon013_skin004.webp",
+        "fg_magicalweapon016_skin004.webp",
+        "fg_magicalweapon011_skin004.webp",
+        "fg_magicalweapon003_skin004.webp",
+        "fg_magicalweapon015_skin004.webp",
+        "fg_magicalweapon014_skin004.webp",
+        "fg_magicalweapon010_skin004.webp",
+        "fg_magicalweapon008_skin004.webp",
+        "fg_magicalweapon012_skin004.webp",
+        "fg_magicalweapon020_skin004.webp",
+        "fg_magicalweapon019_skin004.webp",
+        "fg_magicalweapon017_skin004.webp",
+        "fg_magicalweapon018_skin004.webp"
+      ]
     }
   },
   "elaine": {
@@ -6418,6 +6586,24 @@
         "fg_foras008_skin001.webp",
         "fg_foras011_skin001.webp",
         "fg_foras010_skin001.webp"
+      ]
+    },
+    "skin006": {
+      "ja": "水着",
+      "en": "Swimwear",
+      "files": [
+        "fg_foras001_skin006.webp",
+        "fg_foras002_skin006.webp",
+        "fg_foras003_skin006.webp",
+        "fg_foras004_skin006.webp",
+        "fg_foras005_skin006.webp",
+        "fg_foras007_skin006.webp",
+        "fg_foras006_skin006.webp",
+        "fg_foras009_skin006.webp",
+        "fg_foras012_skin006.webp",
+        "fg_foras008_skin006.webp",
+        "fg_foras011_skin006.webp",
+        "fg_foras010_skin006.webp"
       ]
     }
   },
@@ -9614,6 +9800,56 @@
         "fg_harold011_skin064.webp",
         "fg_harold010_skin064.webp",
         "fg_harold002_skin064.webp"
+      ]
+    }
+  },
+  "cardgang_heart": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard",
+      "files": [
+        "fg_heart001_skin001.webp",
+        "fg_heart002_skin001.webp",
+        "fg_heart003_skin001.webp",
+        "fg_heart004_skin001.webp",
+        "fg_heart006_skin001.webp",
+        "fg_heart005_skin001.webp"
+      ]
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed",
+      "files": [
+        "fg_heart001_skin002.webp",
+        "fg_heart002_skin002.webp",
+        "fg_heart003_skin002.webp",
+        "fg_heart004_skin002.webp",
+        "fg_heart006_skin002.webp",
+        "fg_heart005_skin002.webp"
+      ]
+    },
+    "skin003": {
+      "ja": "囚人服",
+      "en": "Jail-Garb",
+      "files": [
+        "fg_heart001_skin003.webp",
+        "fg_heart002_skin003.webp",
+        "fg_heart003_skin003.webp",
+        "fg_heart004_skin003.webp",
+        "fg_heart006_skin003.webp",
+        "fg_heart005_skin003.webp"
+      ]
+    },
+    "skin005": {
+      "ja": "囚人服武器なし",
+      "en": "Jail-Garb - Unarmed",
+      "files": [
+        "fg_heart001_skin005.webp",
+        "fg_heart002_skin005.webp",
+        "fg_heart003_skin005.webp",
+        "fg_heart004_skin005.webp",
+        "fg_heart006_skin005.webp",
+        "fg_heart005_skin005.webp"
       ]
     }
   },
@@ -14027,7 +14263,7 @@
     },
     "skin050": {
       "ja": "オーロラの聖獣 オーラなし",
-      "en": "Aurorean Sacred Beast No Aura",
+      "en": "Auroran Sacred Beast No Aura",
       "files": [
         "fg_patty001_skin050.webp",
         "fg_patty002_skin050.webp",
@@ -14049,7 +14285,7 @@
     },
     "skin051": {
       "ja": "オーロラの聖獣 軍服",
-      "en": "Aurorean Sacred Beast Uniform",
+      "en": "Auroran Sacred Beast Uniform",
       "files": [
         "fg_patty001_skin051.webp",
         "fg_patty002_skin051.webp",
@@ -14071,7 +14307,7 @@
     },
     "skin052": {
       "ja": "オーロラの聖獣 水着",
-      "en": "Aurorean Sacred Beast Swimwear",
+      "en": "Auroran Sacred Beast Swimwear",
       "files": [
         "fg_patty001_skin052.webp",
         "fg_patty002_skin052.webp",
@@ -14093,7 +14329,7 @@
     },
     "skin055": {
       "ja": "オーロラの聖獣",
-      "en": "Aurorean Sacred Beast",
+      "en": "Auroran Sacred Beast",
       "files": [
         "fg_patty001_skin055.webp",
         "fg_patty002_skin055.webp",
@@ -16684,6 +16920,23 @@
         "fg_rookiehunter010_skin004.webp",
         "fg_rookiehunter009_skin004.webp"
       ]
+    },
+    "skin007": {
+      "ja": "水着",
+      "en": "Swimwear",
+      "files": [
+        "fg_rookiehunter001_skin007.webp",
+        "fg_rookiehunter002_skin007.webp",
+        "fg_rookiehunter003_skin007.webp",
+        "fg_rookiehunter004_skin007.webp",
+        "fg_rookiehunter005_skin007.webp",
+        "fg_rookiehunter006_skin007.webp",
+        "fg_rookiehunter008_skin007.webp",
+        "fg_rookiehunter011_skin007.webp",
+        "fg_rookiehunter007_skin007.webp",
+        "fg_rookiehunter010_skin007.webp",
+        "fg_rookiehunter009_skin007.webp"
+      ]
     }
   },
   "rothhart": {
@@ -17556,6 +17809,56 @@
         "fg_sage007_skin005.webp",
         "fg_sage010_skin005.webp",
         "fg_sage009_skin005.webp"
+      ]
+    }
+  },
+  "cardgang_spade": {
+    "skin001": {
+      "ja": "通常",
+      "en": "Standard",
+      "files": [
+        "fg_spade001_skin001.webp",
+        "fg_spade002_skin001.webp",
+        "fg_spade003_skin001.webp",
+        "fg_spade004_skin001.webp",
+        "fg_spade006_skin001.webp",
+        "fg_spade005_skin001.webp"
+      ]
+    },
+    "skin002": {
+      "ja": "武器なし",
+      "en": "Unarmed",
+      "files": [
+        "fg_spade001_skin002.webp",
+        "fg_spade002_skin002.webp",
+        "fg_spade003_skin002.webp",
+        "fg_spade004_skin002.webp",
+        "fg_spade006_skin002.webp",
+        "fg_spade005_skin002.webp"
+      ]
+    },
+    "skin003": {
+      "ja": "囚人服",
+      "en": "Jail-Garb",
+      "files": [
+        "fg_spade001_skin003.webp",
+        "fg_spade002_skin003.webp",
+        "fg_spade003_skin003.webp",
+        "fg_spade004_skin003.webp",
+        "fg_spade006_skin003.webp",
+        "fg_spade005_skin003.webp"
+      ]
+    },
+    "skin004": {
+      "ja": "囚人服武器なし",
+      "en": "Jail-Garb - Unarmed",
+      "files": [
+        "fg_spade001_skin004.webp",
+        "fg_spade002_skin004.webp",
+        "fg_spade003_skin004.webp",
+        "fg_spade004_skin004.webp",
+        "fg_spade006_skin004.webp",
+        "fg_spade005_skin004.webp"
       ]
     }
   },
@@ -19135,6 +19438,78 @@
         "fg_tengo015_skin002.webp",
         "fg_tengo016_skin002.webp"
       ]
+    },
+    "skin050": {
+      "ja": "徒手空拳の立志伝",
+      "en": "Tale of Rags-To-Riches",
+      "files": [
+        "fg_tengo001_skin050.webp",
+        "fg_tengo003_skin050.webp",
+        "fg_tengo005_skin050.webp",
+        "fg_tengo006_skin050.webp",
+        "fg_tengo017_skin050.webp",
+        "fg_tengo010_skin050.webp",
+        "fg_tengo009_skin050.webp",
+        "fg_tengo004_skin050.webp",
+        "fg_tengo011_skin050.webp",
+        "fg_tengo008_skin050.webp",
+        "fg_tengo007_skin050.webp",
+        "fg_tengo018_skin050.webp",
+        "fg_tengo002_skin050.webp",
+        "fg_tengo016_skin050.webp",
+        "fg_tengo012_skin050.webp",
+        "fg_tengo013_skin050.webp",
+        "fg_tengo014_skin050.webp",
+        "fg_tengo015_skin050.webp"
+      ]
+    },
+    "skin051": {
+      "ja": "徒手空拳の立志伝 水着",
+      "en": "Tale of Rags-To-Riches Swimwear",
+      "files": [
+        "fg_tengo001_skin051.webp",
+        "fg_tengo003_skin051.webp",
+        "fg_tengo005_skin051.webp",
+        "fg_tengo006_skin051.webp",
+        "fg_tengo017_skin051.webp",
+        "fg_tengo010_skin051.webp",
+        "fg_tengo009_skin051.webp",
+        "fg_tengo004_skin051.webp",
+        "fg_tengo011_skin051.webp",
+        "fg_tengo008_skin051.webp",
+        "fg_tengo007_skin051.webp",
+        "fg_tengo018_skin051.webp",
+        "fg_tengo002_skin051.webp",
+        "fg_tengo016_skin051.webp",
+        "fg_tengo012_skin051.webp",
+        "fg_tengo013_skin051.webp",
+        "fg_tengo014_skin051.webp",
+        "fg_tengo015_skin051.webp"
+      ]
+    },
+    "skin052": {
+      "ja": "徒手空拳の立志伝 水着飾りなし",
+      "en": "Tale of Rags-To-Riches Swimwear - No Accesory",
+      "files": [
+        "fg_tengo001_skin052.webp",
+        "fg_tengo003_skin052.webp",
+        "fg_tengo005_skin052.webp",
+        "fg_tengo006_skin052.webp",
+        "fg_tengo017_skin052.webp",
+        "fg_tengo010_skin052.webp",
+        "fg_tengo009_skin052.webp",
+        "fg_tengo004_skin052.webp",
+        "fg_tengo011_skin052.webp",
+        "fg_tengo008_skin052.webp",
+        "fg_tengo007_skin052.webp",
+        "fg_tengo018_skin052.webp",
+        "fg_tengo002_skin052.webp",
+        "fg_tengo016_skin052.webp",
+        "fg_tengo012_skin052.webp",
+        "fg_tengo013_skin052.webp",
+        "fg_tengo014_skin052.webp",
+        "fg_tengo015_skin052.webp"
+      ]
     }
   },
   "theodor": {
@@ -19930,6 +20305,68 @@
         "fg_todorf019_skin053.webp",
         "fg_todorf007_skin053.webp",
         "fg_todorf012_skin053.webp"
+      ]
+    },
+    "skin060": {
+      "ja": "サンタアーミー軍事教官 水着",
+      "en": "Santa's Army Military Instructor Swimwear",
+      "files": [
+        "fg_todorf001_skin060.webp",
+        "fg_todorf016_skin060.webp",
+        "fg_todorf025_skin060.webp",
+        "fg_todorf003_skin060.webp",
+        "fg_todorf009_skin060.webp",
+        "fg_todorf024_skin060.webp",
+        "fg_todorf006_skin060.webp",
+        "fg_todorf011_skin060.webp",
+        "fg_todorf014_skin060.webp",
+        "fg_todorf018_skin060.webp",
+        "fg_todorf020_skin060.webp",
+        "fg_todorf017_skin060.webp",
+        "fg_todorf004_skin060.webp",
+        "fg_todorf022_skin060.webp",
+        "fg_todorf008_skin060.webp",
+        "fg_todorf010_skin060.webp",
+        "fg_todorf002_skin060.webp",
+        "fg_todorf021_skin060.webp",
+        "fg_todorf023_skin060.webp",
+        "fg_todorf005_skin060.webp",
+        "fg_todorf013_skin060.webp",
+        "fg_todorf015_skin060.webp",
+        "fg_todorf019_skin060.webp",
+        "fg_todorf007_skin060.webp",
+        "fg_todorf012_skin060.webp"
+      ]
+    },
+    "skin062": {
+      "ja": "サンタアーミー軍事教官 水着飾りなし",
+      "en": "Santa's Army Military Instructor Swimwear - No Accesory",
+      "files": [
+        "fg_todorf001_skin062.webp",
+        "fg_todorf016_skin062.webp",
+        "fg_todorf025_skin062.webp",
+        "fg_todorf003_skin062.webp",
+        "fg_todorf009_skin062.webp",
+        "fg_todorf024_skin062.webp",
+        "fg_todorf006_skin062.webp",
+        "fg_todorf011_skin062.webp",
+        "fg_todorf014_skin062.webp",
+        "fg_todorf018_skin062.webp",
+        "fg_todorf020_skin062.webp",
+        "fg_todorf017_skin062.webp",
+        "fg_todorf004_skin062.webp",
+        "fg_todorf022_skin062.webp",
+        "fg_todorf008_skin062.webp",
+        "fg_todorf010_skin062.webp",
+        "fg_todorf002_skin062.webp",
+        "fg_todorf021_skin062.webp",
+        "fg_todorf023_skin062.webp",
+        "fg_todorf005_skin062.webp",
+        "fg_todorf013_skin062.webp",
+        "fg_todorf015_skin062.webp",
+        "fg_todorf019_skin062.webp",
+        "fg_todorf007_skin062.webp",
+        "fg_todorf012_skin062.webp"
       ]
     }
   },

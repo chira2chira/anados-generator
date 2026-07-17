@@ -1309,6 +1309,202 @@
       ]
     }
   ],
+  "1033": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/cardgang_spade/skin001/fg_spade001_skin001.webp",
+        "/static/image/sprite/cardgang_spade/skin001/fg_spade002_skin001.webp",
+        "/static/image/sprite/cardgang_spade/skin001/fg_spade003_skin001.webp",
+        "/static/image/sprite/cardgang_spade/skin001/fg_spade004_skin001.webp",
+        "/static/image/sprite/cardgang_spade/skin001/fg_spade006_skin001.webp",
+        "/static/image/sprite/cardgang_spade/skin001/fg_spade005_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin002",
+      "nameJa": "武器なし",
+      "nameEn": "Unarmed",
+      "nameZh": "沒武器",
+      "images": [
+        "/static/image/sprite/cardgang_spade/skin002/fg_spade001_skin002.webp",
+        "/static/image/sprite/cardgang_spade/skin002/fg_spade002_skin002.webp",
+        "/static/image/sprite/cardgang_spade/skin002/fg_spade003_skin002.webp",
+        "/static/image/sprite/cardgang_spade/skin002/fg_spade004_skin002.webp",
+        "/static/image/sprite/cardgang_spade/skin002/fg_spade006_skin002.webp",
+        "/static/image/sprite/cardgang_spade/skin002/fg_spade005_skin002.webp"
+      ]
+    },
+    {
+      "id": "skin003",
+      "nameJa": "囚人服",
+      "nameEn": "Jail-Garb",
+      "nameZh": "犯人服",
+      "images": [
+        "/static/image/sprite/cardgang_spade/skin003/fg_spade001_skin003.webp",
+        "/static/image/sprite/cardgang_spade/skin003/fg_spade002_skin003.webp",
+        "/static/image/sprite/cardgang_spade/skin003/fg_spade003_skin003.webp",
+        "/static/image/sprite/cardgang_spade/skin003/fg_spade004_skin003.webp",
+        "/static/image/sprite/cardgang_spade/skin003/fg_spade006_skin003.webp",
+        "/static/image/sprite/cardgang_spade/skin003/fg_spade005_skin003.webp"
+      ]
+    },
+    {
+      "id": "skin004",
+      "nameJa": "囚人服武器なし",
+      "nameEn": "Jail-Garb - Unarmed",
+      "nameZh": "犯人服沒武器",
+      "images": [
+        "/static/image/sprite/cardgang_spade/skin004/fg_spade001_skin004.webp",
+        "/static/image/sprite/cardgang_spade/skin004/fg_spade002_skin004.webp",
+        "/static/image/sprite/cardgang_spade/skin004/fg_spade003_skin004.webp",
+        "/static/image/sprite/cardgang_spade/skin004/fg_spade004_skin004.webp",
+        "/static/image/sprite/cardgang_spade/skin004/fg_spade006_skin004.webp",
+        "/static/image/sprite/cardgang_spade/skin004/fg_spade005_skin004.webp"
+      ]
+    }
+  ],
+  "1034": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/cardgang_clover/skin001/fg_clover001_skin001.webp",
+        "/static/image/sprite/cardgang_clover/skin001/fg_clover002_skin001.webp",
+        "/static/image/sprite/cardgang_clover/skin001/fg_clover003_skin001.webp",
+        "/static/image/sprite/cardgang_clover/skin001/fg_clover004_skin001.webp",
+        "/static/image/sprite/cardgang_clover/skin001/fg_clover006_skin001.webp",
+        "/static/image/sprite/cardgang_clover/skin001/fg_clover005_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin002",
+      "nameJa": "囚人服",
+      "nameEn": "Jail-Garb",
+      "nameZh": "犯人服",
+      "images": [
+        "/static/image/sprite/cardgang_clover/skin002/fg_clover001_skin002.webp",
+        "/static/image/sprite/cardgang_clover/skin002/fg_clover002_skin002.webp",
+        "/static/image/sprite/cardgang_clover/skin002/fg_clover003_skin002.webp",
+        "/static/image/sprite/cardgang_clover/skin002/fg_clover004_skin002.webp",
+        "/static/image/sprite/cardgang_clover/skin002/fg_clover006_skin002.webp",
+        "/static/image/sprite/cardgang_clover/skin002/fg_clover005_skin002.webp"
+      ]
+    }
+  ],
+  "1035": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/cardgang_heart/skin001/fg_heart001_skin001.webp",
+        "/static/image/sprite/cardgang_heart/skin001/fg_heart002_skin001.webp",
+        "/static/image/sprite/cardgang_heart/skin001/fg_heart003_skin001.webp",
+        "/static/image/sprite/cardgang_heart/skin001/fg_heart004_skin001.webp",
+        "/static/image/sprite/cardgang_heart/skin001/fg_heart006_skin001.webp",
+        "/static/image/sprite/cardgang_heart/skin001/fg_heart005_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin002",
+      "nameJa": "武器なし",
+      "nameEn": "Unarmed",
+      "nameZh": "沒武器",
+      "images": [
+        "/static/image/sprite/cardgang_heart/skin002/fg_heart001_skin002.webp",
+        "/static/image/sprite/cardgang_heart/skin002/fg_heart002_skin002.webp",
+        "/static/image/sprite/cardgang_heart/skin002/fg_heart003_skin002.webp",
+        "/static/image/sprite/cardgang_heart/skin002/fg_heart004_skin002.webp",
+        "/static/image/sprite/cardgang_heart/skin002/fg_heart006_skin002.webp",
+        "/static/image/sprite/cardgang_heart/skin002/fg_heart005_skin002.webp"
+      ]
+    },
+    {
+      "id": "skin003",
+      "nameJa": "囚人服",
+      "nameEn": "Jail-Garb",
+      "nameZh": "犯人服",
+      "images": [
+        "/static/image/sprite/cardgang_heart/skin003/fg_heart001_skin003.webp",
+        "/static/image/sprite/cardgang_heart/skin003/fg_heart002_skin003.webp",
+        "/static/image/sprite/cardgang_heart/skin003/fg_heart003_skin003.webp",
+        "/static/image/sprite/cardgang_heart/skin003/fg_heart004_skin003.webp",
+        "/static/image/sprite/cardgang_heart/skin003/fg_heart006_skin003.webp",
+        "/static/image/sprite/cardgang_heart/skin003/fg_heart005_skin003.webp"
+      ]
+    },
+    {
+      "id": "skin005",
+      "nameJa": "囚人服武器なし",
+      "nameEn": "Jail-Garb - Unarmed",
+      "nameZh": "犯人服沒武器",
+      "images": [
+        "/static/image/sprite/cardgang_heart/skin005/fg_heart001_skin005.webp",
+        "/static/image/sprite/cardgang_heart/skin005/fg_heart002_skin005.webp",
+        "/static/image/sprite/cardgang_heart/skin005/fg_heart003_skin005.webp",
+        "/static/image/sprite/cardgang_heart/skin005/fg_heart004_skin005.webp",
+        "/static/image/sprite/cardgang_heart/skin005/fg_heart006_skin005.webp",
+        "/static/image/sprite/cardgang_heart/skin005/fg_heart005_skin005.webp"
+      ]
+    }
+  ],
+  "1036": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/cardgang_diamond/skin001/fg_diamond001_skin001.webp",
+        "/static/image/sprite/cardgang_diamond/skin001/fg_diamond003_skin001.webp",
+        "/static/image/sprite/cardgang_diamond/skin001/fg_diamond004_skin001.webp",
+        "/static/image/sprite/cardgang_diamond/skin001/fg_diamond005_skin001.webp",
+        "/static/image/sprite/cardgang_diamond/skin001/fg_diamond008_skin001.webp",
+        "/static/image/sprite/cardgang_diamond/skin001/fg_diamond007_skin001.webp",
+        "/static/image/sprite/cardgang_diamond/skin001/fg_diamond006_skin001.webp",
+        "/static/image/sprite/cardgang_diamond/skin001/fg_diamond002_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin003",
+      "nameJa": "下着",
+      "nameEn": "Underwear",
+      "nameZh": "內褲",
+      "images": [
+        "/static/image/sprite/cardgang_diamond/skin003/fg_diamond001_skin003.webp",
+        "/static/image/sprite/cardgang_diamond/skin003/fg_diamond003_skin003.webp",
+        "/static/image/sprite/cardgang_diamond/skin003/fg_diamond004_skin003.webp",
+        "/static/image/sprite/cardgang_diamond/skin003/fg_diamond005_skin003.webp",
+        "/static/image/sprite/cardgang_diamond/skin003/fg_diamond008_skin003.webp",
+        "/static/image/sprite/cardgang_diamond/skin003/fg_diamond007_skin003.webp",
+        "/static/image/sprite/cardgang_diamond/skin003/fg_diamond006_skin003.webp",
+        "/static/image/sprite/cardgang_diamond/skin003/fg_diamond002_skin003.webp"
+      ]
+    },
+    {
+      "id": "skin005",
+      "nameJa": "囚人服",
+      "nameEn": "Jail-Garb",
+      "nameZh": "犯人服",
+      "images": [
+        "/static/image/sprite/cardgang_diamond/skin005/fg_diamond001_skin005.webp",
+        "/static/image/sprite/cardgang_diamond/skin005/fg_diamond003_skin005.webp",
+        "/static/image/sprite/cardgang_diamond/skin005/fg_diamond004_skin005.webp",
+        "/static/image/sprite/cardgang_diamond/skin005/fg_diamond005_skin005.webp",
+        "/static/image/sprite/cardgang_diamond/skin005/fg_diamond008_skin005.webp",
+        "/static/image/sprite/cardgang_diamond/skin005/fg_diamond007_skin005.webp",
+        "/static/image/sprite/cardgang_diamond/skin005/fg_diamond006_skin005.webp",
+        "/static/image/sprite/cardgang_diamond/skin005/fg_diamond002_skin005.webp"
+      ]
+    }
+  ],
   "2001": [
     {
       "id": "skin001",
@@ -2385,6 +2581,25 @@
         "/static/image/sprite/rookiehunter/skin004/fg_rookiehunter007_skin004.webp",
         "/static/image/sprite/rookiehunter/skin004/fg_rookiehunter010_skin004.webp",
         "/static/image/sprite/rookiehunter/skin004/fg_rookiehunter009_skin004.webp"
+      ]
+    },
+    {
+      "id": "skin007",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter001_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter002_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter003_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter004_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter005_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter006_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter008_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter011_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter007_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter010_skin007.webp",
+        "/static/image/sprite/rookiehunter/skin007/fg_rookiehunter009_skin007.webp"
       ]
     }
   ],
@@ -13151,6 +13366,34 @@
         "/static/image/sprite/magicalweapon/skin001/fg_magicalweapon017_skin001.webp",
         "/static/image/sprite/magicalweapon/skin001/fg_magicalweapon018_skin001.webp"
       ]
+    },
+    {
+      "id": "skin004",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon001_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon002_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon004_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon005_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon006_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon009_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon007_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon013_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon016_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon011_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon003_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon015_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon014_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon010_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon008_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon012_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon020_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon019_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon017_skin004.webp",
+        "/static/image/sprite/magicalweapon/skin004/fg_magicalweapon018_skin004.webp"
+      ]
     }
   ],
   "5102": [
@@ -13335,6 +13578,26 @@
         "/static/image/sprite/foras/skin001/fg_foras008_skin001.webp",
         "/static/image/sprite/foras/skin001/fg_foras011_skin001.webp",
         "/static/image/sprite/foras/skin001/fg_foras010_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin006",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/foras/skin006/fg_foras001_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras002_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras003_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras004_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras005_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras007_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras006_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras009_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras012_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras008_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras011_skin006.webp",
+        "/static/image/sprite/foras/skin006/fg_foras010_skin006.webp"
       ]
     }
   ],
@@ -21258,7 +21521,7 @@
     {
       "id": "skin004",
       "nameJa": "心躍る冒険 兜なし",
-      "nameEn": "Fluttered Adventurer Rank Up",
+      "nameEn": "Fluttered Adventurer Silver Rank",
       "nameZh": "令人心跳加速的冒險 沒頭盔",
       "images": [
         "/static/image/sprite/alec/skin004/fg_alec004_skin004.webp",
@@ -22279,7 +22542,7 @@
     {
       "id": "skin050",
       "nameJa": "オーロラの聖獣 オーラなし",
-      "nameEn": "Aurorean Sacred Beast No Aura",
+      "nameEn": "Auroran Sacred Beast No Aura",
       "nameZh": "極光聖獸 沒氣場",
       "images": [
         "/static/image/sprite/patty/skin050/fg_patty001_skin050.webp",
@@ -22303,7 +22566,7 @@
     {
       "id": "skin051",
       "nameJa": "オーロラの聖獣 軍服",
-      "nameEn": "Aurorean Sacred Beast Uniform",
+      "nameEn": "Auroran Sacred Beast Uniform",
       "nameZh": "極光聖獸 軍服",
       "images": [
         "/static/image/sprite/patty/skin051/fg_patty001_skin051.webp",
@@ -22327,7 +22590,7 @@
     {
       "id": "skin052",
       "nameJa": "オーロラの聖獣 水着",
-      "nameEn": "Aurorean Sacred Beast Swimwear",
+      "nameEn": "Auroran Sacred Beast Swimwear",
       "nameZh": "極光聖獸 泳裝",
       "images": [
         "/static/image/sprite/patty/skin052/fg_patty001_skin052.webp",
@@ -22351,7 +22614,7 @@
     {
       "id": "skin055",
       "nameJa": "オーロラの聖獣",
-      "nameEn": "Aurorean Sacred Beast",
+      "nameEn": "Auroran Sacred Beast",
       "nameZh": "極光聖獸",
       "images": [
         "/static/image/sprite/patty/skin055/fg_patty001_skin055.webp",
@@ -23250,6 +23513,72 @@
         "/static/image/sprite/todorf/skin053/fg_todorf019_skin053.webp",
         "/static/image/sprite/todorf/skin053/fg_todorf007_skin053.webp",
         "/static/image/sprite/todorf/skin053/fg_todorf012_skin053.webp"
+      ]
+    },
+    {
+      "id": "skin060",
+      "nameJa": "サンタアーミー軍事教官 水着",
+      "nameEn": "Santa's Army Military Instructor Swimwear",
+      "nameZh": "聖誕軍隊軍事教官 泳裝",
+      "images": [
+        "/static/image/sprite/todorf/skin060/fg_todorf001_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf016_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf025_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf003_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf009_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf024_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf006_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf011_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf014_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf018_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf020_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf017_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf004_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf022_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf008_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf010_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf002_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf021_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf023_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf005_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf013_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf015_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf019_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf007_skin060.webp",
+        "/static/image/sprite/todorf/skin060/fg_todorf012_skin060.webp"
+      ]
+    },
+    {
+      "id": "skin062",
+      "nameJa": "サンタアーミー軍事教官 水着飾りなし",
+      "nameEn": "Santa's Army Military Instructor Swimwear - No Accesory",
+      "nameZh": "聖誕軍隊軍事教官 泳裝沒裝飾",
+      "images": [
+        "/static/image/sprite/todorf/skin062/fg_todorf001_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf016_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf025_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf003_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf009_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf024_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf006_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf011_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf014_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf018_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf020_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf017_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf004_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf022_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf008_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf010_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf002_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf021_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf023_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf005_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf013_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf015_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf019_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf007_skin062.webp",
+        "/static/image/sprite/todorf/skin062/fg_todorf012_skin062.webp"
       ]
     }
   ],
@@ -24595,6 +24924,168 @@
         "/static/image/sprite/fager/skin005/fg_fager008_skin005.webp",
         "/static/image/sprite/fager/skin005/fg_fager011_skin005.webp",
         "/static/image/sprite/fager/skin005/fg_fager010_skin005.webp"
+      ]
+    }
+  ],
+  "6134": [
+    {
+      "id": "skin050",
+      "nameJa": "徒手空拳の立志伝",
+      "nameEn": "Tale of Rags-To-Riches",
+      "nameZh": "赤手空拳的立志傳",
+      "images": [
+        "/static/image/sprite/tengo/skin050/fg_tengo001_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo003_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo005_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo006_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo017_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo010_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo009_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo004_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo011_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo008_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo007_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo018_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo002_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo016_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo012_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo013_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo014_skin050.webp",
+        "/static/image/sprite/tengo/skin050/fg_tengo015_skin050.webp"
+      ]
+    },
+    {
+      "id": "skin051",
+      "nameJa": "徒手空拳の立志伝 水着",
+      "nameEn": "Tale of Rags-To-Riches Swimwear",
+      "nameZh": "赤手空拳的立志傳 泳裝",
+      "images": [
+        "/static/image/sprite/tengo/skin051/fg_tengo001_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo003_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo005_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo006_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo017_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo010_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo009_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo004_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo011_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo008_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo007_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo018_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo002_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo016_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo012_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo013_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo014_skin051.webp",
+        "/static/image/sprite/tengo/skin051/fg_tengo015_skin051.webp"
+      ]
+    },
+    {
+      "id": "skin052",
+      "nameJa": "徒手空拳の立志伝 水着飾りなし",
+      "nameEn": "Tale of Rags-To-Riches Swimwear - No Accesory",
+      "nameZh": "赤手空拳的立志傳 泳裝沒裝飾",
+      "images": [
+        "/static/image/sprite/tengo/skin052/fg_tengo001_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo003_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo005_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo006_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo017_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo010_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo009_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo004_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo011_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo008_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo007_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo018_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo002_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo016_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo012_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo013_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo014_skin052.webp",
+        "/static/image/sprite/tengo/skin052/fg_tengo015_skin052.webp"
+      ]
+    }
+  ],
+  "6135": [
+    {
+      "id": "skin050",
+      "nameJa": "冒険酒場の人気者",
+      "nameEn": "Hot Shot of the Adventurer Pubs",
+      "nameZh": "冒險酒館的人氣王",
+      "images": [
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy001_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy002_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy003_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy004_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy005_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy007_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy006_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy009_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy012_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy008_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy011_skin050.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin050/fg_bonvoy010_skin050.webp"
+      ]
+    },
+    {
+      "id": "skin051",
+      "nameJa": "冒険酒場の人気者 武器なし",
+      "nameEn": "Hot Shot of the Adventurer Pubs No Equipment",
+      "nameZh": "冒險酒館的人氣王 沒武器",
+      "images": [
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy001_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy002_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy003_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy004_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy005_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy007_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy006_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy009_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy012_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy008_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy011_skin051.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin051/fg_bonvoy010_skin051.webp"
+      ]
+    },
+    {
+      "id": "skin052",
+      "nameJa": "冒険酒場の人気者 水着",
+      "nameEn": "Hot Shot of the Adventurer Pubs Swimwear",
+      "nameZh": "冒險酒館的人氣王 泳裝",
+      "images": [
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy001_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy002_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy003_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy004_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy005_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy007_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy006_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy009_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy012_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy008_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy011_skin052.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin052/fg_bonvoy010_skin052.webp"
+      ]
+    },
+    {
+      "id": "skin054",
+      "nameJa": "冒険酒場の人気者 水着武器なし",
+      "nameEn": "Hot Shot of the Adventurer Pubs Swimwear - No Equipment",
+      "nameZh": "冒險酒館的人氣王 泳裝沒武器",
+      "images": [
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy001_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy002_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy003_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy004_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy005_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy007_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy006_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy009_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy012_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy008_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy011_skin054.webp",
+        "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy010_skin054.webp"
       ]
     }
   ],

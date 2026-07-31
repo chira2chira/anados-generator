@@ -1,4 +1,4 @@
-import manifestJson from "../../assets/spriteManifest.json";
+import manifestJson from "../../public/spriteManifest.json";
 
 // scripts/buildSpriteNames.js が生成する unit_id ベースの立ち絵 manifest。
 // Vercel の serverless 関数は public/ をランタイム fs 列挙できないため、ビルド時に

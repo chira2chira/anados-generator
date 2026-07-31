@@ -12,7 +12,9 @@ const MASTER_JSON = path.join(ROOT, "assets/data/3001.json");
 const UCHARACTER_JSON = path.join(ROOT, "assets/data/UAnadosCharacter.json");
 const SPRITE_DIR = path.join(ROOT, "public/static/image/sprite");
 const OUTPUT = path.join(ROOT, "assets/spriteNames.json");
-const MANIFEST_OUTPUT = path.join(ROOT, "assets/spriteManifest.json");
+// manifest は外部 (you-kai.net 等) が直接 fetch する静的ファイルとして配信するため
+// public/ 直下に置く。API ルートも同じファイルを静的 import して参照する。
+const MANIFEST_OUTPUT = path.join(ROOT, "public/spriteManifest.json");
 
 function loadJson(file) {
   return JSON.parse(fs.readFileSync(file, "utf-8"));

@@ -16,6 +16,8 @@ const nextConfig = {
       "*": ["public/**"],
     },
   },
+  // public/ 配下の静的ファイル (立ち絵画像 / spriteManifest.json) のキャッシュ制御は
+  // next.config.js の headers() では public ファイルに適用されないため vercel.json 側で行う。
 };
 
 module.exports = nextConfig;

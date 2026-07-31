@@ -45,6 +45,7 @@ src/
     RubyModal/            # ルビ付き文字挿入モーダル
     CommonMeta/           # OGP/meta タグ
     GoogleAnalytics/
+  middleware.ts           # public/ 配下の静的ファイルに Cache-Control を付与
   hooks/
     useFile.ts            # FileReader で画像を base64 化
     useThrottle.ts
@@ -79,7 +80,7 @@ scripts/
 
 ### 静的 JSON 配信 (推奨)
 
-`GET https://anados-generator.vercel.app/spriteManifest.json` で manifest 全体 (`unit_id → skin[]`、画像パス込み) をそのまま取得する。`next.config.js` の `headers()` で `Cache-Control: public, max-age=28800` (8 時間) と CORS 全許可を付与済み。
+`GET https://anados-generator.vercel.app/spriteManifest.json` で manifest 全体 (`unit_id → skin[]`、画像パス込み) をそのまま取得する。`src/middleware.ts` で `Cache-Control: public, max-age=28800` (8 時間) と CORS 全許可を付与済み。
 
 - 全部入りで生 1.3MB だが gzip 92KB / brotli 46KB。ブラウザキャッシュが効くので実質 8 時間に 1 リクエスト。
 - API 版の 2 エンドポイント (skin 一覧 → 画像一覧) を 1 リクエストに畳める。
@@ -118,11 +119,11 @@ yarn build:sprite-names   # assets/data/* から assets/spriteNames.json + publi
 - `spriteNames.json` には skin 表示名 (`ja`/`en`) とゲーム内順ソート済みのファイルリスト (`files`) が入る。巨大マスター由来の他データはアプリに混入しない。
 - sprite フォルダで「skin フォルダ階層を持たない」(画像が直下に並ぶ) 構造のものは `loadSprite.ts` 側で 1ファイル = 1skin として扱う。スクリプトはこれをスキップしてアプリのフォールバックに任せる。`spriteManifest.json` にもこれらは載らない (= unit_id 解決不可のため外部公開の対象外)。
 - `public/spriteManifest.json` はビルド時の master データ依存の生成物。新規 sprite 画像だけコミットして `yarn build:sprite-names` を再実行しないと manifest (= 外部公開されるデータ) が古いままになる。
-- **public/ 配下のキャッシュ制御は `next.config.js` の `headers()` で行う**。Vercel のデフォルトは `public, max-age=0, must-revalidate` でブラウザキャッシュが効かず、再訪のたびに条件付き GET が飛び 304 でも Edge Requests を 1 消費するため、明示指定が必須。
-  - **`vercel.json` の `headers` は Next.js プロジェクトでは適用されない** (実際にデプロイして `Cache-Control: public, max-age=0, must-revalidate` のままになることを確認済み)。フレームワークプリセットが自前のルーティング設定を生成するため。
-  - 逆に `next.config.js` の `headers()` は**ローカルの `next start` では public/ の静的ファイルに効かない**が、Vercel では `routes-manifest.json` の headers が CDN のルーティング層 (filesystem ハンドラより前) に展開されるため効く。`outputFileTracingExcludes` と同様、ローカル検証では判定できない項目なので**デプロイ後に実レスポンスヘッダーで確認すること**。
-  - i18n 有効時は `source` に locale prefix が自動付加されるため `locale: false` が必須 (public/ の静的ファイルは locale prefix なしで配信されるため)。
-  - 立ち絵画像 (`/static/image/sprite/**`) は `max-age=31536000, immutable`。**既存ファイルを上書きせず追加のみ**という運用が前提。同名ファイルの差し替えをする場合はこの設定を見直すこと。
+- **public/ 配下のキャッシュ制御は `src/middleware.ts` で行う**。Vercel のデフォルトは `public, max-age=0, must-revalidate` でブラウザキャッシュが効かず、再訪のたびに条件付き GET が飛び 304 でも Edge Requests を 1 消費するため、明示指定が必須。
+  - **`next.config.js` の `headers()` も `vercel.json` の `headers` も public/ 配下の静的ファイルには適用されない**。どちらも実際に Vercel にデプロイして `Cache-Control: public, max-age=0, must-revalidate` のまま変わらないことを確認済み (`routes-manifest.json` には headers が出力されているのに効かない)。静的アセット配信がルーティング層より手前で Cache-Control を確定させるため。**この 2 つで再挑戦しないこと。**
+  - middleware はレスポンス生成後にヘッダーを差し替えられるため唯一効く経路。`matcher` で `/static/image/sprite/:path*` と `/spriteManifest.json` に限定しており、ページ (i18n locale prefix 付き) や `/_next/static` には影響しない。
+  - middleware は `next start` でローカル検証できる (`curl -I http://localhost:3000/spriteManifest.json`)。
+  - 立ち絵画像は `max-age=31536000, immutable`。**既存ファイルを上書きせず追加のみ**という運用が前提。同名ファイルの差し替えをする場合はこの設定を見直すこと。
   - `/spriteManifest.json` は sprite 追加で内容が変わるため `max-age=28800` (8 時間)。
 - `loadSprite.ts` の getStaticProps が `public/static/image/sprite` を fs 列挙するため、@vercel/nft が画像ディレクトリ全体 (~1.8GB) を index ページのサーバ関数に同梱し serverless function サイズ上限を超える。`next.config.js` の `experimental.outputFileTracingExcludes` で `public/**` を関数トレースから除外して回避している。**Windows ローカルの `yarn build` ではこの除外が空振りし `.next/server/pages/index.js.nft.json` に画像が残るが、デプロイ先 (Vercel = Linux) では正しく除外される** (Next 内部の picomatch がパス区切りに依存するため)。
 - Konva 描画は `TalkGenerator` で Stage を 1 つ作り、`bgLayer` (背景) / 任意の追加 Layer (Image/Sprite) / `uiLayer` (会話ウィンドウ) の順で重ねる。レイヤー順は `SpriteAdd` の上下ボタンで `moveUp` / `moveDown` する。

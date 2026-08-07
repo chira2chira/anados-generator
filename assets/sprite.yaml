@@ -194,6 +194,10 @@
   sortIndex: c
   nameJa: コルカ
   nameEn: Corca
+- id: cozy
+  sortIndex: c
+  nameJa: コージー
+  nameEn: Cozey
 - id: cardgang_diamond
   sortIndex: d
   nameJa: ダイヤ
@@ -214,6 +218,10 @@
   sortIndex: d
   nameJa: ディオン
   nameEn: Dion
+- id: dohnadohna
+  sortIndex: d
+  nameJa: ドーナドーナ
+  nameEn: Dohnadohna
 - id: domey
   sortIndex: d
   nameJa: ドメイ
@@ -554,6 +562,10 @@
   sortIndex: m
   nameJa: マシュトラ
   nameEn: Maxtla
+- id: mayhem
+  sortIndex: m
+  nameJa: メイヘム
+  nameEn: Mayhem
 - id: milklover
   sortIndex: m
   nameJa: ミルク大好き冒険者
@@ -726,6 +738,10 @@
   sortIndex: r
   nameJa: オオカミルガロゥ
   nameEn: Werewolf Rougarou
+- id: rydeen
+  sortIndex: r
+  nameJa: ライディーン
+  nameEn: Rydeen
 - id: s_servant
   sortIndex: s
   nameJa: サーヴァント

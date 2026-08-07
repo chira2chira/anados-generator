@@ -1365,6 +1365,20 @@
         "/static/image/sprite/cardgang_spade/skin004/fg_spade006_skin004.webp",
         "/static/image/sprite/cardgang_spade/skin004/fg_spade005_skin004.webp"
       ]
+    },
+    {
+      "id": "skin011",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/cardgang_spade/skin011/fg_spade001_skin011.webp",
+        "/static/image/sprite/cardgang_spade/skin011/fg_spade002_skin011.webp",
+        "/static/image/sprite/cardgang_spade/skin011/fg_spade003_skin011.webp",
+        "/static/image/sprite/cardgang_spade/skin011/fg_spade004_skin011.webp",
+        "/static/image/sprite/cardgang_spade/skin011/fg_spade006_skin011.webp",
+        "/static/image/sprite/cardgang_spade/skin011/fg_spade005_skin011.webp"
+      ]
     }
   ],
   "1034": [
@@ -1394,6 +1408,20 @@
         "/static/image/sprite/cardgang_clover/skin002/fg_clover004_skin002.webp",
         "/static/image/sprite/cardgang_clover/skin002/fg_clover006_skin002.webp",
         "/static/image/sprite/cardgang_clover/skin002/fg_clover005_skin002.webp"
+      ]
+    },
+    {
+      "id": "skin006",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/cardgang_clover/skin006/fg_clover001_skin006.webp",
+        "/static/image/sprite/cardgang_clover/skin006/fg_clover002_skin006.webp",
+        "/static/image/sprite/cardgang_clover/skin006/fg_clover003_skin006.webp",
+        "/static/image/sprite/cardgang_clover/skin006/fg_clover004_skin006.webp",
+        "/static/image/sprite/cardgang_clover/skin006/fg_clover006_skin006.webp",
+        "/static/image/sprite/cardgang_clover/skin006/fg_clover005_skin006.webp"
       ]
     }
   ],
@@ -1453,6 +1481,34 @@
         "/static/image/sprite/cardgang_heart/skin005/fg_heart006_skin005.webp",
         "/static/image/sprite/cardgang_heart/skin005/fg_heart005_skin005.webp"
       ]
+    },
+    {
+      "id": "skin011",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/cardgang_heart/skin011/fg_heart001_skin011.webp",
+        "/static/image/sprite/cardgang_heart/skin011/fg_heart002_skin011.webp",
+        "/static/image/sprite/cardgang_heart/skin011/fg_heart003_skin011.webp",
+        "/static/image/sprite/cardgang_heart/skin011/fg_heart004_skin011.webp",
+        "/static/image/sprite/cardgang_heart/skin011/fg_heart006_skin011.webp",
+        "/static/image/sprite/cardgang_heart/skin011/fg_heart005_skin011.webp"
+      ]
+    },
+    {
+      "id": "skin013",
+      "nameJa": "水着手ぶら",
+      "nameEn": "Swimwear - Empty-Handed",
+      "nameZh": "泳裝空手",
+      "images": [
+        "/static/image/sprite/cardgang_heart/skin013/fg_heart001_skin013.webp",
+        "/static/image/sprite/cardgang_heart/skin013/fg_heart002_skin013.webp",
+        "/static/image/sprite/cardgang_heart/skin013/fg_heart003_skin013.webp",
+        "/static/image/sprite/cardgang_heart/skin013/fg_heart004_skin013.webp",
+        "/static/image/sprite/cardgang_heart/skin013/fg_heart006_skin013.webp",
+        "/static/image/sprite/cardgang_heart/skin013/fg_heart005_skin013.webp"
+      ]
     }
   ],
   "1036": [
@@ -1502,6 +1558,36 @@
         "/static/image/sprite/cardgang_diamond/skin005/fg_diamond007_skin005.webp",
         "/static/image/sprite/cardgang_diamond/skin005/fg_diamond006_skin005.webp",
         "/static/image/sprite/cardgang_diamond/skin005/fg_diamond002_skin005.webp"
+      ]
+    },
+    {
+      "id": "skin013",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/cardgang_diamond/skin013/fg_diamond001_skin013.webp",
+        "/static/image/sprite/cardgang_diamond/skin013/fg_diamond003_skin013.webp",
+        "/static/image/sprite/cardgang_diamond/skin013/fg_diamond004_skin013.webp",
+        "/static/image/sprite/cardgang_diamond/skin013/fg_diamond005_skin013.webp",
+        "/static/image/sprite/cardgang_diamond/skin013/fg_diamond008_skin013.webp",
+        "/static/image/sprite/cardgang_diamond/skin013/fg_diamond007_skin013.webp",
+        "/static/image/sprite/cardgang_diamond/skin013/fg_diamond006_skin013.webp"
+      ]
+    },
+    {
+      "id": "skin015",
+      "nameJa": "水着上裸",
+      "nameEn": "Swimwear - Topless",
+      "nameZh": "泳裝裸上身",
+      "images": [
+        "/static/image/sprite/cardgang_diamond/skin015/fg_diamond001_skin015.webp",
+        "/static/image/sprite/cardgang_diamond/skin015/fg_diamond003_skin015.webp",
+        "/static/image/sprite/cardgang_diamond/skin015/fg_diamond004_skin015.webp",
+        "/static/image/sprite/cardgang_diamond/skin015/fg_diamond005_skin015.webp",
+        "/static/image/sprite/cardgang_diamond/skin015/fg_diamond008_skin015.webp",
+        "/static/image/sprite/cardgang_diamond/skin015/fg_diamond007_skin015.webp",
+        "/static/image/sprite/cardgang_diamond/skin015/fg_diamond006_skin015.webp"
       ]
     }
   ],
@@ -10952,6 +11038,82 @@
         "/static/image/sprite/cardgang_king/skin004/fg_king010_skin004.webp",
         "/static/image/sprite/cardgang_king/skin004/fg_king009_skin004.webp"
       ]
+    },
+    {
+      "id": "skin054",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/cardgang_king/skin054/fg_king001_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king002_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king003_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king004_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king005_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king007_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king006_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king011_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king008_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king010_skin054.webp",
+        "/static/image/sprite/cardgang_king/skin054/fg_king009_skin054.webp"
+      ]
+    },
+    {
+      "id": "skin056",
+      "nameJa": "水着手ぶら",
+      "nameEn": "Swimwear - Empty-Handed",
+      "nameZh": "泳裝空手",
+      "images": [
+        "/static/image/sprite/cardgang_king/skin056/fg_king001_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king002_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king003_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king004_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king005_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king007_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king006_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king011_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king008_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king010_skin056.webp",
+        "/static/image/sprite/cardgang_king/skin056/fg_king009_skin056.webp"
+      ]
+    },
+    {
+      "id": "skin058",
+      "nameJa": "水着サングラスなし",
+      "nameEn": "Swimwear - No Sunglasses",
+      "nameZh": "泳裝沒墨鏡",
+      "images": [
+        "/static/image/sprite/cardgang_king/skin058/fg_king001_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king002_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king003_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king004_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king005_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king007_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king006_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king011_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king008_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king010_skin058.webp",
+        "/static/image/sprite/cardgang_king/skin058/fg_king009_skin058.webp"
+      ]
+    },
+    {
+      "id": "skin060",
+      "nameJa": "水着手ぶらサングラスなし",
+      "nameEn": "Swimwear - Empty-Handed & No Sunglasses",
+      "nameZh": "泳裝空手沒墨鏡",
+      "images": [
+        "/static/image/sprite/cardgang_king/skin060/fg_king001_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king002_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king003_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king004_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king005_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king007_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king006_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king011_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king008_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king010_skin060.webp",
+        "/static/image/sprite/cardgang_king/skin060/fg_king009_skin060.webp"
+      ]
     }
   ],
   "5086": [
@@ -14551,6 +14713,472 @@
         "/static/image/sprite/balista_bolt/skin054/fg_balista008_skin054.webp",
         "/static/image/sprite/balista_bolt/skin054/fg_balista011_skin054.webp",
         "/static/image/sprite/balista_bolt/skin054/fg_balista010_skin054.webp"
+      ]
+    }
+  ],
+  "5116": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna001_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna002_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna003_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna004_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna005_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna007_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna006_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna009_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna012_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna008_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna011_skin001.webp",
+        "/static/image/sprite/dohnadohna/skin001/fg_dohnadohna010_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin003",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna001_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna002_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna003_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna004_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna005_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna007_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna006_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna009_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna012_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna008_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna011_skin003.webp",
+        "/static/image/sprite/dohnadohna/skin003/fg_dohnadohna010_skin003.webp"
+      ]
+    }
+  ],
+  "5117": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/rydeen/skin001/fg_rydeen001_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen002_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen003_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen004_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen005_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen007_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen006_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen009_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen012_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen008_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen011_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen010_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen015_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen014_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen013_skin001.webp",
+        "/static/image/sprite/rydeen/skin001/fg_rydeen016_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin003",
+      "nameJa": "武器なし",
+      "nameEn": "Unarmed",
+      "nameZh": "沒武器",
+      "images": [
+        "/static/image/sprite/rydeen/skin003/fg_rydeen001_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen002_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen003_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen004_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen005_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen007_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen006_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen009_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen012_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen008_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen011_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen010_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen015_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen014_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen013_skin003.webp",
+        "/static/image/sprite/rydeen/skin003/fg_rydeen016_skin003.webp"
+      ]
+    },
+    {
+      "id": "skin005",
+      "nameJa": "マントなし",
+      "nameEn": "No Cloak",
+      "nameZh": "沒披風",
+      "images": [
+        "/static/image/sprite/rydeen/skin005/fg_rydeen001_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen002_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen003_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen004_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen005_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen007_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen006_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen009_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen012_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen008_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen011_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen010_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen015_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen014_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen013_skin005.webp",
+        "/static/image/sprite/rydeen/skin005/fg_rydeen016_skin005.webp"
+      ]
+    },
+    {
+      "id": "skin007",
+      "nameJa": "マントと武器なし",
+      "nameEn": "No Coat - Unarmed",
+      "nameZh": "沒披風與武器",
+      "images": [
+        "/static/image/sprite/rydeen/skin007/fg_rydeen001_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen002_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen003_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen004_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen005_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen007_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen006_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen009_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen012_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen008_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen011_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen010_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen015_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen014_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen013_skin007.webp",
+        "/static/image/sprite/rydeen/skin007/fg_rydeen016_skin007.webp"
+      ]
+    },
+    {
+      "id": "skin009",
+      "nameJa": "上裸",
+      "nameEn": "Topless",
+      "nameZh": "裸上身",
+      "images": [
+        "/static/image/sprite/rydeen/skin009/fg_rydeen001_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen002_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen003_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen004_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen005_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen007_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen006_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen009_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen012_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen008_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen011_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen010_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen015_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen014_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen013_skin009.webp",
+        "/static/image/sprite/rydeen/skin009/fg_rydeen016_skin009.webp"
+      ]
+    },
+    {
+      "id": "skin011",
+      "nameJa": "上裸武器なし",
+      "nameEn": "Topless - Unarmed",
+      "nameZh": "裸上身沒武器",
+      "images": [
+        "/static/image/sprite/rydeen/skin011/fg_rydeen001_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen002_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen003_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen004_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen005_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen007_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen006_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen009_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen012_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen008_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen011_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen010_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen015_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen014_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen013_skin011.webp",
+        "/static/image/sprite/rydeen/skin011/fg_rydeen016_skin011.webp"
+      ]
+    },
+    {
+      "id": "skin021",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/rydeen/skin021/fg_rydeen001_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen002_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen003_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen004_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen005_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen007_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen006_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen009_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen012_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen008_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen011_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen010_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen015_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen014_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen013_skin021.webp",
+        "/static/image/sprite/rydeen/skin021/fg_rydeen016_skin021.webp"
+      ]
+    },
+    {
+      "id": "skin023",
+      "nameJa": "水着調理器具なし",
+      "nameEn": "Swimwear - No Cooking Utensils",
+      "nameZh": "泳裝沒廚具",
+      "images": [
+        "/static/image/sprite/rydeen/skin023/fg_rydeen001_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen002_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen003_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen004_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen005_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen007_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen006_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen009_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen012_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen008_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen011_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen010_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen015_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen014_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen013_skin023.webp",
+        "/static/image/sprite/rydeen/skin023/fg_rydeen016_skin023.webp"
+      ]
+    },
+    {
+      "id": "skin025",
+      "nameJa": "水着上裸",
+      "nameEn": "Swimwear - Topless",
+      "nameZh": "泳裝裸上身",
+      "images": [
+        "/static/image/sprite/rydeen/skin025/fg_rydeen001_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen002_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen003_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen004_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen005_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen007_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen006_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen009_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen012_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen008_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen011_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen010_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen015_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen014_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen013_skin025.webp",
+        "/static/image/sprite/rydeen/skin025/fg_rydeen016_skin025.webp"
+      ]
+    },
+    {
+      "id": "skin027",
+      "nameJa": "水着上裸調理器具なし",
+      "nameEn": "Swimwear - Topless & No Cooking Utensils",
+      "nameZh": "泳裝裸上身沒廚具",
+      "images": [
+        "/static/image/sprite/rydeen/skin027/fg_rydeen001_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen002_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen003_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen004_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen005_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen007_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen006_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen009_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen012_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen008_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen011_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen010_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen015_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen014_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen013_skin027.webp",
+        "/static/image/sprite/rydeen/skin027/fg_rydeen016_skin027.webp"
+      ]
+    },
+    {
+      "id": "skin029",
+      "nameJa": "水着上裸エプロン",
+      "nameEn": "Swimwear - Topless & Apron",
+      "nameZh": "泳裝裸上身圍裙",
+      "images": [
+        "/static/image/sprite/rydeen/skin029/fg_rydeen001_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen002_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen003_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen004_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen005_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen007_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen006_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen009_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen012_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen008_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen011_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen010_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen015_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen014_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen013_skin029.webp",
+        "/static/image/sprite/rydeen/skin029/fg_rydeen016_skin029.webp"
+      ]
+    },
+    {
+      "id": "skin031",
+      "nameJa": "水着上裸エプロン調理器具なし",
+      "nameEn": "Swimwear - Topless & Apron & No Cooking Utensils",
+      "nameZh": "泳裝裸上身圍裙沒廚具",
+      "images": [
+        "/static/image/sprite/rydeen/skin031/fg_rydeen001_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen002_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen003_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen004_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen005_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen007_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen006_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen009_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen012_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen008_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen011_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen010_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen015_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen014_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen013_skin031.webp",
+        "/static/image/sprite/rydeen/skin031/fg_rydeen016_skin031.webp"
+      ]
+    },
+    {
+      "id": "skin033",
+      "nameJa": "エプロン",
+      "nameEn": "Apron",
+      "nameZh": "圍裙",
+      "images": [
+        "/static/image/sprite/rydeen/skin033/fg_rydeen001_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen002_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen003_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen004_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen005_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen007_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen006_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen009_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen012_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen008_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen011_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen010_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen015_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen014_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen013_skin033.webp",
+        "/static/image/sprite/rydeen/skin033/fg_rydeen016_skin033.webp"
+      ]
+    },
+    {
+      "id": "skin035",
+      "nameJa": "エプロン調理器具なし",
+      "nameEn": "Apron - No Cooking Utensils",
+      "nameZh": "圍裙沒廚具",
+      "images": [
+        "/static/image/sprite/rydeen/skin035/fg_rydeen001_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen002_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen003_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen004_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen005_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen007_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen006_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen009_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen012_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen008_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen011_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen010_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen015_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen014_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen013_skin035.webp",
+        "/static/image/sprite/rydeen/skin035/fg_rydeen016_skin035.webp"
+      ]
+    },
+    {
+      "id": "skin037",
+      "nameJa": "頭飾りなし",
+      "nameEn": "No Headdress",
+      "nameZh": "沒頭飾",
+      "images": [
+        "/static/image/sprite/rydeen/skin037/fg_rydeen001_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen002_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen003_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen004_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen005_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen007_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen006_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen009_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen012_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen008_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen011_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen010_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen015_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen014_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen013_skin037.webp",
+        "/static/image/sprite/rydeen/skin037/fg_rydeen016_skin037.webp"
+      ]
+    },
+    {
+      "id": "skin039",
+      "nameJa": "上裸頭飾りなし",
+      "nameEn": "Topless - No Headdress",
+      "nameZh": "裸上身沒頭飾",
+      "images": [
+        "/static/image/sprite/rydeen/skin039/fg_rydeen001_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen002_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen003_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen004_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen005_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen007_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen006_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen009_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen012_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen008_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen011_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen010_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen015_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen014_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen013_skin039.webp",
+        "/static/image/sprite/rydeen/skin039/fg_rydeen016_skin039.webp"
+      ]
+    }
+  ],
+  "5118": [
+    {
+      "id": "skin050",
+      "nameJa": "真夏の商戦",
+      "nameEn": "Midsummer Sales Warrior",
+      "nameZh": "盛夏商戰",
+      "images": [
+        "/static/image/sprite/thomas/skin050/fg_thomas001_skin050.webp",
+        "/static/image/sprite/thomas/skin050/fg_thomas002_skin050.webp",
+        "/static/image/sprite/thomas/skin050/fg_thomas003_skin050.webp",
+        "/static/image/sprite/thomas/skin050/fg_thomas004_skin050.webp",
+        "/static/image/sprite/thomas/skin050/fg_thomas005_skin050.webp",
+        "/static/image/sprite/thomas/skin050/fg_thomas007_skin050.webp",
+        "/static/image/sprite/thomas/skin050/fg_thomas006_skin050.webp",
+        "/static/image/sprite/thomas/skin050/fg_thomas008_skin050.webp",
+        "/static/image/sprite/thomas/skin050/fg_thomas010_skin050.webp",
+        "/static/image/sprite/thomas/skin050/fg_thomas009_skin050.webp"
+      ]
+    },
+    {
+      "id": "skin052",
+      "nameJa": "真夏の商戦 武器なし",
+      "nameEn": "Midsummer Sales Warrior Unarmed",
+      "nameZh": "盛夏商戰 沒武器",
+      "images": [
+        "/static/image/sprite/thomas/skin052/fg_thomas001_skin052.webp",
+        "/static/image/sprite/thomas/skin052/fg_thomas002_skin052.webp",
+        "/static/image/sprite/thomas/skin052/fg_thomas003_skin052.webp",
+        "/static/image/sprite/thomas/skin052/fg_thomas004_skin052.webp",
+        "/static/image/sprite/thomas/skin052/fg_thomas005_skin052.webp",
+        "/static/image/sprite/thomas/skin052/fg_thomas007_skin052.webp",
+        "/static/image/sprite/thomas/skin052/fg_thomas006_skin052.webp",
+        "/static/image/sprite/thomas/skin052/fg_thomas008_skin052.webp",
+        "/static/image/sprite/thomas/skin052/fg_thomas010_skin052.webp",
+        "/static/image/sprite/thomas/skin052/fg_thomas009_skin052.webp"
       ]
     }
   ],
@@ -23380,6 +24008,25 @@
         "/static/image/sprite/sinbad/skin052/fg_sinbad010_skin052.webp",
         "/static/image/sprite/sinbad/skin052/fg_sinbad011_skin052.webp"
       ]
+    },
+    {
+      "id": "skin058",
+      "nameJa": "聖夜の最強フリーター 水着",
+      "nameEn": "Christmas Eve's Strongest Part-Timer Swimwear",
+      "nameZh": "聖夜最強的臨時工 泳裝",
+      "images": [
+        "/static/image/sprite/sinbad/skin058/fg_sinbad001_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad002_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad003_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad004_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad005_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad007_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad006_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad009_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad008_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad010_skin058.webp",
+        "/static/image/sprite/sinbad/skin058/fg_sinbad011_skin058.webp"
+      ]
     }
   ],
   "6120": [
@@ -24803,6 +25450,96 @@
         "/static/image/sprite/dunk/skin051/fg_dunk030_skin051.webp",
         "/static/image/sprite/dunk/skin051/fg_dunk031_skin051.webp"
       ]
+    },
+    {
+      "id": "skin056",
+      "nameJa": "抑圧解放戦士 水着",
+      "nameEn": "Oppression Liberation Warrior Swimwear",
+      "nameZh": "壓抑解放戰士 泳裝",
+      "images": [
+        "/static/image/sprite/dunk/skin056/fg_dunk001_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk005_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk008_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk014_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk009_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk021_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk003_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk007_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk020_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk016_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk015_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk004_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk017_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk024_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk006_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk002_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk018_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk019_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk023_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk034_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk033_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk037_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk032_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk036_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk035_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk010_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk011_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk012_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk013_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk022_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk025_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk026_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk027_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk028_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk029_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk030_skin056.webp",
+        "/static/image/sprite/dunk/skin056/fg_dunk031_skin056.webp"
+      ]
+    },
+    {
+      "id": "skin058",
+      "nameJa": "抑圧解放戦士 水着浮き輪なし",
+      "nameEn": "Oppression Liberation Warrior Swimwear - No Lifesaver & Hatless",
+      "nameZh": "壓抑解放戰士 泳裝沒泳圈",
+      "images": [
+        "/static/image/sprite/dunk/skin058/fg_dunk001_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk005_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk008_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk014_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk009_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk021_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk003_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk007_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk020_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk016_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk015_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk004_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk017_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk024_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk006_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk002_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk018_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk019_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk023_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk034_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk033_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk037_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk032_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk036_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk035_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk010_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk011_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk012_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk013_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk022_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk025_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk026_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk027_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk028_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk029_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk030_skin058.webp",
+        "/static/image/sprite/dunk/skin058/fg_dunk031_skin058.webp"
+      ]
     }
   ],
   "6132": [
@@ -25086,6 +25823,196 @@
         "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy008_skin054.webp",
         "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy011_skin054.webp",
         "/static/image/sprite/billfordcrew_bonvoy/skin054/fg_bonvoy010_skin054.webp"
+      ]
+    }
+  ],
+  "6136": [
+    {
+      "id": "skin001",
+      "nameJa": "通常",
+      "nameEn": "Standard",
+      "nameZh": "平時",
+      "images": [
+        "/static/image/sprite/cozy/skin001/fg_cozy001_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy002_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy003_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy004_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy005_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy007_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy006_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy009_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy012_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy008_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy011_skin001.webp",
+        "/static/image/sprite/cozy/skin001/fg_cozy010_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin002",
+      "nameJa": "水着",
+      "nameEn": "Swimwear",
+      "nameZh": "泳裝",
+      "images": [
+        "/static/image/sprite/cozy/skin002/fg_cozy001_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy002_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy003_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy004_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy005_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy007_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy006_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy009_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy012_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy008_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy011_skin002.webp",
+        "/static/image/sprite/cozy/skin002/fg_cozy010_skin002.webp"
+      ]
+    }
+  ],
+  "6137": [
+    {
+      "id": "skin050",
+      "nameJa": "ホットドラゴン",
+      "nameEn": "Head-Turner Dragon",
+      "nameZh": "讓人忍不住回頭的龍",
+      "images": [
+        "/static/image/sprite/gaia/skin050/fg_gaia004_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia001_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia002_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia003_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia011_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia005_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia006_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia010_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia009_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia008_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia007_skin050.webp",
+        "/static/image/sprite/gaia/skin050/fg_gaia012_skin050.webp"
+      ]
+    },
+    {
+      "id": "skin051",
+      "nameJa": "ホットドラゴン 武器なし",
+      "nameEn": "Head-Turner Dragon Unarmed",
+      "nameZh": "讓人忍不住回頭的龍 沒武器",
+      "images": [
+        "/static/image/sprite/gaia/skin051/fg_gaia004_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia001_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia002_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia003_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia011_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia005_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia006_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia010_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia009_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia008_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia007_skin051.webp",
+        "/static/image/sprite/gaia/skin051/fg_gaia012_skin051.webp"
+      ]
+    },
+    {
+      "id": "skin052",
+      "nameJa": "ホットドラゴン 上裸",
+      "nameEn": "Head-Turner Dragon Topless",
+      "nameZh": "讓人忍不住回頭的龍 上裸",
+      "images": [
+        "/static/image/sprite/gaia/skin052/fg_gaia004_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia001_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia002_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia003_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia011_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia005_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia006_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia010_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia009_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia008_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia007_skin052.webp",
+        "/static/image/sprite/gaia/skin052/fg_gaia012_skin052.webp"
+      ]
+    },
+    {
+      "id": "skin054",
+      "nameJa": "ホットドラゴン 上裸武器なし",
+      "nameEn": "Head-Turner Dragon Topless - Unarmed",
+      "nameZh": "讓人忍不住回頭的龍 上裸沒武器",
+      "images": [
+        "/static/image/sprite/gaia/skin054/fg_gaia004_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia001_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia002_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia003_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia011_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia005_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia006_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia010_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia009_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia008_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia007_skin054.webp",
+        "/static/image/sprite/gaia/skin054/fg_gaia012_skin054.webp"
+      ]
+    },
+    {
+      "id": "skin056",
+      "nameJa": "ホットドラゴン 水着",
+      "nameEn": "Head-Turner Dragon Swimwear",
+      "nameZh": "讓人忍不住回頭的龍 泳裝",
+      "images": [
+        "/static/image/sprite/gaia/skin056/fg_gaia004_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia001_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia002_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia003_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia011_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia005_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia006_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia010_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia009_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia008_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia007_skin056.webp",
+        "/static/image/sprite/gaia/skin056/fg_gaia012_skin056.webp"
+      ]
+    }
+  ],
+  "6138": [
+    {
+      "id": "skin001",
+      "nameJa": "うろつき魔の旅路",
+      "nameEn": "Prowling Demon on the Road",
+      "nameZh": "徘徊魔的旅途",
+      "images": [
+        "/static/image/sprite/mayhem/skin001/fg_mayhem001_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem002_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem003_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem004_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem008_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem012_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem011_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem014_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem013_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem010_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem007_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem005_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem006_skin001.webp",
+        "/static/image/sprite/mayhem/skin001/fg_mayhem009_skin001.webp"
+      ]
+    },
+    {
+      "id": "skin003",
+      "nameJa": "うろつき魔の旅路 武器なし",
+      "nameEn": "Prowling Demon on the Road Unarmed",
+      "nameZh": "徘徊魔的旅途 沒武器",
+      "images": [
+        "/static/image/sprite/mayhem/skin003/fg_mayhem001_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem002_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem003_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem004_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem008_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem012_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem011_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem014_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem013_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem010_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem007_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem005_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem006_skin003.webp",
+        "/static/image/sprite/mayhem/skin003/fg_mayhem009_skin003.webp"
       ]
     }
   ],
